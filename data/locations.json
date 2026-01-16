@@ -1,0 +1,3767 @@
+{
+	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Goal placeholder",
+            "category": ["!Goal"],
+            "victory": true,
+            "requires": "|Deduction Point:1|"
+        },
+{
+    "name": "Escape as Acrobat",
+    "category": ["Acrobat Locations"],
+    "requires": "|Acrobat - Character Unlock|",
+    "sort-key": "row-01-01"
+},{
+    "name": "Draw as Acrobat",
+    "category": ["Acrobat Locations"],
+    "requires": "|Acrobat - Character Unlock| and |@Acrobat Persona:1|",
+    "sort-key": "row-01-02"
+},{
+    "name": "Win as Acrobat",
+    "category": ["Acrobat Locations"],
+    "requires": "|Acrobat - Character Unlock| and |@Acrobat Persona:2|",
+    "sort-key": "row-01-03"
+},{
+    "name": "Draw as Acrobat using only Borrowed Time",
+    "category": ["Acrobat Locations", "CATEGORY_BT"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Borrowed Time Persona Unlock|",
+    "sort-key": "row-01-04"
+},{
+    "name": "Draw as Acrobat using only Tide Turner",
+    "category": ["Acrobat Locations"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Tide Turner Persona Unlock|",
+    "sort-key": "row-01-05"
+},{
+    "name": "Draw as Acrobat using only Flywheel Effect",
+    "category": ["Acrobat Locations"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-01-06"
+},{
+    "name": "Draw as Acrobat using only Knee Jerk Reflex",
+    "category": ["Acrobat Locations"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-01-07"
+},{
+    "name": "Win as Acrobat using Borrowed Time and Tide Turner",
+    "category": ["Acrobat Locations", "CATEGORY_BT"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Borrowed Time Persona Unlock| and |Acrobat - Tide Turner Persona Unlock|",
+    "sort-key": "row-01-08"
+},{
+    "name": "Win as Acrobat using Borrowed Time and Flywheel Effect",
+    "category": ["Acrobat Locations", "CATEGORY_BT"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Borrowed Time Persona Unlock| and |Acrobat - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-01-09"
+},{
+    "name": "Win as Acrobat using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Acrobat Locations", "CATEGORY_BT"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Borrowed Time Persona Unlock| and |Acrobat - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-01-10"
+},{
+    "name": "Win as Acrobat using Tide Turner and Flywheel Effect",
+    "category": ["Acrobat Locations"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Tide Turner Persona Unlock| and |Acrobat - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-01-11"
+},{
+    "name": "Win as Acrobat using Tide Turner and Knee Jerk Reflex",
+    "category": ["Acrobat Locations"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Tide Turner Persona Unlock| and |Acrobat - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-01-12"
+},{
+    "name": "Win as Acrobat using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Acrobat Locations"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Flywheel Effect Persona Unlock| and |Acrobat - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-01-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Acrobat",
+    "category": ["Acrobat Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-01-14"
+},{
+    "name": "Acrobat UNIQUECHALLENGE",
+    "category": ["Acrobat Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Acrobat - Character Unlock| and |Acrobat - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-01-15"
+},{
+    "name": "Escape as Aeroplanist",
+    "category": ["Aeroplanist Locations"],
+    "requires": "|Aeroplanist - Character Unlock|",
+    "sort-key": "row-02-01"
+},{
+    "name": "Draw as Aeroplanist",
+    "category": ["Aeroplanist Locations"],
+    "requires": "|Aeroplanist - Character Unlock| and |@Aeroplanist Persona:1|",
+    "sort-key": "row-02-02"
+},{
+    "name": "Win as Aeroplanist",
+    "category": ["Aeroplanist Locations"],
+    "requires": "|Aeroplanist - Character Unlock| and |@Aeroplanist Persona:2|",
+    "sort-key": "row-02-03"
+},{
+    "name": "Draw as Aeroplanist using only Borrowed Time",
+    "category": ["Aeroplanist Locations", "CATEGORY_BT"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Borrowed Time Persona Unlock|",
+    "sort-key": "row-02-04"
+},{
+    "name": "Draw as Aeroplanist using only Tide Turner",
+    "category": ["Aeroplanist Locations"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Tide Turner Persona Unlock|",
+    "sort-key": "row-02-05"
+},{
+    "name": "Draw as Aeroplanist using only Flywheel Effect",
+    "category": ["Aeroplanist Locations"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-02-06"
+},{
+    "name": "Draw as Aeroplanist using only Knee Jerk Reflex",
+    "category": ["Aeroplanist Locations"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-02-07"
+},{
+    "name": "Win as Aeroplanist using Borrowed Time and Tide Turner",
+    "category": ["Aeroplanist Locations", "CATEGORY_BT"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Borrowed Time Persona Unlock| and |Aeroplanist - Tide Turner Persona Unlock|",
+    "sort-key": "row-02-08"
+},{
+    "name": "Win as Aeroplanist using Borrowed Time and Flywheel Effect",
+    "category": ["Aeroplanist Locations", "CATEGORY_BT"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Borrowed Time Persona Unlock| and |Aeroplanist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-02-09"
+},{
+    "name": "Win as Aeroplanist using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Aeroplanist Locations", "CATEGORY_BT"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Borrowed Time Persona Unlock| and |Aeroplanist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-02-10"
+},{
+    "name": "Win as Aeroplanist using Tide Turner and Flywheel Effect",
+    "category": ["Aeroplanist Locations"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Tide Turner Persona Unlock| and |Aeroplanist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-02-11"
+},{
+    "name": "Win as Aeroplanist using Tide Turner and Knee Jerk Reflex",
+    "category": ["Aeroplanist Locations"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Tide Turner Persona Unlock| and |Aeroplanist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-02-12"
+},{
+    "name": "Win as Aeroplanist using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Aeroplanist Locations"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Flywheel Effect Persona Unlock| and |Aeroplanist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-02-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Aeroplanist",
+    "category": ["Aeroplanist Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-02-14"
+},{
+    "name": "Aeroplanist UNIQUECHALLENGE",
+    "category": ["Aeroplanist Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Aeroplanist - Character Unlock| and |Aeroplanist - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-02-15"
+},{
+    "name": "Escape as Antiquarian",
+    "category": ["Antiquarian Locations"],
+    "requires": "|Antiquarian - Character Unlock|",
+    "sort-key": "row-03-01"
+},{
+    "name": "Draw as Antiquarian",
+    "category": ["Antiquarian Locations"],
+    "requires": "|Antiquarian - Character Unlock| and |@Antiquarian Persona:1|",
+    "sort-key": "row-03-02"
+},{
+    "name": "Win as Antiquarian",
+    "category": ["Antiquarian Locations"],
+    "requires": "|Antiquarian - Character Unlock| and |@Antiquarian Persona:2|",
+    "sort-key": "row-03-03"
+},{
+    "name": "Draw as Antiquarian using only Borrowed Time",
+    "category": ["Antiquarian Locations", "CATEGORY_BT"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Borrowed Time Persona Unlock|",
+    "sort-key": "row-03-04"
+},{
+    "name": "Draw as Antiquarian using only Tide Turner",
+    "category": ["Antiquarian Locations"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Tide Turner Persona Unlock|",
+    "sort-key": "row-03-05"
+},{
+    "name": "Draw as Antiquarian using only Flywheel Effect",
+    "category": ["Antiquarian Locations"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-03-06"
+},{
+    "name": "Draw as Antiquarian using only Knee Jerk Reflex",
+    "category": ["Antiquarian Locations"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-03-07"
+},{
+    "name": "Win as Antiquarian using Borrowed Time and Tide Turner",
+    "category": ["Antiquarian Locations", "CATEGORY_BT"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Borrowed Time Persona Unlock| and |Antiquarian - Tide Turner Persona Unlock|",
+    "sort-key": "row-03-08"
+},{
+    "name": "Win as Antiquarian using Borrowed Time and Flywheel Effect",
+    "category": ["Antiquarian Locations", "CATEGORY_BT"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Borrowed Time Persona Unlock| and |Antiquarian - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-03-09"
+},{
+    "name": "Win as Antiquarian using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Antiquarian Locations", "CATEGORY_BT"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Borrowed Time Persona Unlock| and |Antiquarian - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-03-10"
+},{
+    "name": "Win as Antiquarian using Tide Turner and Flywheel Effect",
+    "category": ["Antiquarian Locations"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Tide Turner Persona Unlock| and |Antiquarian - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-03-11"
+},{
+    "name": "Win as Antiquarian using Tide Turner and Knee Jerk Reflex",
+    "category": ["Antiquarian Locations"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Tide Turner Persona Unlock| and |Antiquarian - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-03-12"
+},{
+    "name": "Win as Antiquarian using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Antiquarian Locations"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Flywheel Effect Persona Unlock| and |Antiquarian - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-03-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Antiquarian",
+    "category": ["Antiquarian Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-03-14"
+},{
+    "name": "Antiquarian UNIQUECHALLENGE",
+    "category": ["Antiquarian Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Antiquarian - Character Unlock| and |Antiquarian - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-03-15"
+},{
+    "name": "Escape as Archer",
+    "category": ["Archer Locations"],
+    "requires": "|Archer - Character Unlock|",
+    "sort-key": "row-04-01"
+},{
+    "name": "Draw as Archer",
+    "category": ["Archer Locations"],
+    "requires": "|Archer - Character Unlock| and |@Archer Persona:1|",
+    "sort-key": "row-04-02"
+},{
+    "name": "Win as Archer",
+    "category": ["Archer Locations"],
+    "requires": "|Archer - Character Unlock| and |@Archer Persona:2|",
+    "sort-key": "row-04-03"
+},{
+    "name": "Draw as Archer using only Borrowed Time",
+    "category": ["Archer Locations", "CATEGORY_BT"],
+    "requires": "|Archer - Character Unlock| and |Archer - Borrowed Time Persona Unlock|",
+    "sort-key": "row-04-04"
+},{
+    "name": "Draw as Archer using only Tide Turner",
+    "category": ["Archer Locations"],
+    "requires": "|Archer - Character Unlock| and |Archer - Tide Turner Persona Unlock|",
+    "sort-key": "row-04-05"
+},{
+    "name": "Draw as Archer using only Flywheel Effect",
+    "category": ["Archer Locations"],
+    "requires": "|Archer - Character Unlock| and |Archer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-04-06"
+},{
+    "name": "Draw as Archer using only Knee Jerk Reflex",
+    "category": ["Archer Locations"],
+    "requires": "|Archer - Character Unlock| and |Archer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-04-07"
+},{
+    "name": "Win as Archer using Borrowed Time and Tide Turner",
+    "category": ["Archer Locations", "CATEGORY_BT"],
+    "requires": "|Archer - Character Unlock| and |Archer - Borrowed Time Persona Unlock| and |Archer - Tide Turner Persona Unlock|",
+    "sort-key": "row-04-08"
+},{
+    "name": "Win as Archer using Borrowed Time and Flywheel Effect",
+    "category": ["Archer Locations", "CATEGORY_BT"],
+    "requires": "|Archer - Character Unlock| and |Archer - Borrowed Time Persona Unlock| and |Archer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-04-09"
+},{
+    "name": "Win as Archer using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Archer Locations", "CATEGORY_BT"],
+    "requires": "|Archer - Character Unlock| and |Archer - Borrowed Time Persona Unlock| and |Archer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-04-10"
+},{
+    "name": "Win as Archer using Tide Turner and Flywheel Effect",
+    "category": ["Archer Locations"],
+    "requires": "|Archer - Character Unlock| and |Archer - Tide Turner Persona Unlock| and |Archer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-04-11"
+},{
+    "name": "Win as Archer using Tide Turner and Knee Jerk Reflex",
+    "category": ["Archer Locations"],
+    "requires": "|Archer - Character Unlock| and |Archer - Tide Turner Persona Unlock| and |Archer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-04-12"
+},{
+    "name": "Win as Archer using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Archer Locations"],
+    "requires": "|Archer - Character Unlock| and |Archer - Flywheel Effect Persona Unlock| and |Archer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-04-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Archer",
+    "category": ["Archer Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Archer - Character Unlock| and |Archer - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-04-14"
+},{
+    "name": "Archer UNIQUECHALLENGE",
+    "category": ["Archer Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Archer - Character Unlock| and |Archer - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-04-15"
+},{
+    "name": "Escape as Barmaid",
+    "category": ["Barmaid Locations"],
+    "requires": "|Barmaid - Character Unlock|",
+    "sort-key": "row-05-01"
+},{
+    "name": "Draw as Barmaid",
+    "category": ["Barmaid Locations"],
+    "requires": "|Barmaid - Character Unlock| and |@Barmaid Persona:1|",
+    "sort-key": "row-05-02"
+},{
+    "name": "Win as Barmaid",
+    "category": ["Barmaid Locations"],
+    "requires": "|Barmaid - Character Unlock| and |@Barmaid Persona:2|",
+    "sort-key": "row-05-03"
+},{
+    "name": "Draw as Barmaid using only Borrowed Time",
+    "category": ["Barmaid Locations", "CATEGORY_BT"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Borrowed Time Persona Unlock|",
+    "sort-key": "row-05-04"
+},{
+    "name": "Draw as Barmaid using only Tide Turner",
+    "category": ["Barmaid Locations"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Tide Turner Persona Unlock|",
+    "sort-key": "row-05-05"
+},{
+    "name": "Draw as Barmaid using only Flywheel Effect",
+    "category": ["Barmaid Locations"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-05-06"
+},{
+    "name": "Draw as Barmaid using only Knee Jerk Reflex",
+    "category": ["Barmaid Locations"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-05-07"
+},{
+    "name": "Win as Barmaid using Borrowed Time and Tide Turner",
+    "category": ["Barmaid Locations", "CATEGORY_BT"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Borrowed Time Persona Unlock| and |Barmaid - Tide Turner Persona Unlock|",
+    "sort-key": "row-05-08"
+},{
+    "name": "Win as Barmaid using Borrowed Time and Flywheel Effect",
+    "category": ["Barmaid Locations", "CATEGORY_BT"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Borrowed Time Persona Unlock| and |Barmaid - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-05-09"
+},{
+    "name": "Win as Barmaid using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Barmaid Locations", "CATEGORY_BT"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Borrowed Time Persona Unlock| and |Barmaid - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-05-10"
+},{
+    "name": "Win as Barmaid using Tide Turner and Flywheel Effect",
+    "category": ["Barmaid Locations"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Tide Turner Persona Unlock| and |Barmaid - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-05-11"
+},{
+    "name": "Win as Barmaid using Tide Turner and Knee Jerk Reflex",
+    "category": ["Barmaid Locations"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Tide Turner Persona Unlock| and |Barmaid - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-05-12"
+},{
+    "name": "Win as Barmaid using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Barmaid Locations"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Flywheel Effect Persona Unlock| and |Barmaid - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-05-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Barmaid",
+    "category": ["Barmaid Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-05-14"
+},{
+    "name": "Barmaid UNIQUECHALLENGE",
+    "category": ["Barmaid Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Barmaid - Character Unlock| and |Barmaid - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-05-15"
+},{
+    "name": "Escape as Batter",
+    "category": ["Batter Locations"],
+    "requires": "|Batter - Character Unlock|",
+    "sort-key": "row-06-01"
+},{
+    "name": "Draw as Batter",
+    "category": ["Batter Locations"],
+    "requires": "|Batter - Character Unlock| and |@Batter Persona:1|",
+    "sort-key": "row-06-02"
+},{
+    "name": "Win as Batter",
+    "category": ["Batter Locations"],
+    "requires": "|Batter - Character Unlock| and |@Batter Persona:2|",
+    "sort-key": "row-06-03"
+},{
+    "name": "Draw as Batter using only Borrowed Time",
+    "category": ["Batter Locations", "CATEGORY_BT"],
+    "requires": "|Batter - Character Unlock| and |Batter - Borrowed Time Persona Unlock|",
+    "sort-key": "row-06-04"
+},{
+    "name": "Draw as Batter using only Tide Turner",
+    "category": ["Batter Locations"],
+    "requires": "|Batter - Character Unlock| and |Batter - Tide Turner Persona Unlock|",
+    "sort-key": "row-06-05"
+},{
+    "name": "Draw as Batter using only Flywheel Effect",
+    "category": ["Batter Locations"],
+    "requires": "|Batter - Character Unlock| and |Batter - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-06-06"
+},{
+    "name": "Draw as Batter using only Knee Jerk Reflex",
+    "category": ["Batter Locations"],
+    "requires": "|Batter - Character Unlock| and |Batter - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-06-07"
+},{
+    "name": "Win as Batter using Borrowed Time and Tide Turner",
+    "category": ["Batter Locations", "CATEGORY_BT"],
+    "requires": "|Batter - Character Unlock| and |Batter - Borrowed Time Persona Unlock| and |Batter - Tide Turner Persona Unlock|",
+    "sort-key": "row-06-08"
+},{
+    "name": "Win as Batter using Borrowed Time and Flywheel Effect",
+    "category": ["Batter Locations", "CATEGORY_BT"],
+    "requires": "|Batter - Character Unlock| and |Batter - Borrowed Time Persona Unlock| and |Batter - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-06-09"
+},{
+    "name": "Win as Batter using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Batter Locations", "CATEGORY_BT"],
+    "requires": "|Batter - Character Unlock| and |Batter - Borrowed Time Persona Unlock| and |Batter - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-06-10"
+},{
+    "name": "Win as Batter using Tide Turner and Flywheel Effect",
+    "category": ["Batter Locations"],
+    "requires": "|Batter - Character Unlock| and |Batter - Tide Turner Persona Unlock| and |Batter - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-06-11"
+},{
+    "name": "Win as Batter using Tide Turner and Knee Jerk Reflex",
+    "category": ["Batter Locations"],
+    "requires": "|Batter - Character Unlock| and |Batter - Tide Turner Persona Unlock| and |Batter - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-06-12"
+},{
+    "name": "Win as Batter using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Batter Locations"],
+    "requires": "|Batter - Character Unlock| and |Batter - Flywheel Effect Persona Unlock| and |Batter - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-06-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Batter",
+    "category": ["Batter Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Batter - Character Unlock| and |Batter - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-06-14"
+},{
+    "name": "Batter UNIQUECHALLENGE",
+    "category": ["Batter Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Batter - Character Unlock| and |Batter - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-06-15"
+},{
+    "name": "Escape as Cheerleader",
+    "category": ["Cheerleader Locations"],
+    "requires": "|Cheerleader - Character Unlock|",
+    "sort-key": "row-07-01"
+},{
+    "name": "Draw as Cheerleader",
+    "category": ["Cheerleader Locations"],
+    "requires": "|Cheerleader - Character Unlock| and |@Cheerleader Persona:1|",
+    "sort-key": "row-07-02"
+},{
+    "name": "Win as Cheerleader",
+    "category": ["Cheerleader Locations"],
+    "requires": "|Cheerleader - Character Unlock| and |@Cheerleader Persona:2|",
+    "sort-key": "row-07-03"
+},{
+    "name": "Draw as Cheerleader using only Borrowed Time",
+    "category": ["Cheerleader Locations", "CATEGORY_BT"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Borrowed Time Persona Unlock|",
+    "sort-key": "row-07-04"
+},{
+    "name": "Draw as Cheerleader using only Tide Turner",
+    "category": ["Cheerleader Locations"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Tide Turner Persona Unlock|",
+    "sort-key": "row-07-05"
+},{
+    "name": "Draw as Cheerleader using only Flywheel Effect",
+    "category": ["Cheerleader Locations"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-07-06"
+},{
+    "name": "Draw as Cheerleader using only Knee Jerk Reflex",
+    "category": ["Cheerleader Locations"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-07-07"
+},{
+    "name": "Win as Cheerleader using Borrowed Time and Tide Turner",
+    "category": ["Cheerleader Locations", "CATEGORY_BT"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Borrowed Time Persona Unlock| and |Cheerleader - Tide Turner Persona Unlock|",
+    "sort-key": "row-07-08"
+},{
+    "name": "Win as Cheerleader using Borrowed Time and Flywheel Effect",
+    "category": ["Cheerleader Locations", "CATEGORY_BT"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Borrowed Time Persona Unlock| and |Cheerleader - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-07-09"
+},{
+    "name": "Win as Cheerleader using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Cheerleader Locations", "CATEGORY_BT"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Borrowed Time Persona Unlock| and |Cheerleader - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-07-10"
+},{
+    "name": "Win as Cheerleader using Tide Turner and Flywheel Effect",
+    "category": ["Cheerleader Locations"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Tide Turner Persona Unlock| and |Cheerleader - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-07-11"
+},{
+    "name": "Win as Cheerleader using Tide Turner and Knee Jerk Reflex",
+    "category": ["Cheerleader Locations"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Tide Turner Persona Unlock| and |Cheerleader - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-07-12"
+},{
+    "name": "Win as Cheerleader using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Cheerleader Locations"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Flywheel Effect Persona Unlock| and |Cheerleader - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-07-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Cheerleader",
+    "category": ["Cheerleader Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-07-14"
+},{
+    "name": "Cheerleader UNIQUECHALLENGE",
+    "category": ["Cheerleader Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Cheerleader - Character Unlock| and |Cheerleader - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-07-15"
+},{
+    "name": "Escape as Composer",
+    "category": ["Composer Locations"],
+    "requires": "|Composer - Character Unlock|",
+    "sort-key": "row-08-01"
+},{
+    "name": "Draw as Composer",
+    "category": ["Composer Locations"],
+    "requires": "|Composer - Character Unlock| and |@Composer Persona:1|",
+    "sort-key": "row-08-02"
+},{
+    "name": "Win as Composer",
+    "category": ["Composer Locations"],
+    "requires": "|Composer - Character Unlock| and |@Composer Persona:2|",
+    "sort-key": "row-08-03"
+},{
+    "name": "Draw as Composer using only Borrowed Time",
+    "category": ["Composer Locations", "CATEGORY_BT"],
+    "requires": "|Composer - Character Unlock| and |Composer - Borrowed Time Persona Unlock|",
+    "sort-key": "row-08-04"
+},{
+    "name": "Draw as Composer using only Tide Turner",
+    "category": ["Composer Locations"],
+    "requires": "|Composer - Character Unlock| and |Composer - Tide Turner Persona Unlock|",
+    "sort-key": "row-08-05"
+},{
+    "name": "Draw as Composer using only Flywheel Effect",
+    "category": ["Composer Locations"],
+    "requires": "|Composer - Character Unlock| and |Composer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-08-06"
+},{
+    "name": "Draw as Composer using only Knee Jerk Reflex",
+    "category": ["Composer Locations"],
+    "requires": "|Composer - Character Unlock| and |Composer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-08-07"
+},{
+    "name": "Win as Composer using Borrowed Time and Tide Turner",
+    "category": ["Composer Locations", "CATEGORY_BT"],
+    "requires": "|Composer - Character Unlock| and |Composer - Borrowed Time Persona Unlock| and |Composer - Tide Turner Persona Unlock|",
+    "sort-key": "row-08-08"
+},{
+    "name": "Win as Composer using Borrowed Time and Flywheel Effect",
+    "category": ["Composer Locations", "CATEGORY_BT"],
+    "requires": "|Composer - Character Unlock| and |Composer - Borrowed Time Persona Unlock| and |Composer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-08-09"
+},{
+    "name": "Win as Composer using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Composer Locations", "CATEGORY_BT"],
+    "requires": "|Composer - Character Unlock| and |Composer - Borrowed Time Persona Unlock| and |Composer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-08-10"
+},{
+    "name": "Win as Composer using Tide Turner and Flywheel Effect",
+    "category": ["Composer Locations"],
+    "requires": "|Composer - Character Unlock| and |Composer - Tide Turner Persona Unlock| and |Composer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-08-11"
+},{
+    "name": "Win as Composer using Tide Turner and Knee Jerk Reflex",
+    "category": ["Composer Locations"],
+    "requires": "|Composer - Character Unlock| and |Composer - Tide Turner Persona Unlock| and |Composer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-08-12"
+},{
+    "name": "Win as Composer using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Composer Locations"],
+    "requires": "|Composer - Character Unlock| and |Composer - Flywheel Effect Persona Unlock| and |Composer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-08-13"
+},{
+    "name": "Class Challenge - Get 150% decoding as Composer",
+    "category": ["Composer Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Composer - Character Unlock| and |Composer - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-08-14"
+},{
+    "name": "Composer UNIQUECHALLENGE",
+    "category": ["Composer Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Composer - Character Unlock| and |Composer - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-08-15"
+},{
+    "name": "Escape as Coordinator",
+    "category": ["Coordinator Locations"],
+    "requires": "|Coordinator - Character Unlock|",
+    "sort-key": "row-09-01"
+},{
+    "name": "Draw as Coordinator",
+    "category": ["Coordinator Locations"],
+    "requires": "|Coordinator - Character Unlock| and |@Coordinator Persona:1|",
+    "sort-key": "row-09-02"
+},{
+    "name": "Win as Coordinator",
+    "category": ["Coordinator Locations"],
+    "requires": "|Coordinator - Character Unlock| and |@Coordinator Persona:2|",
+    "sort-key": "row-09-03"
+},{
+    "name": "Draw as Coordinator using only Borrowed Time",
+    "category": ["Coordinator Locations", "CATEGORY_BT"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Borrowed Time Persona Unlock|",
+    "sort-key": "row-09-04"
+},{
+    "name": "Draw as Coordinator using only Tide Turner",
+    "category": ["Coordinator Locations"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Tide Turner Persona Unlock|",
+    "sort-key": "row-09-05"
+},{
+    "name": "Draw as Coordinator using only Flywheel Effect",
+    "category": ["Coordinator Locations"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-09-06"
+},{
+    "name": "Draw as Coordinator using only Knee Jerk Reflex",
+    "category": ["Coordinator Locations"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-09-07"
+},{
+    "name": "Win as Coordinator using Borrowed Time and Tide Turner",
+    "category": ["Coordinator Locations", "CATEGORY_BT"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Borrowed Time Persona Unlock| and |Coordinator - Tide Turner Persona Unlock|",
+    "sort-key": "row-09-08"
+},{
+    "name": "Win as Coordinator using Borrowed Time and Flywheel Effect",
+    "category": ["Coordinator Locations", "CATEGORY_BT"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Borrowed Time Persona Unlock| and |Coordinator - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-09-09"
+},{
+    "name": "Win as Coordinator using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Coordinator Locations", "CATEGORY_BT"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Borrowed Time Persona Unlock| and |Coordinator - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-09-10"
+},{
+    "name": "Win as Coordinator using Tide Turner and Flywheel Effect",
+    "category": ["Coordinator Locations"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Tide Turner Persona Unlock| and |Coordinator - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-09-11"
+},{
+    "name": "Win as Coordinator using Tide Turner and Knee Jerk Reflex",
+    "category": ["Coordinator Locations"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Tide Turner Persona Unlock| and |Coordinator - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-09-12"
+},{
+    "name": "Win as Coordinator using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Coordinator Locations"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Flywheel Effect Persona Unlock| and |Coordinator - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-09-13"
+},{
+    "name": "Class Challenge - Rescue 1 teammate as Coordinator",
+    "category": ["Coordinator Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-09-14"
+},{
+    "name": "Coordinator UNIQUECHALLENGE",
+    "category": ["Coordinator Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Coordinator - Character Unlock| and |Coordinator - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-09-15"
+},{
+    "name": "Escape as Cowboy",
+    "category": ["Cowboy Locations"],
+    "requires": "|Cowboy - Character Unlock|",
+    "sort-key": "row-10-01"
+},{
+    "name": "Draw as Cowboy",
+    "category": ["Cowboy Locations"],
+    "requires": "|Cowboy - Character Unlock| and |@Cowboy Persona:1|",
+    "sort-key": "row-10-02"
+},{
+    "name": "Win as Cowboy",
+    "category": ["Cowboy Locations"],
+    "requires": "|Cowboy - Character Unlock| and |@Cowboy Persona:2|",
+    "sort-key": "row-10-03"
+},{
+    "name": "Draw as Cowboy using only Borrowed Time",
+    "category": ["Cowboy Locations", "CATEGORY_BT"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Borrowed Time Persona Unlock|",
+    "sort-key": "row-10-04"
+},{
+    "name": "Draw as Cowboy using only Tide Turner",
+    "category": ["Cowboy Locations"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Tide Turner Persona Unlock|",
+    "sort-key": "row-10-05"
+},{
+    "name": "Draw as Cowboy using only Flywheel Effect",
+    "category": ["Cowboy Locations"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-10-06"
+},{
+    "name": "Draw as Cowboy using only Knee Jerk Reflex",
+    "category": ["Cowboy Locations"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-10-07"
+},{
+    "name": "Win as Cowboy using Borrowed Time and Tide Turner",
+    "category": ["Cowboy Locations", "CATEGORY_BT"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Borrowed Time Persona Unlock| and |Cowboy - Tide Turner Persona Unlock|",
+    "sort-key": "row-10-08"
+},{
+    "name": "Win as Cowboy using Borrowed Time and Flywheel Effect",
+    "category": ["Cowboy Locations", "CATEGORY_BT"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Borrowed Time Persona Unlock| and |Cowboy - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-10-09"
+},{
+    "name": "Win as Cowboy using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Cowboy Locations", "CATEGORY_BT"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Borrowed Time Persona Unlock| and |Cowboy - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-10-10"
+},{
+    "name": "Win as Cowboy using Tide Turner and Flywheel Effect",
+    "category": ["Cowboy Locations"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Tide Turner Persona Unlock| and |Cowboy - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-10-11"
+},{
+    "name": "Win as Cowboy using Tide Turner and Knee Jerk Reflex",
+    "category": ["Cowboy Locations"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Tide Turner Persona Unlock| and |Cowboy - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-10-12"
+},{
+    "name": "Win as Cowboy using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Cowboy Locations"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Flywheel Effect Persona Unlock| and |Cowboy - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-10-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Cowboy",
+    "category": ["Cowboy Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-10-14"
+},{
+    "name": "Cowboy UNIQUECHALLENGE",
+    "category": ["Cowboy Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Cowboy - Character Unlock| and |Cowboy - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-10-15"
+},{
+    "name": "Escape as Doctor",
+    "category": ["Doctor Locations"],
+    "requires": "|Doctor - Character Unlock|",
+    "sort-key": "row-11-01"
+},{
+    "name": "Draw as Doctor",
+    "category": ["Doctor Locations"],
+    "requires": "|Doctor - Character Unlock| and |@Doctor Persona:1|",
+    "sort-key": "row-11-02"
+},{
+    "name": "Win as Doctor",
+    "category": ["Doctor Locations"],
+    "requires": "|Doctor - Character Unlock| and |@Doctor Persona:2|",
+    "sort-key": "row-11-03"
+},{
+    "name": "Draw as Doctor using only Borrowed Time",
+    "category": ["Doctor Locations", "CATEGORY_BT"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Borrowed Time Persona Unlock|",
+    "sort-key": "row-11-04"
+},{
+    "name": "Draw as Doctor using only Tide Turner",
+    "category": ["Doctor Locations"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Tide Turner Persona Unlock|",
+    "sort-key": "row-11-05"
+},{
+    "name": "Draw as Doctor using only Flywheel Effect",
+    "category": ["Doctor Locations"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-11-06"
+},{
+    "name": "Draw as Doctor using only Knee Jerk Reflex",
+    "category": ["Doctor Locations"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-11-07"
+},{
+    "name": "Win as Doctor using Borrowed Time and Tide Turner",
+    "category": ["Doctor Locations", "CATEGORY_BT"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Borrowed Time Persona Unlock| and |Doctor - Tide Turner Persona Unlock|",
+    "sort-key": "row-11-08"
+},{
+    "name": "Win as Doctor using Borrowed Time and Flywheel Effect",
+    "category": ["Doctor Locations", "CATEGORY_BT"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Borrowed Time Persona Unlock| and |Doctor - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-11-09"
+},{
+    "name": "Win as Doctor using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Doctor Locations", "CATEGORY_BT"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Borrowed Time Persona Unlock| and |Doctor - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-11-10"
+},{
+    "name": "Win as Doctor using Tide Turner and Flywheel Effect",
+    "category": ["Doctor Locations"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Tide Turner Persona Unlock| and |Doctor - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-11-11"
+},{
+    "name": "Win as Doctor using Tide Turner and Knee Jerk Reflex",
+    "category": ["Doctor Locations"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Tide Turner Persona Unlock| and |Doctor - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-11-12"
+},{
+    "name": "Win as Doctor using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Doctor Locations"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Flywheel Effect Persona Unlock| and |Doctor - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-11-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Doctor",
+    "category": ["Doctor Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-11-14"
+},{
+    "name": "Doctor UNIQUECHALLENGE",
+    "category": ["Doctor Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Doctor - Character Unlock| and |Doctor - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-11-15"
+},{
+    "name": "Escape as Embalmer",
+    "category": ["Embalmer Locations"],
+    "requires": "|Embalmer - Character Unlock|",
+    "sort-key": "row-12-01"
+},{
+    "name": "Draw as Embalmer",
+    "category": ["Embalmer Locations"],
+    "requires": "|Embalmer - Character Unlock| and |@Embalmer Persona:1|",
+    "sort-key": "row-12-02"
+},{
+    "name": "Win as Embalmer",
+    "category": ["Embalmer Locations"],
+    "requires": "|Embalmer - Character Unlock| and |@Embalmer Persona:2|",
+    "sort-key": "row-12-03"
+},{
+    "name": "Draw as Embalmer using only Borrowed Time",
+    "category": ["Embalmer Locations", "CATEGORY_BT"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Borrowed Time Persona Unlock|",
+    "sort-key": "row-12-04"
+},{
+    "name": "Draw as Embalmer using only Tide Turner",
+    "category": ["Embalmer Locations"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Tide Turner Persona Unlock|",
+    "sort-key": "row-12-05"
+},{
+    "name": "Draw as Embalmer using only Flywheel Effect",
+    "category": ["Embalmer Locations"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-12-06"
+},{
+    "name": "Draw as Embalmer using only Knee Jerk Reflex",
+    "category": ["Embalmer Locations"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-12-07"
+},{
+    "name": "Win as Embalmer using Borrowed Time and Tide Turner",
+    "category": ["Embalmer Locations", "CATEGORY_BT"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Borrowed Time Persona Unlock| and |Embalmer - Tide Turner Persona Unlock|",
+    "sort-key": "row-12-08"
+},{
+    "name": "Win as Embalmer using Borrowed Time and Flywheel Effect",
+    "category": ["Embalmer Locations", "CATEGORY_BT"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Borrowed Time Persona Unlock| and |Embalmer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-12-09"
+},{
+    "name": "Win as Embalmer using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Embalmer Locations", "CATEGORY_BT"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Borrowed Time Persona Unlock| and |Embalmer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-12-10"
+},{
+    "name": "Win as Embalmer using Tide Turner and Flywheel Effect",
+    "category": ["Embalmer Locations"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Tide Turner Persona Unlock| and |Embalmer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-12-11"
+},{
+    "name": "Win as Embalmer using Tide Turner and Knee Jerk Reflex",
+    "category": ["Embalmer Locations"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Tide Turner Persona Unlock| and |Embalmer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-12-12"
+},{
+    "name": "Win as Embalmer using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Embalmer Locations"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Flywheel Effect Persona Unlock| and |Embalmer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-12-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Embalmer",
+    "category": ["Embalmer Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-12-14"
+},
+{
+    "name": "Embalmer UNIQUECHALLENGE",
+    "category": ["Embalmer Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Embalmer - Character Unlock| and |Embalmer - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-12-15"
+},{
+    "name": "Escape as Enchantress",
+    "category": ["Enchantress Locations"],
+    "requires": "|Enchantress - Character Unlock|",
+    "sort-key": "row-13-01"
+},{
+    "name": "Draw as Enchantress",
+    "category": ["Enchantress Locations"],
+    "requires": "|Enchantress - Character Unlock| and |@Enchantress Persona:1|",
+    "sort-key": "row-13-02"
+},{
+    "name": "Win as Enchantress",
+    "category": ["Enchantress Locations"],
+    "requires": "|Enchantress - Character Unlock| and |@Enchantress Persona:2|",
+    "sort-key": "row-13-03"
+},{
+    "name": "Draw as Enchantress using only Borrowed Time",
+    "category": ["Enchantress Locations", "CATEGORY_BT"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Borrowed Time Persona Unlock|",
+    "sort-key": "row-13-04"
+},{
+    "name": "Draw as Enchantress using only Tide Turner",
+    "category": ["Enchantress Locations"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Tide Turner Persona Unlock|",
+    "sort-key": "row-13-05"
+},{
+    "name": "Draw as Enchantress using only Flywheel Effect",
+    "category": ["Enchantress Locations"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-13-06"
+},{
+    "name": "Draw as Enchantress using only Knee Jerk Reflex",
+    "category": ["Enchantress Locations"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-13-07"
+},{
+    "name": "Win as Enchantress using Borrowed Time and Tide Turner",
+    "category": ["Enchantress Locations", "CATEGORY_BT"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Borrowed Time Persona Unlock| and |Enchantress - Tide Turner Persona Unlock|",
+    "sort-key": "row-13-08"
+},{
+    "name": "Win as Enchantress using Borrowed Time and Flywheel Effect",
+    "category": ["Enchantress Locations", "CATEGORY_BT"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Borrowed Time Persona Unlock| and |Enchantress - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-13-09"
+},{
+    "name": "Win as Enchantress using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Enchantress Locations", "CATEGORY_BT"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Borrowed Time Persona Unlock| and |Enchantress - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-13-10"
+},{
+    "name": "Win as Enchantress using Tide Turner and Flywheel Effect",
+    "category": ["Enchantress Locations"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Tide Turner Persona Unlock| and |Enchantress - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-13-11"
+},{
+    "name": "Win as Enchantress using Tide Turner and Knee Jerk Reflex",
+    "category": ["Enchantress Locations"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Tide Turner Persona Unlock| and |Enchantress - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-13-12"
+},{
+    "name": "Win as Enchantress using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Enchantress Locations"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Flywheel Effect Persona Unlock| and |Enchantress - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-13-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Enchantress",
+    "category": ["Enchantress Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-13-14"
+},{
+    "name": "Enchantress UNIQUECHALLENGE",
+    "category": ["Enchantress Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Enchantress - Character Unlock| and |Enchantress - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-13-15"
+},{
+    "name": "Escape as Entomologist",
+    "category": ["Entomologist Locations"],
+    "requires": "|Entomologist - Character Unlock|",
+    "sort-key": "row-14-01"
+},{
+    "name": "Draw as Entomologist",
+    "category": ["Entomologist Locations"],
+    "requires": "|Entomologist - Character Unlock| and |@Entomologist Persona:1|",
+    "sort-key": "row-14-02"
+},{
+    "name": "Win as Entomologist",
+    "category": ["Entomologist Locations"],
+    "requires": "|Entomologist - Character Unlock| and |@Entomologist Persona:2|",
+    "sort-key": "row-14-03"
+},{
+    "name": "Draw as Entomologist using only Borrowed Time",
+    "category": ["Entomologist Locations", "CATEGORY_BT"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Borrowed Time Persona Unlock|",
+    "sort-key": "row-14-04"
+},{
+    "name": "Draw as Entomologist using only Tide Turner",
+    "category": ["Entomologist Locations"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Tide Turner Persona Unlock|",
+    "sort-key": "row-14-05"
+},{
+    "name": "Draw as Entomologist using only Flywheel Effect",
+    "category": ["Entomologist Locations"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-14-06"
+},{
+    "name": "Draw as Entomologist using only Knee Jerk Reflex",
+    "category": ["Entomologist Locations"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-14-07"
+},{
+    "name": "Win as Entomologist using Borrowed Time and Tide Turner",
+    "category": ["Entomologist Locations", "CATEGORY_BT"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Borrowed Time Persona Unlock| and |Entomologist - Tide Turner Persona Unlock|",
+    "sort-key": "row-14-08"
+},{
+    "name": "Win as Entomologist using Borrowed Time and Flywheel Effect",
+    "category": ["Entomologist Locations", "CATEGORY_BT"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Borrowed Time Persona Unlock| and |Entomologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-14-09"
+},{
+    "name": "Win as Entomologist using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Entomologist Locations", "CATEGORY_BT"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Borrowed Time Persona Unlock| and |Entomologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-14-10"
+},{
+    "name": "Win as Entomologist using Tide Turner and Flywheel Effect",
+    "category": ["Entomologist Locations"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Tide Turner Persona Unlock| and |Entomologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-14-11"
+},{
+    "name": "Win as Entomologist using Tide Turner and Knee Jerk Reflex",
+    "category": ["Entomologist Locations"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Tide Turner Persona Unlock| and |Entomologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-14-12"
+},{
+    "name": "Win as Entomologist using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Entomologist Locations"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Flywheel Effect Persona Unlock| and |Entomologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-14-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Entomologist",
+    "category": ["Entomologist Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-14-14"
+},{
+    "name": "Entomologist UNIQUECHALLENGE",
+    "category": ["Entomologist Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Entomologist - Character Unlock| and |Entomologist - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-14-15"
+},{
+    "name": "Escape as Escapologist",
+    "category": ["Escapologist Locations"],
+    "requires": "|Escapologist - Character Unlock|",
+    "sort-key": "row-15-01"
+},{
+    "name": "Draw as Escapologist",
+    "category": ["Escapologist Locations"],
+    "requires": "|Escapologist - Character Unlock| and |@Escapologist Persona:1|",
+    "sort-key": "row-15-02"
+},{
+    "name": "Win as Escapologist",
+    "category": ["Escapologist Locations"],
+    "requires": "|Escapologist - Character Unlock| and |@Escapologist Persona:2|",
+    "sort-key": "row-15-03"
+},{
+    "name": "Draw as Escapologist using only Borrowed Time",
+    "category": ["Escapologist Locations", "CATEGORY_BT"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Borrowed Time Persona Unlock|",
+    "sort-key": "row-15-04"
+},{
+    "name": "Draw as Escapologist using only Tide Turner",
+    "category": ["Escapologist Locations"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Tide Turner Persona Unlock|",
+    "sort-key": "row-15-05"
+},{
+    "name": "Draw as Escapologist using only Flywheel Effect",
+    "category": ["Escapologist Locations"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-15-06"
+},{
+    "name": "Draw as Escapologist using only Knee Jerk Reflex",
+    "category": ["Escapologist Locations"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-15-07"
+},{
+    "name": "Win as Escapologist using Borrowed Time and Tide Turner",
+    "category": ["Escapologist Locations", "CATEGORY_BT"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Borrowed Time Persona Unlock| and |Escapologist - Tide Turner Persona Unlock|",
+    "sort-key": "row-15-08"
+},{
+    "name": "Win as Escapologist using Borrowed Time and Flywheel Effect",
+    "category": ["Escapologist Locations", "CATEGORY_BT"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Borrowed Time Persona Unlock| and |Escapologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-15-09"
+},{
+    "name": "Win as Escapologist using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Escapologist Locations", "CATEGORY_BT"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Borrowed Time Persona Unlock| and |Escapologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-15-10"
+},{
+    "name": "Win as Escapologist using Tide Turner and Flywheel Effect",
+    "category": ["Escapologist Locations"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Tide Turner Persona Unlock| and |Escapologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-15-11"
+},{
+    "name": "Win as Escapologist using Tide Turner and Knee Jerk Reflex",
+    "category": ["Escapologist Locations"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Tide Turner Persona Unlock| and |Escapologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-15-12"
+},{
+    "name": "Win as Escapologist using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Escapologist Locations"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Flywheel Effect Persona Unlock| and |Escapologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-15-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Escapologist",
+    "category": ["Escapologist Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-15-14"
+},{
+    "name": "Escapologist UNIQUECHALLENGE",
+    "category": ["Escapologist Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Escapologist - Character Unlock| and |Escapologist - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-15-15"
+},{
+    "name": "Escape as Explorer",
+    "category": ["Explorer Locations"],
+    "requires": "|Explorer - Character Unlock|",
+    "sort-key": "row-16-01"
+},{
+    "name": "Draw as Explorer",
+    "category": ["Explorer Locations"],
+    "requires": "|Explorer - Character Unlock| and |@Explorer Persona:1|",
+    "sort-key": "row-16-02"
+},{
+    "name": "Win as Explorer",
+    "category": ["Explorer Locations"],
+    "requires": "|Explorer - Character Unlock| and |@Explorer Persona:2|",
+    "sort-key": "row-16-03"
+},{
+    "name": "Draw as Explorer using only Borrowed Time",
+    "category": ["Explorer Locations", "CATEGORY_BT"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Borrowed Time Persona Unlock|",
+    "sort-key": "row-16-04"
+},{
+    "name": "Draw as Explorer using only Tide Turner",
+    "category": ["Explorer Locations"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Tide Turner Persona Unlock|",
+    "sort-key": "row-16-05"
+},{
+    "name": "Draw as Explorer using only Flywheel Effect",
+    "category": ["Explorer Locations"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-16-06"
+},{
+    "name": "Draw as Explorer using only Knee Jerk Reflex",
+    "category": ["Explorer Locations"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-16-07"
+},{
+    "name": "Win as Explorer using Borrowed Time and Tide Turner",
+    "category": ["Explorer Locations", "CATEGORY_BT"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Borrowed Time Persona Unlock| and |Explorer - Tide Turner Persona Unlock|",
+    "sort-key": "row-16-08"
+},{
+    "name": "Win as Explorer using Borrowed Time and Flywheel Effect",
+    "category": ["Explorer Locations", "CATEGORY_BT"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Borrowed Time Persona Unlock| and |Explorer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-16-09"
+},{
+    "name": "Win as Explorer using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Explorer Locations", "CATEGORY_BT"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Borrowed Time Persona Unlock| and |Explorer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-16-10"
+},{
+    "name": "Win as Explorer using Tide Turner and Flywheel Effect",
+    "category": ["Explorer Locations"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Tide Turner Persona Unlock| and |Explorer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-16-11"
+},{
+    "name": "Win as Explorer using Tide Turner and Knee Jerk Reflex",
+    "category": ["Explorer Locations"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Tide Turner Persona Unlock| and |Explorer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-16-12"
+},{
+    "name": "Win as Explorer using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Explorer Locations"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Flywheel Effect Persona Unlock| and |Explorer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-16-13"
+},{
+    "name": "Class Challenge - Get 150% decoding as Explorer",
+    "category": ["Explorer Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-16-14"
+},{
+    "name": "Explorer UNIQUECHALLENGE",
+    "category": ["Explorer Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Explorer - Character Unlock| and |Explorer - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-16-15"
+},{
+    "name": "Escape as Faro Lady",
+    "category": ["Faro Lady Locations"],
+    "requires": "|Faro Lady - Character Unlock|",
+    "sort-key": "row-17-01"
+},{
+    "name": "Draw as Faro Lady",
+    "category": ["Faro Lady Locations"],
+    "requires": "|Faro Lady - Character Unlock| and |@Faro Lady Persona:1|",
+    "sort-key": "row-17-02"
+},{
+    "name": "Win as Faro Lady",
+    "category": ["Faro Lady Locations"],
+    "requires": "|Faro Lady - Character Unlock| and |@Faro Lady Persona:2|",
+    "sort-key": "row-17-03"
+},{
+    "name": "Draw as Faro Lady using only Borrowed Time",
+    "category": ["Faro Lady Locations", "CATEGORY_BT"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Borrowed Time Persona Unlock|",
+    "sort-key": "row-17-04"
+},{
+    "name": "Draw as Faro Lady using only Tide Turner",
+    "category": ["Faro Lady Locations"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Tide Turner Persona Unlock|",
+    "sort-key": "row-17-05"
+},{
+    "name": "Draw as Faro Lady using only Flywheel Effect",
+    "category": ["Faro Lady Locations"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-17-06"
+},{
+    "name": "Draw as Faro Lady using only Knee Jerk Reflex",
+    "category": ["Faro Lady Locations"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-17-07"
+},{
+    "name": "Win as Faro Lady using Borrowed Time and Tide Turner",
+    "category": ["Faro Lady Locations", "CATEGORY_BT"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Borrowed Time Persona Unlock| and |Faro Lady - Tide Turner Persona Unlock|",
+    "sort-key": "row-17-08"
+},{
+    "name": "Win as Faro Lady using Borrowed Time and Flywheel Effect",
+    "category": ["Faro Lady Locations", "CATEGORY_BT"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Borrowed Time Persona Unlock| and |Faro Lady - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-17-09"
+},{
+    "name": "Win as Faro Lady using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Faro Lady Locations", "CATEGORY_BT"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Borrowed Time Persona Unlock| and |Faro Lady - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-17-10"
+},{
+    "name": "Win as Faro Lady using Tide Turner and Flywheel Effect",
+    "category": ["Faro Lady Locations"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Tide Turner Persona Unlock| and |Faro Lady - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-17-11"
+},{
+    "name": "Win as Faro Lady using Tide Turner and Knee Jerk Reflex",
+    "category": ["Faro Lady Locations"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Tide Turner Persona Unlock| and |Faro Lady - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-17-12"
+},{
+    "name": "Win as Faro Lady using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Faro Lady Locations"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Flywheel Effect Persona Unlock| and |Faro Lady - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-17-13"
+},{
+    "name": "Class Challenge - Get 150% decoding as Faro Lady",
+    "category": ["Faro Lady Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-17-14"
+},{
+    "name": "Faro Lady UNIQUECHALLENGE",
+    "category": ["Faro Lady Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Faro Lady - Character Unlock| and |Faro Lady - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-17-15"
+},{
+    "name": "Escape as Female Dancer",
+    "category": ["Female Dancer Locations"],
+    "requires": "|Female Dancer - Character Unlock|",
+    "sort-key": "row-18-01"
+},{
+    "name": "Draw as Female Dancer",
+    "category": ["Female Dancer Locations"],
+    "requires": "|Female Dancer - Character Unlock| and |@Female Dancer Persona:1|",
+    "sort-key": "row-18-02"
+},{
+    "name": "Win as Female Dancer",
+    "category": ["Female Dancer Locations"],
+    "requires": "|Female Dancer - Character Unlock| and |@Female Dancer Persona:2|",
+    "sort-key": "row-18-03"
+},{
+    "name": "Draw as Female Dancer using only Borrowed Time",
+    "category": ["Female Dancer Locations", "CATEGORY_BT"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Borrowed Time Persona Unlock|",
+    "sort-key": "row-18-04"
+},{
+    "name": "Draw as Female Dancer using only Tide Turner",
+    "category": ["Female Dancer Locations"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Tide Turner Persona Unlock|",
+    "sort-key": "row-18-05"
+},{
+    "name": "Draw as Female Dancer using only Flywheel Effect",
+    "category": ["Female Dancer Locations"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-18-06"
+},{
+    "name": "Draw as Female Dancer using only Knee Jerk Reflex",
+    "category": ["Female Dancer Locations"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-18-07"
+},{
+    "name": "Win as Female Dancer using Borrowed Time and Tide Turner",
+    "category": ["Female Dancer Locations", "CATEGORY_BT"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Borrowed Time Persona Unlock| and |Female Dancer - Tide Turner Persona Unlock|",
+    "sort-key": "row-18-08"
+},{
+    "name": "Win as Female Dancer using Borrowed Time and Flywheel Effect",
+    "category": ["Female Dancer Locations", "CATEGORY_BT"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Borrowed Time Persona Unlock| and |Female Dancer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-18-09"
+},{
+    "name": "Win as Female Dancer using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Female Dancer Locations", "CATEGORY_BT"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Borrowed Time Persona Unlock| and |Female Dancer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-18-10"
+},{
+    "name": "Win as Female Dancer using Tide Turner and Flywheel Effect",
+    "category": ["Female Dancer Locations"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Tide Turner Persona Unlock| and |Female Dancer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-18-11"
+},{
+    "name": "Win as Female Dancer using Tide Turner and Knee Jerk Reflex",
+    "category": ["Female Dancer Locations"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Tide Turner Persona Unlock| and |Female Dancer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-18-12"
+},{
+    "name": "Win as Female Dancer using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Female Dancer Locations"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Flywheel Effect Persona Unlock| and |Female Dancer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-18-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Female Dancer",
+    "category": ["Female Dancer Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-18-14"
+},{
+    "name": "Female Dancer UNIQUECHALLENGE",
+    "category": ["Female Dancer Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Female Dancer - Character Unlock| and |Female Dancer - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-18-15"
+},{
+    "name": "Escape as Fire Investigator",
+    "category": ["Fire Investigator Locations"],
+    "requires": "|Fire Investigator - Character Unlock|",
+    "sort-key": "row-19-01"
+},{
+    "name": "Draw as Fire Investigator",
+    "category": ["Fire Investigator Locations"],
+    "requires": "|Fire Investigator - Character Unlock| and |@Fire Investigator Persona:1|",
+    "sort-key": "row-19-02"
+},{
+    "name": "Win as Fire Investigator",
+    "category": ["Fire Investigator Locations"],
+    "requires": "|Fire Investigator - Character Unlock| and |@Fire Investigator Persona:2|",
+    "sort-key": "row-19-03"
+},{
+    "name": "Draw as Fire Investigator using only Borrowed Time",
+    "category": ["Fire Investigator Locations", "CATEGORY_BT"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Borrowed Time Persona Unlock|",
+    "sort-key": "row-19-04"
+},{
+    "name": "Draw as Fire Investigator using only Tide Turner",
+    "category": ["Fire Investigator Locations"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Tide Turner Persona Unlock|",
+    "sort-key": "row-19-05"
+},{
+    "name": "Draw as Fire Investigator using only Flywheel Effect",
+    "category": ["Fire Investigator Locations"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-19-06"
+},{
+    "name": "Draw as Fire Investigator using only Knee Jerk Reflex",
+    "category": ["Fire Investigator Locations"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-19-07"
+},{
+    "name": "Win as Fire Investigator using Borrowed Time and Tide Turner",
+    "category": ["Fire Investigator Locations", "CATEGORY_BT"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Borrowed Time Persona Unlock| and |Fire Investigator - Tide Turner Persona Unlock|",
+    "sort-key": "row-19-08"
+},{
+    "name": "Win as Fire Investigator using Borrowed Time and Flywheel Effect",
+    "category": ["Fire Investigator Locations", "CATEGORY_BT"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Borrowed Time Persona Unlock| and |Fire Investigator - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-19-09"
+},{
+    "name": "Win as Fire Investigator using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Fire Investigator Locations", "CATEGORY_BT"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Borrowed Time Persona Unlock| and |Fire Investigator - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-19-10"
+},{
+    "name": "Win as Fire Investigator using Tide Turner and Flywheel Effect",
+    "category": ["Fire Investigator Locations"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Tide Turner Persona Unlock| and |Fire Investigator - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-19-11"
+},{
+    "name": "Win as Fire Investigator using Tide Turner and Knee Jerk Reflex",
+    "category": ["Fire Investigator Locations"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Tide Turner Persona Unlock| and |Fire Investigator - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-19-12"
+},{
+    "name": "Win as Fire Investigator using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Fire Investigator Locations"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Flywheel Effect Persona Unlock| and |Fire Investigator - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-19-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Fire Investigator",
+    "category": ["Fire Investigator Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-19-14"
+},{
+    "name": "Fire Investigator UNIQUECHALLENGE",
+    "category": ["Fire Investigator Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Fire Investigator - Character Unlock| and |Fire Investigator - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-19-15"
+},{
+    "name": "Escape as First Officer",
+    "category": ["First Officer Locations"],
+    "requires": "|First Officer - Character Unlock|",
+    "sort-key": "row-20-01"
+},{
+    "name": "Draw as First Officer",
+    "category": ["First Officer Locations"],
+    "requires": "|First Officer - Character Unlock| and |@First Officer Persona:1|",
+    "sort-key": "row-20-02"
+},{
+    "name": "Win as First Officer",
+    "category": ["First Officer Locations"],
+    "requires": "|First Officer - Character Unlock| and |@First Officer Persona:2|",
+    "sort-key": "row-20-03"
+},{
+    "name": "Draw as First Officer using only Borrowed Time",
+    "category": ["First Officer Locations", "CATEGORY_BT"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Borrowed Time Persona Unlock|",
+    "sort-key": "row-20-04"
+},{
+    "name": "Draw as First Officer using only Tide Turner",
+    "category": ["First Officer Locations"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Tide Turner Persona Unlock|",
+    "sort-key": "row-20-05"
+},{
+    "name": "Draw as First Officer using only Flywheel Effect",
+    "category": ["First Officer Locations"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-20-06"
+},{
+    "name": "Draw as First Officer using only Knee Jerk Reflex",
+    "category": ["First Officer Locations"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-20-07"
+},{
+    "name": "Win as First Officer using Borrowed Time and Tide Turner",
+    "category": ["First Officer Locations", "CATEGORY_BT"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Borrowed Time Persona Unlock| and |First Officer - Tide Turner Persona Unlock|",
+    "sort-key": "row-20-08"
+},{
+    "name": "Win as First Officer using Borrowed Time and Flywheel Effect",
+    "category": ["First Officer Locations", "CATEGORY_BT"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Borrowed Time Persona Unlock| and |First Officer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-20-09"
+},{
+    "name": "Win as First Officer using Borrowed Time and Knee Jerk Reflex",
+    "category": ["First Officer Locations", "CATEGORY_BT"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Borrowed Time Persona Unlock| and |First Officer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-20-10"
+},{
+    "name": "Win as First Officer using Tide Turner and Flywheel Effect",
+    "category": ["First Officer Locations"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Tide Turner Persona Unlock| and |First Officer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-20-11"
+},{
+    "name": "Win as First Officer using Tide Turner and Knee Jerk Reflex",
+    "category": ["First Officer Locations"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Tide Turner Persona Unlock| and |First Officer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-20-12"
+},{
+    "name": "Win as First Officer using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["First Officer Locations"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Flywheel Effect Persona Unlock| and |First Officer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-20-13"
+},{
+    "name": "Class Challenge - Rescue 1 teammate as First Officer",
+    "category": ["First Officer Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-20-14"
+},{
+    "name": "First Officer UNIQUECHALLENGE",
+    "category": ["First Officer Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|First Officer - Character Unlock| and |First Officer - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-20-15"
+},{
+    "name": "Escape as Forward",
+    "category": ["Forward Locations"],
+    "requires": "|Forward - Character Unlock|",
+    "sort-key": "row-21-01"
+},{
+    "name": "Draw as Forward",
+    "category": ["Forward Locations"],
+    "requires": "|Forward - Character Unlock| and |@Forward Persona:1|",
+    "sort-key": "row-21-02"
+},{
+    "name": "Win as Forward",
+    "category": ["Forward Locations"],
+    "requires": "|Forward - Character Unlock| and |@Forward Persona:2|",
+    "sort-key": "row-21-03"
+},{
+    "name": "Draw as Forward using only Borrowed Time",
+    "category": ["Forward Locations", "CATEGORY_BT"],
+    "requires": "|Forward - Character Unlock| and |Forward - Borrowed Time Persona Unlock|",
+    "sort-key": "row-21-04"
+},{
+    "name": "Draw as Forward using only Tide Turner",
+    "category": ["Forward Locations"],
+    "requires": "|Forward - Character Unlock| and |Forward - Tide Turner Persona Unlock|",
+    "sort-key": "row-21-05"
+},{
+    "name": "Draw as Forward using only Flywheel Effect",
+    "category": ["Forward Locations"],
+    "requires": "|Forward - Character Unlock| and |Forward - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-21-06"
+},{
+    "name": "Draw as Forward using only Knee Jerk Reflex",
+    "category": ["Forward Locations"],
+    "requires": "|Forward - Character Unlock| and |Forward - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-21-07"
+},{
+    "name": "Win as Forward using Borrowed Time and Tide Turner",
+    "category": ["Forward Locations", "CATEGORY_BT"],
+    "requires": "|Forward - Character Unlock| and |Forward - Borrowed Time Persona Unlock| and |Forward - Tide Turner Persona Unlock|",
+    "sort-key": "row-21-08"
+},{
+    "name": "Win as Forward using Borrowed Time and Flywheel Effect",
+    "category": ["Forward Locations", "CATEGORY_BT"],
+    "requires": "|Forward - Character Unlock| and |Forward - Borrowed Time Persona Unlock| and |Forward - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-21-09"
+},{
+    "name": "Win as Forward using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Forward Locations", "CATEGORY_BT"],
+    "requires": "|Forward - Character Unlock| and |Forward - Borrowed Time Persona Unlock| and |Forward - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-21-10"
+},{
+    "name": "Win as Forward using Tide Turner and Flywheel Effect",
+    "category": ["Forward Locations"],
+    "requires": "|Forward - Character Unlock| and |Forward - Tide Turner Persona Unlock| and |Forward - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-21-11"
+},{
+    "name": "Win as Forward using Tide Turner and Knee Jerk Reflex",
+    "category": ["Forward Locations"],
+    "requires": "|Forward - Character Unlock| and |Forward - Tide Turner Persona Unlock| and |Forward - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-21-12"
+},{
+    "name": "Win as Forward using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Forward Locations"],
+    "requires": "|Forward - Character Unlock| and |Forward - Flywheel Effect Persona Unlock| and |Forward - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-21-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Forward",
+    "category": ["Forward Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Forward - Character Unlock| and |Forward - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-21-14"
+},{
+    "name": "Forward UNIQUECHALLENGE",
+    "category": ["Forward Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Forward - Character Unlock| and |Forward - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-21-15"
+},{
+    "name": "Escape as Gardener",
+    "category": ["Gardener Locations"],
+    "requires": "|Gardener - Character Unlock|",
+    "sort-key": "row-22-01"
+},{
+    "name": "Draw as Gardener",
+    "category": ["Gardener Locations"],
+    "requires": "|Gardener - Character Unlock| and |@Gardener Persona:1|",
+    "sort-key": "row-22-02"
+},{
+    "name": "Win as Gardener",
+    "category": ["Gardener Locations"],
+    "requires": "|Gardener - Character Unlock| and |@Gardener Persona:2|",
+    "sort-key": "row-22-03"
+},{
+    "name": "Draw as Gardener using only Borrowed Time",
+    "category": ["Gardener Locations", "CATEGORY_BT"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Borrowed Time Persona Unlock|",
+    "sort-key": "row-22-04"
+},{
+    "name": "Draw as Gardener using only Tide Turner",
+    "category": ["Gardener Locations"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Tide Turner Persona Unlock|",
+    "sort-key": "row-22-05"
+},{
+    "name": "Draw as Gardener using only Flywheel Effect",
+    "category": ["Gardener Locations"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-22-06"
+},{
+    "name": "Draw as Gardener using only Knee Jerk Reflex",
+    "category": ["Gardener Locations"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-22-07"
+},{
+    "name": "Win as Gardener using Borrowed Time and Tide Turner",
+    "category": ["Gardener Locations", "CATEGORY_BT"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Borrowed Time Persona Unlock| and |Gardener - Tide Turner Persona Unlock|",
+    "sort-key": "row-22-08"
+},{
+    "name": "Win as Gardener using Borrowed Time and Flywheel Effect",
+    "category": ["Gardener Locations", "CATEGORY_BT"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Borrowed Time Persona Unlock| and |Gardener - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-22-09"
+},{
+    "name": "Win as Gardener using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Gardener Locations", "CATEGORY_BT"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Borrowed Time Persona Unlock| and |Gardener - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-22-10"
+},{
+    "name": "Win as Gardener using Tide Turner and Flywheel Effect",
+    "category": ["Gardener Locations"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Tide Turner Persona Unlock| and |Gardener - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-22-11"
+},{
+    "name": "Win as Gardener using Tide Turner and Knee Jerk Reflex",
+    "category": ["Gardener Locations"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Tide Turner Persona Unlock| and |Gardener - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-22-12"
+},{
+    "name": "Win as Gardener using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Gardener Locations"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Flywheel Effect Persona Unlock| and |Gardener - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-22-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Gardener",
+    "category": ["Gardener Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-22-14"
+},{
+    "name": "Gardener UNIQUECHALLENGE",
+    "category": ["Gardener Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Gardener - Character Unlock| and |Gardener - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-22-15"
+},{
+    "name": "Escape as Grave Keeper",
+    "category": ["Grave Keeper Locations"],
+    "requires": "|Grave Keeper - Character Unlock|",
+    "sort-key": "row-23-01"
+},{
+    "name": "Draw as Grave Keeper",
+    "category": ["Grave Keeper Locations"],
+    "requires": "|Grave Keeper - Character Unlock| and |@Grave Keeper Persona:1|",
+    "sort-key": "row-23-02"
+},{
+    "name": "Win as Grave Keeper",
+    "category": ["Grave Keeper Locations"],
+    "requires": "|Grave Keeper - Character Unlock| and |@Grave Keeper Persona:2|",
+    "sort-key": "row-23-03"
+},{
+    "name": "Draw as Grave Keeper using only Borrowed Time",
+    "category": ["Grave Keeper Locations", "CATEGORY_BT"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Borrowed Time Persona Unlock|",
+    "sort-key": "row-23-04"
+},{
+    "name": "Draw as Grave Keeper using only Tide Turner",
+    "category": ["Grave Keeper Locations"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Tide Turner Persona Unlock|",
+    "sort-key": "row-23-05"
+},{
+    "name": "Draw as Grave Keeper using only Flywheel Effect",
+    "category": ["Grave Keeper Locations"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-23-06"
+},{
+    "name": "Draw as Grave Keeper using only Knee Jerk Reflex",
+    "category": ["Grave Keeper Locations"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-23-07"
+},{
+    "name": "Win as Grave Keeper using Borrowed Time and Tide Turner",
+    "category": ["Grave Keeper Locations", "CATEGORY_BT"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Borrowed Time Persona Unlock| and |Grave Keeper - Tide Turner Persona Unlock|",
+    "sort-key": "row-23-08"
+},{
+    "name": "Win as Grave Keeper using Borrowed Time and Flywheel Effect",
+    "category": ["Grave Keeper Locations", "CATEGORY_BT"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Borrowed Time Persona Unlock| and |Grave Keeper - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-23-09"
+},{
+    "name": "Win as Grave Keeper using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Grave Keeper Locations", "CATEGORY_BT"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Borrowed Time Persona Unlock| and |Grave Keeper - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-23-10"
+},{
+    "name": "Win as Grave Keeper using Tide Turner and Flywheel Effect",
+    "category": ["Grave Keeper Locations"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Tide Turner Persona Unlock| and |Grave Keeper - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-23-11"
+},{
+    "name": "Win as Grave Keeper using Tide Turner and Knee Jerk Reflex",
+    "category": ["Grave Keeper Locations"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Tide Turner Persona Unlock| and |Grave Keeper - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-23-12"
+},{
+    "name": "Win as Grave Keeper using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Grave Keeper Locations"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Flywheel Effect Persona Unlock| and |Grave Keeper - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-23-13"
+},{
+    "name": "Class Challenge - Rescue 1 teammate as Grave Keeper",
+    "category": ["Grave Keeper Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-23-14"
+},{
+    "name": "Grave Keeper UNIQUECHALLENGE",
+    "category": ["Grave Keeper Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Grave Keeper - Character Unlock| and |Grave Keeper - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-23-15"
+},{
+    "name": "Escape as Journalist",
+    "category": ["Journalist Locations"],
+    "requires": "|Journalist - Character Unlock|",
+    "sort-key": "row-24-01"
+},{
+    "name": "Draw as Journalist",
+    "category": ["Journalist Locations"],
+    "requires": "|Journalist - Character Unlock| and |@Journalist Persona:1|",
+    "sort-key": "row-24-02"
+},{
+    "name": "Win as Journalist",
+    "category": ["Journalist Locations"],
+    "requires": "|Journalist - Character Unlock| and |@Journalist Persona:2|",
+    "sort-key": "row-24-03"
+},{
+    "name": "Draw as Journalist using only Borrowed Time",
+    "category": ["Journalist Locations", "CATEGORY_BT"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Borrowed Time Persona Unlock|",
+    "sort-key": "row-24-04"
+},{
+    "name": "Draw as Journalist using only Tide Turner",
+    "category": ["Journalist Locations"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Tide Turner Persona Unlock|",
+    "sort-key": "row-24-05"
+},{
+    "name": "Draw as Journalist using only Flywheel Effect",
+    "category": ["Journalist Locations"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-24-06"
+},{
+    "name": "Draw as Journalist using only Knee Jerk Reflex",
+    "category": ["Journalist Locations"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-24-07"
+},{
+    "name": "Win as Journalist using Borrowed Time and Tide Turner",
+    "category": ["Journalist Locations", "CATEGORY_BT"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Borrowed Time Persona Unlock| and |Journalist - Tide Turner Persona Unlock|",
+    "sort-key": "row-24-08"
+},{
+    "name": "Win as Journalist using Borrowed Time and Flywheel Effect",
+    "category": ["Journalist Locations", "CATEGORY_BT"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Borrowed Time Persona Unlock| and |Journalist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-24-09"
+},{
+    "name": "Win as Journalist using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Journalist Locations", "CATEGORY_BT"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Borrowed Time Persona Unlock| and |Journalist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-24-10"
+},{
+    "name": "Win as Journalist using Tide Turner and Flywheel Effect",
+    "category": ["Journalist Locations"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Tide Turner Persona Unlock| and |Journalist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-24-11"
+},{
+    "name": "Win as Journalist using Tide Turner and Knee Jerk Reflex",
+    "category": ["Journalist Locations"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Tide Turner Persona Unlock| and |Journalist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-24-12"
+},{
+    "name": "Win as Journalist using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Journalist Locations"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Flywheel Effect Persona Unlock| and |Journalist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-24-13"
+},{
+    "name": "Class Challenge - Rescue 1 teammate as Journalist",
+    "category": ["Journalist Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-24-14"
+},
+{
+    "name": "Journalist UNIQUECHALLENGE",
+    "category": ["Journalist Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Journalist - Character Unlock| and |Journalist - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-24-15"
+},{
+    "name": "Escape as Knight",
+    "category": ["Knight Locations"],
+    "requires": "|Knight - Character Unlock|",
+    "sort-key": "row-25-01"
+},{
+    "name": "Draw as Knight",
+    "category": ["Knight Locations"],
+    "requires": "|Knight - Character Unlock| and |@Knight Persona:1|",
+    "sort-key": "row-25-02"
+},{
+    "name": "Win as Knight",
+    "category": ["Knight Locations"],
+    "requires": "|Knight - Character Unlock| and |@Knight Persona:2|",
+    "sort-key": "row-25-03"
+},{
+    "name": "Draw as Knight using only Borrowed Time",
+    "category": ["Knight Locations", "CATEGORY_BT"],
+    "requires": "|Knight - Character Unlock| and |Knight - Borrowed Time Persona Unlock|",
+    "sort-key": "row-25-04"
+},{
+    "name": "Draw as Knight using only Tide Turner",
+    "category": ["Knight Locations"],
+    "requires": "|Knight - Character Unlock| and |Knight - Tide Turner Persona Unlock|",
+    "sort-key": "row-25-05"
+},{
+    "name": "Draw as Knight using only Flywheel Effect",
+    "category": ["Knight Locations"],
+    "requires": "|Knight - Character Unlock| and |Knight - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-25-06"
+},{
+    "name": "Draw as Knight using only Knee Jerk Reflex",
+    "category": ["Knight Locations"],
+    "requires": "|Knight - Character Unlock| and |Knight - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-25-07"
+},{
+    "name": "Win as Knight using Borrowed Time and Tide Turner",
+    "category": ["Knight Locations", "CATEGORY_BT"],
+    "requires": "|Knight - Character Unlock| and |Knight - Borrowed Time Persona Unlock| and |Knight - Tide Turner Persona Unlock|",
+    "sort-key": "row-25-08"
+},{
+    "name": "Win as Knight using Borrowed Time and Flywheel Effect",
+    "category": ["Knight Locations", "CATEGORY_BT"],
+    "requires": "|Knight - Character Unlock| and |Knight - Borrowed Time Persona Unlock| and |Knight - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-25-09"
+},{
+    "name": "Win as Knight using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Knight Locations", "CATEGORY_BT"],
+    "requires": "|Knight - Character Unlock| and |Knight - Borrowed Time Persona Unlock| and |Knight - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-25-10"
+},{
+    "name": "Win as Knight using Tide Turner and Flywheel Effect",
+    "category": ["Knight Locations"],
+    "requires": "|Knight - Character Unlock| and |Knight - Tide Turner Persona Unlock| and |Knight - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-25-11"
+},{
+    "name": "Win as Knight using Tide Turner and Knee Jerk Reflex",
+    "category": ["Knight Locations"],
+    "requires": "|Knight - Character Unlock| and |Knight - Tide Turner Persona Unlock| and |Knight - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-25-12"
+},{
+    "name": "Win as Knight using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Knight Locations"],
+    "requires": "|Knight - Character Unlock| and |Knight - Flywheel Effect Persona Unlock| and |Knight - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-25-13"
+},{
+    "name": "Class Challenge - Rescue 1 teammate as Knight",
+    "category": ["Knight Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Knight - Character Unlock| and |Knight - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-25-14"
+},{
+    "name": "Knight UNIQUECHALLENGE",
+    "category": ["Knight Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Knight - Character Unlock| and |Knight - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-25-15"
+},{
+    "name": "Escape as Lanternist",
+    "category": ["Lanternist Locations"],
+    "requires": "|Lanternist - Character Unlock|",
+    "sort-key": "row-26-01"
+},{
+    "name": "Draw as Lanternist",
+    "category": ["Lanternist Locations"],
+    "requires": "|Lanternist - Character Unlock| and |@Lanternist Persona:1|",
+    "sort-key": "row-26-02"
+},{
+    "name": "Win as Lanternist",
+    "category": ["Lanternist Locations"],
+    "requires": "|Lanternist - Character Unlock| and |@Lanternist Persona:2|",
+    "sort-key": "row-26-03"
+},{
+    "name": "Draw as Lanternist using only Borrowed Time",
+    "category": ["Lanternist Locations", "CATEGORY_BT"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Borrowed Time Persona Unlock|",
+    "sort-key": "row-26-04"
+},{
+    "name": "Draw as Lanternist using only Tide Turner",
+    "category": ["Lanternist Locations"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Tide Turner Persona Unlock|",
+    "sort-key": "row-26-05"
+},{
+    "name": "Draw as Lanternist using only Flywheel Effect",
+    "category": ["Lanternist Locations"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-26-06"
+},{
+    "name": "Draw as Lanternist using only Knee Jerk Reflex",
+    "category": ["Lanternist Locations"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-26-07"
+},{
+    "name": "Win as Lanternist using Borrowed Time and Tide Turner",
+    "category": ["Lanternist Locations", "CATEGORY_BT"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Borrowed Time Persona Unlock| and |Lanternist - Tide Turner Persona Unlock|",
+    "sort-key": "row-26-08"
+},{
+    "name": "Win as Lanternist using Borrowed Time and Flywheel Effect",
+    "category": ["Lanternist Locations", "CATEGORY_BT"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Borrowed Time Persona Unlock| and |Lanternist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-26-09"
+},{
+    "name": "Win as Lanternist using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Lanternist Locations", "CATEGORY_BT"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Borrowed Time Persona Unlock| and |Lanternist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-26-10"
+},{
+    "name": "Win as Lanternist using Tide Turner and Flywheel Effect",
+    "category": ["Lanternist Locations"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Tide Turner Persona Unlock| and |Lanternist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-26-11"
+},{
+    "name": "Win as Lanternist using Tide Turner and Knee Jerk Reflex",
+    "category": ["Lanternist Locations"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Tide Turner Persona Unlock| and |Lanternist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-26-12"
+},{
+    "name": "Win as Lanternist using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Lanternist Locations"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Flywheel Effect Persona Unlock| and |Lanternist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-26-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Lanternist",
+    "category": ["Lanternist Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-26-14"
+},{
+    "name": "Lanternist UNIQUECHALLENGE",
+    "category": ["Lanternist Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Lanternist - Character Unlock| and |Lanternist - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-26-15"
+},{
+    "name": "Escape as Lawyer",
+    "category": ["Lawyer Locations"],
+    "requires": "|Lawyer - Character Unlock|",
+    "sort-key": "row-27-01"
+},{
+    "name": "Draw as Lawyer",
+    "category": ["Lawyer Locations"],
+    "requires": "|Lawyer - Character Unlock| and |@Lawyer Persona:1|",
+    "sort-key": "row-27-02"
+},{
+    "name": "Win as Lawyer",
+    "category": ["Lawyer Locations"],
+    "requires": "|Lawyer - Character Unlock| and |@Lawyer Persona:2|",
+    "sort-key": "row-27-03"
+},{
+    "name": "Draw as Lawyer using only Borrowed Time",
+    "category": ["Lawyer Locations", "CATEGORY_BT"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Borrowed Time Persona Unlock|",
+    "sort-key": "row-27-04"
+},{
+    "name": "Draw as Lawyer using only Tide Turner",
+    "category": ["Lawyer Locations"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Tide Turner Persona Unlock|",
+    "sort-key": "row-27-05"
+},{
+    "name": "Draw as Lawyer using only Flywheel Effect",
+    "category": ["Lawyer Locations"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-27-06"
+},{
+    "name": "Draw as Lawyer using only Knee Jerk Reflex",
+    "category": ["Lawyer Locations"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-27-07"
+},{
+    "name": "Win as Lawyer using Borrowed Time and Tide Turner",
+    "category": ["Lawyer Locations", "CATEGORY_BT"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Borrowed Time Persona Unlock| and |Lawyer - Tide Turner Persona Unlock|",
+    "sort-key": "row-27-08"
+},{
+    "name": "Win as Lawyer using Borrowed Time and Flywheel Effect",
+    "category": ["Lawyer Locations", "CATEGORY_BT"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Borrowed Time Persona Unlock| and |Lawyer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-27-09"
+},{
+    "name": "Win as Lawyer using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Lawyer Locations", "CATEGORY_BT"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Borrowed Time Persona Unlock| and |Lawyer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-27-10"
+},{
+    "name": "Win as Lawyer using Tide Turner and Flywheel Effect",
+    "category": ["Lawyer Locations"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Tide Turner Persona Unlock| and |Lawyer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-27-11"
+},{
+    "name": "Win as Lawyer using Tide Turner and Knee Jerk Reflex",
+    "category": ["Lawyer Locations"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Tide Turner Persona Unlock| and |Lawyer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-27-12"
+},{
+    "name": "Win as Lawyer using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Lawyer Locations"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Flywheel Effect Persona Unlock| and |Lawyer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-27-13"
+},{
+    "name": "Class Challenge - Get 150% decoding as Lawyer",
+    "category": ["Lawyer Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-27-14"
+},{
+    "name": "Lawyer UNIQUECHALLENGE",
+    "category": ["Lawyer Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Lawyer - Character Unlock| and |Lawyer - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-27-15"
+},{
+    "name": "Escape as Little Girl",
+    "category": ["Little Girl Locations"],
+    "requires": "|Little Girl - Character Unlock|",
+    "sort-key": "row-28-01"
+},{
+    "name": "Draw as Little Girl",
+    "category": ["Little Girl Locations"],
+    "requires": "|Little Girl - Character Unlock| and |@Little Girl Persona:1|",
+    "sort-key": "row-28-02"
+},{
+    "name": "Win as Little Girl",
+    "category": ["Little Girl Locations"],
+    "requires": "|Little Girl - Character Unlock| and |@Little Girl Persona:2|",
+    "sort-key": "row-28-03"
+},{
+    "name": "Draw as Little Girl using only Borrowed Time",
+    "category": ["Little Girl Locations", "CATEGORY_BT"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Borrowed Time Persona Unlock|",
+    "sort-key": "row-28-04"
+},{
+    "name": "Draw as Little Girl using only Tide Turner",
+    "category": ["Little Girl Locations"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Tide Turner Persona Unlock|",
+    "sort-key": "row-28-05"
+},{
+    "name": "Draw as Little Girl using only Flywheel Effect",
+    "category": ["Little Girl Locations"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-28-06"
+},{
+    "name": "Draw as Little Girl using only Knee Jerk Reflex",
+    "category": ["Little Girl Locations"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-28-07"
+},{
+    "name": "Win as Little Girl using Borrowed Time and Tide Turner",
+    "category": ["Little Girl Locations", "CATEGORY_BT"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Borrowed Time Persona Unlock| and |Little Girl - Tide Turner Persona Unlock|",
+    "sort-key": "row-28-08"
+},{
+    "name": "Win as Little Girl using Borrowed Time and Flywheel Effect",
+    "category": ["Little Girl Locations", "CATEGORY_BT"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Borrowed Time Persona Unlock| and |Little Girl - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-28-09"
+},{
+    "name": "Win as Little Girl using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Little Girl Locations", "CATEGORY_BT"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Borrowed Time Persona Unlock| and |Little Girl - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-28-10"
+},{
+    "name": "Win as Little Girl using Tide Turner and Flywheel Effect",
+    "category": ["Little Girl Locations"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Tide Turner Persona Unlock| and |Little Girl - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-28-11"
+},{
+    "name": "Win as Little Girl using Tide Turner and Knee Jerk Reflex",
+    "category": ["Little Girl Locations"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Tide Turner Persona Unlock| and |Little Girl - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-28-12"
+},{
+    "name": "Win as Little Girl using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Little Girl Locations"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Flywheel Effect Persona Unlock| and |Little Girl - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-28-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Little Girl",
+    "category": ["Little Girl Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-28-14"
+},{
+    "name": "Little Girl UNIQUECHALLENGE",
+    "category": ["Little Girl Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Little Girl - Character Unlock| and |Little Girl - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-28-15"
+},{
+    "name": "Escape as Lucky Guy",
+    "category": ["Lucky Guy Locations"],
+    "requires": "|Lucky Guy - Character Unlock|",
+    "sort-key": "row-29-01"
+},{
+    "name": "Draw as Lucky Guy",
+    "category": ["Lucky Guy Locations"],
+    "requires": "|Lucky Guy - Character Unlock| and |@Lucky Guy Persona:1|",
+    "sort-key": "row-29-02"
+},{
+    "name": "Win as Lucky Guy",
+    "category": ["Lucky Guy Locations"],
+    "requires": "|Lucky Guy - Character Unlock| and |@Lucky Guy Persona:2|",
+    "sort-key": "row-29-03"
+},{
+    "name": "Draw as Lucky Guy using only Borrowed Time",
+    "category": ["Lucky Guy Locations", "CATEGORY_BT"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Borrowed Time Persona Unlock|",
+    "sort-key": "row-29-04"
+},{
+    "name": "Draw as Lucky Guy using only Tide Turner",
+    "category": ["Lucky Guy Locations"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Tide Turner Persona Unlock|",
+    "sort-key": "row-29-05"
+},{
+    "name": "Draw as Lucky Guy using only Flywheel Effect",
+    "category": ["Lucky Guy Locations"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-29-06"
+},{
+    "name": "Draw as Lucky Guy using only Knee Jerk Reflex",
+    "category": ["Lucky Guy Locations"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-29-07"
+},{
+    "name": "Win as Lucky Guy using Borrowed Time and Tide Turner",
+    "category": ["Lucky Guy Locations", "CATEGORY_BT"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Borrowed Time Persona Unlock| and |Lucky Guy - Tide Turner Persona Unlock|",
+    "sort-key": "row-29-08"
+},{
+    "name": "Win as Lucky Guy using Borrowed Time and Flywheel Effect",
+    "category": ["Lucky Guy Locations", "CATEGORY_BT"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Borrowed Time Persona Unlock| and |Lucky Guy - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-29-09"
+},{
+    "name": "Win as Lucky Guy using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Lucky Guy Locations", "CATEGORY_BT"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Borrowed Time Persona Unlock| and |Lucky Guy - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-29-10"
+},{
+    "name": "Win as Lucky Guy using Tide Turner and Flywheel Effect",
+    "category": ["Lucky Guy Locations"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Tide Turner Persona Unlock| and |Lucky Guy - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-29-11"
+},{
+    "name": "Win as Lucky Guy using Tide Turner and Knee Jerk Reflex",
+    "category": ["Lucky Guy Locations"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Tide Turner Persona Unlock| and |Lucky Guy - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-29-12"
+},{
+    "name": "Win as Lucky Guy using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Lucky Guy Locations"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Flywheel Effect Persona Unlock| and |Lucky Guy - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-29-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Lucky Guy",
+    "category": ["Lucky Guy Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-29-14"
+},{
+    "name": "Lucky Guy UNIQUECHALLENGE",
+    "category": ["Lucky Guy Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Lucky Guy - Character Unlock| and |Lucky Guy - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-29-15"
+},{
+    "name": "Escape as Magician",
+    "category": ["Magician Locations"],
+    "requires": "|Magician - Character Unlock|",
+    "sort-key": "row-30-01"
+},{
+    "name": "Draw as Magician",
+    "category": ["Magician Locations"],
+    "requires": "|Magician - Character Unlock| and |@Magician Persona:1|",
+    "sort-key": "row-30-02"
+},{
+    "name": "Win as Magician",
+    "category": ["Magician Locations"],
+    "requires": "|Magician - Character Unlock| and |@Magician Persona:2|",
+    "sort-key": "row-30-03"
+},{
+    "name": "Draw as Magician using only Borrowed Time",
+    "category": ["Magician Locations", "CATEGORY_BT"],
+    "requires": "|Magician - Character Unlock| and |Magician - Borrowed Time Persona Unlock|",
+    "sort-key": "row-30-04"
+},{
+    "name": "Draw as Magician using only Tide Turner",
+    "category": ["Magician Locations"],
+    "requires": "|Magician - Character Unlock| and |Magician - Tide Turner Persona Unlock|",
+    "sort-key": "row-30-05"
+},{
+    "name": "Draw as Magician using only Flywheel Effect",
+    "category": ["Magician Locations"],
+    "requires": "|Magician - Character Unlock| and |Magician - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-30-06"
+},{
+    "name": "Draw as Magician using only Knee Jerk Reflex",
+    "category": ["Magician Locations"],
+    "requires": "|Magician - Character Unlock| and |Magician - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-30-07"
+},{
+    "name": "Win as Magician using Borrowed Time and Tide Turner",
+    "category": ["Magician Locations", "CATEGORY_BT"],
+    "requires": "|Magician - Character Unlock| and |Magician - Borrowed Time Persona Unlock| and |Magician - Tide Turner Persona Unlock|",
+    "sort-key": "row-30-08"
+},{
+    "name": "Win as Magician using Borrowed Time and Flywheel Effect",
+    "category": ["Magician Locations", "CATEGORY_BT"],
+    "requires": "|Magician - Character Unlock| and |Magician - Borrowed Time Persona Unlock| and |Magician - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-30-09"
+},{
+    "name": "Win as Magician using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Magician Locations", "CATEGORY_BT"],
+    "requires": "|Magician - Character Unlock| and |Magician - Borrowed Time Persona Unlock| and |Magician - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-30-10"
+},{
+    "name": "Win as Magician using Tide Turner and Flywheel Effect",
+    "category": ["Magician Locations"],
+    "requires": "|Magician - Character Unlock| and |Magician - Tide Turner Persona Unlock| and |Magician - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-30-11"
+},{
+    "name": "Win as Magician using Tide Turner and Knee Jerk Reflex",
+    "category": ["Magician Locations"],
+    "requires": "|Magician - Character Unlock| and |Magician - Tide Turner Persona Unlock| and |Magician - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-30-12"
+},{
+    "name": "Win as Magician using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Magician Locations"],
+    "requires": "|Magician - Character Unlock| and |Magician - Flywheel Effect Persona Unlock| and |Magician - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-30-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Magician",
+    "category": ["Magician Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Magician - Character Unlock| and |Magician - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-30-14"
+},{
+    "name": "Magician UNIQUECHALLENGE",
+    "category": ["Magician Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Magician - Character Unlock| and |Magician - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-30-15"
+},{
+    "name": "Escape as Mechanic",
+    "category": ["Mechanic Locations"],
+    "requires": "|Mechanic - Character Unlock|",
+    "sort-key": "row-31-01"
+},{
+    "name": "Draw as Mechanic",
+    "category": ["Mechanic Locations"],
+    "requires": "|Mechanic - Character Unlock| and |@Mechanic Persona:1|",
+    "sort-key": "row-31-02"
+},{
+    "name": "Win as Mechanic",
+    "category": ["Mechanic Locations"],
+    "requires": "|Mechanic - Character Unlock| and |@Mechanic Persona:2|",
+    "sort-key": "row-31-03"
+},{
+    "name": "Draw as Mechanic using only Borrowed Time",
+    "category": ["Mechanic Locations", "CATEGORY_BT"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Borrowed Time Persona Unlock|",
+    "sort-key": "row-31-04"
+},{
+    "name": "Draw as Mechanic using only Tide Turner",
+    "category": ["Mechanic Locations"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Tide Turner Persona Unlock|",
+    "sort-key": "row-31-05"
+},{
+    "name": "Draw as Mechanic using only Flywheel Effect",
+    "category": ["Mechanic Locations"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-31-06"
+},{
+    "name": "Draw as Mechanic using only Knee Jerk Reflex",
+    "category": ["Mechanic Locations"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-31-07"
+},{
+    "name": "Win as Mechanic using Borrowed Time and Tide Turner",
+    "category": ["Mechanic Locations", "CATEGORY_BT"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Borrowed Time Persona Unlock| and |Mechanic - Tide Turner Persona Unlock|",
+    "sort-key": "row-31-08"
+},{
+    "name": "Win as Mechanic using Borrowed Time and Flywheel Effect",
+    "category": ["Mechanic Locations", "CATEGORY_BT"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Borrowed Time Persona Unlock| and |Mechanic - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-31-09"
+},{
+    "name": "Win as Mechanic using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Mechanic Locations", "CATEGORY_BT"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Borrowed Time Persona Unlock| and |Mechanic - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-31-10"
+},{
+    "name": "Win as Mechanic using Tide Turner and Flywheel Effect",
+    "category": ["Mechanic Locations"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Tide Turner Persona Unlock| and |Mechanic - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-31-11"
+},{
+    "name": "Win as Mechanic using Tide Turner and Knee Jerk Reflex",
+    "category": ["Mechanic Locations"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Tide Turner Persona Unlock| and |Mechanic - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-31-12"
+},{
+    "name": "Win as Mechanic using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Mechanic Locations"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Flywheel Effect Persona Unlock| and |Mechanic - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-31-13"
+},{
+    "name": "Class Challenge - Get 150% decoding as Mechanic",
+    "category": ["Mechanic Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-31-14"
+},{
+    "name": "Mechanic UNIQUECHALLENGE",
+    "category": ["Mechanic Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Mechanic - Character Unlock| and |Mechanic - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-31-15"
+},{
+    "name": "Escape as Mercenary",
+    "category": ["Mercenary Locations"],
+    "requires": "|Mercenary - Character Unlock|",
+    "sort-key": "row-32-01"
+},{
+    "name": "Draw as Mercenary",
+    "category": ["Mercenary Locations"],
+    "requires": "|Mercenary - Character Unlock| and |@Mercenary Persona:1|",
+    "sort-key": "row-32-02"
+},{
+    "name": "Win as Mercenary",
+    "category": ["Mercenary Locations"],
+    "requires": "|Mercenary - Character Unlock| and |@Mercenary Persona:2|",
+    "sort-key": "row-32-03"
+},{
+    "name": "Draw as Mercenary using only Borrowed Time",
+    "category": ["Mercenary Locations", "CATEGORY_BT"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Borrowed Time Persona Unlock|",
+    "sort-key": "row-32-04"
+},{
+    "name": "Draw as Mercenary using only Tide Turner",
+    "category": ["Mercenary Locations"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Tide Turner Persona Unlock|",
+    "sort-key": "row-32-05"
+},{
+    "name": "Draw as Mercenary using only Flywheel Effect",
+    "category": ["Mercenary Locations"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-32-06"
+},{
+    "name": "Draw as Mercenary using only Knee Jerk Reflex",
+    "category": ["Mercenary Locations"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-32-07"
+},{
+    "name": "Win as Mercenary using Borrowed Time and Tide Turner",
+    "category": ["Mercenary Locations", "CATEGORY_BT"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Borrowed Time Persona Unlock| and |Mercenary - Tide Turner Persona Unlock|",
+    "sort-key": "row-32-08"
+},{
+    "name": "Win as Mercenary using Borrowed Time and Flywheel Effect",
+    "category": ["Mercenary Locations", "CATEGORY_BT"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Borrowed Time Persona Unlock| and |Mercenary - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-32-09"
+},{
+    "name": "Win as Mercenary using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Mercenary Locations", "CATEGORY_BT"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Borrowed Time Persona Unlock| and |Mercenary - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-32-10"
+},{
+    "name": "Win as Mercenary using Tide Turner and Flywheel Effect",
+    "category": ["Mercenary Locations"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Tide Turner Persona Unlock| and |Mercenary - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-32-11"
+},{
+    "name": "Win as Mercenary using Tide Turner and Knee Jerk Reflex",
+    "category": ["Mercenary Locations"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Tide Turner Persona Unlock| and |Mercenary - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-32-12"
+},{
+    "name": "Win as Mercenary using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Mercenary Locations"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Flywheel Effect Persona Unlock| and |Mercenary - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-32-13"
+},{
+    "name": "Class Challenge - Rescue 1 teammate as Mercenary",
+    "category": ["Mercenary Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-32-14"
+},{
+    "name": "Mercenary UNIQUECHALLENGE",
+    "category": ["Mercenary Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Mercenary - Character Unlock| and |Mercenary - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-32-15"
+},{
+    "name": "Escape as Meteorologist",
+    "category": ["Meteorologist Locations"],
+    "requires": "|Meteorologist - Character Unlock|",
+    "sort-key": "row-33-01"
+},{
+    "name": "Draw as Meteorologist",
+    "category": ["Meteorologist Locations"],
+    "requires": "|Meteorologist - Character Unlock| and |@Meteorologist Persona:1|",
+    "sort-key": "row-33-02"
+},{
+    "name": "Win as Meteorologist",
+    "category": ["Meteorologist Locations"],
+    "requires": "|Meteorologist - Character Unlock| and |@Meteorologist Persona:2|",
+    "sort-key": "row-33-03"
+},{
+    "name": "Draw as Meteorologist using only Borrowed Time",
+    "category": ["Meteorologist Locations", "CATEGORY_BT"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Borrowed Time Persona Unlock|",
+    "sort-key": "row-33-04"
+},{
+    "name": "Draw as Meteorologist using only Tide Turner",
+    "category": ["Meteorologist Locations"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Tide Turner Persona Unlock|",
+    "sort-key": "row-33-05"
+},{
+    "name": "Draw as Meteorologist using only Flywheel Effect",
+    "category": ["Meteorologist Locations"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-33-06"
+},{
+    "name": "Draw as Meteorologist using only Knee Jerk Reflex",
+    "category": ["Meteorologist Locations"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-33-07"
+},{
+    "name": "Win as Meteorologist using Borrowed Time and Tide Turner",
+    "category": ["Meteorologist Locations", "CATEGORY_BT"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Borrowed Time Persona Unlock| and |Meteorologist - Tide Turner Persona Unlock|",
+    "sort-key": "row-33-08"
+},{
+    "name": "Win as Meteorologist using Borrowed Time and Flywheel Effect",
+    "category": ["Meteorologist Locations", "CATEGORY_BT"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Borrowed Time Persona Unlock| and |Meteorologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-33-09"
+},{
+    "name": "Win as Meteorologist using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Meteorologist Locations", "CATEGORY_BT"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Borrowed Time Persona Unlock| and |Meteorologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-33-10"
+},{
+    "name": "Win as Meteorologist using Tide Turner and Flywheel Effect",
+    "category": ["Meteorologist Locations"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Tide Turner Persona Unlock| and |Meteorologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-33-11"
+},{
+    "name": "Win as Meteorologist using Tide Turner and Knee Jerk Reflex",
+    "category": ["Meteorologist Locations"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Tide Turner Persona Unlock| and |Meteorologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-33-12"
+},{
+    "name": "Win as Meteorologist using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Meteorologist Locations"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Flywheel Effect Persona Unlock| and |Meteorologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-33-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Meteorologist",
+    "category": ["Meteorologist Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-33-14"
+},{
+    "name": "Meteorologist UNIQUECHALLENGE",
+    "category": ["Meteorologist Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Meteorologist - Character Unlock| and |Meteorologist - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-33-15"
+},{
+    "name": "Escape as Novelist",
+    "category": ["Novelist Locations"],
+    "requires": "|Novelist - Character Unlock|",
+    "sort-key": "row-34-01"
+},{
+    "name": "Draw as Novelist",
+    "category": ["Novelist Locations"],
+    "requires": "|Novelist - Character Unlock| and |@Novelist Persona:1|",
+    "sort-key": "row-34-02"
+},{
+    "name": "Win as Novelist",
+    "category": ["Novelist Locations"],
+    "requires": "|Novelist - Character Unlock| and |@Novelist Persona:2|",
+    "sort-key": "row-34-03"
+},{
+    "name": "Draw as Novelist using only Borrowed Time",
+    "category": ["Novelist Locations", "CATEGORY_BT"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Borrowed Time Persona Unlock|",
+    "sort-key": "row-34-04"
+},{
+    "name": "Draw as Novelist using only Tide Turner",
+    "category": ["Novelist Locations"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Tide Turner Persona Unlock|",
+    "sort-key": "row-34-05"
+},{
+    "name": "Draw as Novelist using only Flywheel Effect",
+    "category": ["Novelist Locations"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-34-06"
+},{
+    "name": "Draw as Novelist using only Knee Jerk Reflex",
+    "category": ["Novelist Locations"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-34-07"
+},{
+    "name": "Win as Novelist using Borrowed Time and Tide Turner",
+    "category": ["Novelist Locations", "CATEGORY_BT"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Borrowed Time Persona Unlock| and |Novelist - Tide Turner Persona Unlock|",
+    "sort-key": "row-34-08"
+},{
+    "name": "Win as Novelist using Borrowed Time and Flywheel Effect",
+    "category": ["Novelist Locations", "CATEGORY_BT"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Borrowed Time Persona Unlock| and |Novelist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-34-09"
+},{
+    "name": "Win as Novelist using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Novelist Locations", "CATEGORY_BT"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Borrowed Time Persona Unlock| and |Novelist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-34-10"
+},{
+    "name": "Win as Novelist using Tide Turner and Flywheel Effect",
+    "category": ["Novelist Locations"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Tide Turner Persona Unlock| and |Novelist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-34-11"
+},{
+    "name": "Win as Novelist using Tide Turner and Knee Jerk Reflex",
+    "category": ["Novelist Locations"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Tide Turner Persona Unlock| and |Novelist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-34-12"
+},{
+    "name": "Win as Novelist using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Novelist Locations"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Flywheel Effect Persona Unlock| and |Novelist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-34-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Novelist",
+    "category": ["Novelist Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-34-14"
+},{
+    "name": "Novelist UNIQUECHALLENGE",
+    "category": ["Novelist Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Novelist - Character Unlock| and |Novelist - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-34-15"
+},{
+    "name": "Escape as Painter",
+    "category": ["Painter Locations"],
+    "requires": "|Painter - Character Unlock|",
+    "sort-key": "row-35-01"
+},{
+    "name": "Draw as Painter",
+    "category": ["Painter Locations"],
+    "requires": "|Painter - Character Unlock| and |@Painter Persona:1|",
+    "sort-key": "row-35-02"
+},{
+    "name": "Win as Painter",
+    "category": ["Painter Locations"],
+    "requires": "|Painter - Character Unlock| and |@Painter Persona:2|",
+    "sort-key": "row-35-03"
+},{
+    "name": "Draw as Painter using only Borrowed Time",
+    "category": ["Painter Locations", "CATEGORY_BT"],
+    "requires": "|Painter - Character Unlock| and |Painter - Borrowed Time Persona Unlock|",
+    "sort-key": "row-35-04"
+},{
+    "name": "Draw as Painter using only Tide Turner",
+    "category": ["Painter Locations"],
+    "requires": "|Painter - Character Unlock| and |Painter - Tide Turner Persona Unlock|",
+    "sort-key": "row-35-05"
+},{
+    "name": "Draw as Painter using only Flywheel Effect",
+    "category": ["Painter Locations"],
+    "requires": "|Painter - Character Unlock| and |Painter - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-35-06"
+},{
+    "name": "Draw as Painter using only Knee Jerk Reflex",
+    "category": ["Painter Locations"],
+    "requires": "|Painter - Character Unlock| and |Painter - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-35-07"
+},{
+    "name": "Win as Painter using Borrowed Time and Tide Turner",
+    "category": ["Painter Locations", "CATEGORY_BT"],
+    "requires": "|Painter - Character Unlock| and |Painter - Borrowed Time Persona Unlock| and |Painter - Tide Turner Persona Unlock|",
+    "sort-key": "row-35-08"
+},{
+    "name": "Win as Painter using Borrowed Time and Flywheel Effect",
+    "category": ["Painter Locations", "CATEGORY_BT"],
+    "requires": "|Painter - Character Unlock| and |Painter - Borrowed Time Persona Unlock| and |Painter - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-35-09"
+},{
+    "name": "Win as Painter using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Painter Locations", "CATEGORY_BT"],
+    "requires": "|Painter - Character Unlock| and |Painter - Borrowed Time Persona Unlock| and |Painter - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-35-10"
+},{
+    "name": "Win as Painter using Tide Turner and Flywheel Effect",
+    "category": ["Painter Locations"],
+    "requires": "|Painter - Character Unlock| and |Painter - Tide Turner Persona Unlock| and |Painter - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-35-11"
+},{
+    "name": "Win as Painter using Tide Turner and Knee Jerk Reflex",
+    "category": ["Painter Locations"],
+    "requires": "|Painter - Character Unlock| and |Painter - Tide Turner Persona Unlock| and |Painter - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-35-12"
+},{
+    "name": "Win as Painter using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Painter Locations"],
+    "requires": "|Painter - Character Unlock| and |Painter - Flywheel Effect Persona Unlock| and |Painter - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-35-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Painter",
+    "category": ["Painter Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Painter - Character Unlock| and |Painter - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-35-14"
+},{
+    "name": "Painter UNIQUECHALLENGE",
+    "category": ["Painter Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Painter - Character Unlock| and |Painter - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-35-15"
+},{
+    "name": "Escape as Patient",
+    "category": ["Patient Locations"],
+    "requires": "|Patient - Character Unlock|",
+    "sort-key": "row-36-01"
+},{
+    "name": "Draw as Patient",
+    "category": ["Patient Locations"],
+    "requires": "|Patient - Character Unlock| and |@Patient Persona:1|",
+    "sort-key": "row-36-02"
+},{
+    "name": "Win as Patient",
+    "category": ["Patient Locations"],
+    "requires": "|Patient - Character Unlock| and |@Patient Persona:2|",
+    "sort-key": "row-36-03"
+},{
+    "name": "Draw as Patient using only Borrowed Time",
+    "category": ["Patient Locations", "CATEGORY_BT"],
+    "requires": "|Patient - Character Unlock| and |Patient - Borrowed Time Persona Unlock|",
+    "sort-key": "row-36-04"
+},{
+    "name": "Draw as Patient using only Tide Turner",
+    "category": ["Patient Locations"],
+    "requires": "|Patient - Character Unlock| and |Patient - Tide Turner Persona Unlock|",
+    "sort-key": "row-36-05"
+},{
+    "name": "Draw as Patient using only Flywheel Effect",
+    "category": ["Patient Locations"],
+    "requires": "|Patient - Character Unlock| and |Patient - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-36-06"
+},{
+    "name": "Draw as Patient using only Knee Jerk Reflex",
+    "category": ["Patient Locations"],
+    "requires": "|Patient - Character Unlock| and |Patient - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-36-07"
+},{
+    "name": "Win as Patient using Borrowed Time and Tide Turner",
+    "category": ["Patient Locations", "CATEGORY_BT"],
+    "requires": "|Patient - Character Unlock| and |Patient - Borrowed Time Persona Unlock| and |Patient - Tide Turner Persona Unlock|",
+    "sort-key": "row-36-08"
+},{
+    "name": "Win as Patient using Borrowed Time and Flywheel Effect",
+    "category": ["Patient Locations", "CATEGORY_BT"],
+    "requires": "|Patient - Character Unlock| and |Patient - Borrowed Time Persona Unlock| and |Patient - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-36-09"
+},{
+    "name": "Win as Patient using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Patient Locations", "CATEGORY_BT"],
+    "requires": "|Patient - Character Unlock| and |Patient - Borrowed Time Persona Unlock| and |Patient - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-36-10"
+},{
+    "name": "Win as Patient using Tide Turner and Flywheel Effect",
+    "category": ["Patient Locations"],
+    "requires": "|Patient - Character Unlock| and |Patient - Tide Turner Persona Unlock| and |Patient - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-36-11"
+},{
+    "name": "Win as Patient using Tide Turner and Knee Jerk Reflex",
+    "category": ["Patient Locations"],
+    "requires": "|Patient - Character Unlock| and |Patient - Tide Turner Persona Unlock| and |Patient - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-36-12"
+},{
+    "name": "Win as Patient using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Patient Locations"],
+    "requires": "|Patient - Character Unlock| and |Patient - Flywheel Effect Persona Unlock| and |Patient - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-36-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Patient",
+    "category": ["Patient Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Patient - Character Unlock| and |Patient - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-36-14"
+},
+{
+    "name": "Patient UNIQUECHALLENGE",
+    "category": ["Patient Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Patient - Character Unlock| and |Patient - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-36-15"
+},{
+    "name": "Escape as Perfumer",
+    "category": ["Perfumer Locations"],
+    "requires": "|Perfumer - Character Unlock|",
+    "sort-key": "row-37-01"
+},{
+    "name": "Draw as Perfumer",
+    "category": ["Perfumer Locations"],
+    "requires": "|Perfumer - Character Unlock| and |@Perfumer Persona:1|",
+    "sort-key": "row-37-02"
+},{
+    "name": "Win as Perfumer",
+    "category": ["Perfumer Locations"],
+    "requires": "|Perfumer - Character Unlock| and |@Perfumer Persona:2|",
+    "sort-key": "row-37-03"
+},{
+    "name": "Draw as Perfumer using only Borrowed Time",
+    "category": ["Perfumer Locations", "CATEGORY_BT"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Borrowed Time Persona Unlock|",
+    "sort-key": "row-37-04"
+},{
+    "name": "Draw as Perfumer using only Tide Turner",
+    "category": ["Perfumer Locations"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Tide Turner Persona Unlock|",
+    "sort-key": "row-37-05"
+},{
+    "name": "Draw as Perfumer using only Flywheel Effect",
+    "category": ["Perfumer Locations"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-37-06"
+},{
+    "name": "Draw as Perfumer using only Knee Jerk Reflex",
+    "category": ["Perfumer Locations"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-37-07"
+},{
+    "name": "Win as Perfumer using Borrowed Time and Tide Turner",
+    "category": ["Perfumer Locations", "CATEGORY_BT"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Borrowed Time Persona Unlock| and |Perfumer - Tide Turner Persona Unlock|",
+    "sort-key": "row-37-08"
+},{
+    "name": "Win as Perfumer using Borrowed Time and Flywheel Effect",
+    "category": ["Perfumer Locations", "CATEGORY_BT"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Borrowed Time Persona Unlock| and |Perfumer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-37-09"
+},{
+    "name": "Win as Perfumer using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Perfumer Locations", "CATEGORY_BT"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Borrowed Time Persona Unlock| and |Perfumer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-37-10"
+},{
+    "name": "Win as Perfumer using Tide Turner and Flywheel Effect",
+    "category": ["Perfumer Locations"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Tide Turner Persona Unlock| and |Perfumer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-37-11"
+},{
+    "name": "Win as Perfumer using Tide Turner and Knee Jerk Reflex",
+    "category": ["Perfumer Locations"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Tide Turner Persona Unlock| and |Perfumer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-37-12"
+},{
+    "name": "Win as Perfumer using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Perfumer Locations"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Flywheel Effect Persona Unlock| and |Perfumer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-37-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Perfumer",
+    "category": ["Perfumer Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-37-14"
+},{
+    "name": "Perfumer UNIQUECHALLENGE",
+    "category": ["Perfumer Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Perfumer - Character Unlock| and |Perfumer - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-37-15"
+},{
+    "name": "Escape as Postman",
+    "category": ["Postman Locations"],
+    "requires": "|Postman - Character Unlock|",
+    "sort-key": "row-38-01"
+},{
+    "name": "Draw as Postman",
+    "category": ["Postman Locations"],
+    "requires": "|Postman - Character Unlock| and |@Postman Persona:1|",
+    "sort-key": "row-38-02"
+},{
+    "name": "Win as Postman",
+    "category": ["Postman Locations"],
+    "requires": "|Postman - Character Unlock| and |@Postman Persona:2|",
+    "sort-key": "row-38-03"
+},{
+    "name": "Draw as Postman using only Borrowed Time",
+    "category": ["Postman Locations", "CATEGORY_BT"],
+    "requires": "|Postman - Character Unlock| and |Postman - Borrowed Time Persona Unlock|",
+    "sort-key": "row-38-04"
+},{
+    "name": "Draw as Postman using only Tide Turner",
+    "category": ["Postman Locations"],
+    "requires": "|Postman - Character Unlock| and |Postman - Tide Turner Persona Unlock|",
+    "sort-key": "row-38-05"
+},{
+    "name": "Draw as Postman using only Flywheel Effect",
+    "category": ["Postman Locations"],
+    "requires": "|Postman - Character Unlock| and |Postman - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-38-06"
+},{
+    "name": "Draw as Postman using only Knee Jerk Reflex",
+    "category": ["Postman Locations"],
+    "requires": "|Postman - Character Unlock| and |Postman - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-38-07"
+},{
+    "name": "Win as Postman using Borrowed Time and Tide Turner",
+    "category": ["Postman Locations", "CATEGORY_BT"],
+    "requires": "|Postman - Character Unlock| and |Postman - Borrowed Time Persona Unlock| and |Postman - Tide Turner Persona Unlock|",
+    "sort-key": "row-38-08"
+},{
+    "name": "Win as Postman using Borrowed Time and Flywheel Effect",
+    "category": ["Postman Locations", "CATEGORY_BT"],
+    "requires": "|Postman - Character Unlock| and |Postman - Borrowed Time Persona Unlock| and |Postman - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-38-09"
+},{
+    "name": "Win as Postman using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Postman Locations", "CATEGORY_BT"],
+    "requires": "|Postman - Character Unlock| and |Postman - Borrowed Time Persona Unlock| and |Postman - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-38-10"
+},{
+    "name": "Win as Postman using Tide Turner and Flywheel Effect",
+    "category": ["Postman Locations"],
+    "requires": "|Postman - Character Unlock| and |Postman - Tide Turner Persona Unlock| and |Postman - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-38-11"
+},{
+    "name": "Win as Postman using Tide Turner and Knee Jerk Reflex",
+    "category": ["Postman Locations"],
+    "requires": "|Postman - Character Unlock| and |Postman - Tide Turner Persona Unlock| and |Postman - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-38-12"
+},{
+    "name": "Win as Postman using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Postman Locations"],
+    "requires": "|Postman - Character Unlock| and |Postman - Flywheel Effect Persona Unlock| and |Postman - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-38-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Postman",
+    "category": ["Postman Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Postman - Character Unlock| and |Postman - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-38-14"
+},{
+    "name": "Postman UNIQUECHALLENGE",
+    "category": ["Postman Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Postman - Character Unlock| and |Postman - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-38-15"
+},{
+    "name": "Escape as Priestess",
+    "category": ["Priestess Locations"],
+    "requires": "|Priestess - Character Unlock|",
+    "sort-key": "row-39-01"
+},{
+    "name": "Draw as Priestess",
+    "category": ["Priestess Locations"],
+    "requires": "|Priestess - Character Unlock| and |@Priestess Persona:1|",
+    "sort-key": "row-39-02"
+},{
+    "name": "Win as Priestess",
+    "category": ["Priestess Locations"],
+    "requires": "|Priestess - Character Unlock| and |@Priestess Persona:2|",
+    "sort-key": "row-39-03"
+},{
+    "name": "Draw as Priestess using only Borrowed Time",
+    "category": ["Priestess Locations", "CATEGORY_BT"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Borrowed Time Persona Unlock|",
+    "sort-key": "row-39-04"
+},{
+    "name": "Draw as Priestess using only Tide Turner",
+    "category": ["Priestess Locations"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Tide Turner Persona Unlock|",
+    "sort-key": "row-39-05"
+},{
+    "name": "Draw as Priestess using only Flywheel Effect",
+    "category": ["Priestess Locations"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-39-06"
+},{
+    "name": "Draw as Priestess using only Knee Jerk Reflex",
+    "category": ["Priestess Locations"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-39-07"
+},{
+    "name": "Win as Priestess using Borrowed Time and Tide Turner",
+    "category": ["Priestess Locations", "CATEGORY_BT"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Borrowed Time Persona Unlock| and |Priestess - Tide Turner Persona Unlock|",
+    "sort-key": "row-39-08"
+},{
+    "name": "Win as Priestess using Borrowed Time and Flywheel Effect",
+    "category": ["Priestess Locations", "CATEGORY_BT"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Borrowed Time Persona Unlock| and |Priestess - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-39-09"
+},{
+    "name": "Win as Priestess using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Priestess Locations", "CATEGORY_BT"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Borrowed Time Persona Unlock| and |Priestess - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-39-10"
+},{
+    "name": "Win as Priestess using Tide Turner and Flywheel Effect",
+    "category": ["Priestess Locations"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Tide Turner Persona Unlock| and |Priestess - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-39-11"
+},{
+    "name": "Win as Priestess using Tide Turner and Knee Jerk Reflex",
+    "category": ["Priestess Locations"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Tide Turner Persona Unlock| and |Priestess - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-39-12"
+},{
+    "name": "Win as Priestess using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Priestess Locations"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Flywheel Effect Persona Unlock| and |Priestess - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-39-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Priestess",
+    "category": ["Priestess Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-39-14"
+},{
+    "name": "Priestess UNIQUECHALLENGE",
+    "category": ["Priestess Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Priestess - Character Unlock| and |Priestess - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-39-15"
+},{
+    "name": "Escape as Prisoner",
+    "category": ["Prisoner Locations"],
+    "requires": "|Prisoner - Character Unlock|",
+    "sort-key": "row-40-01"
+},{
+    "name": "Draw as Prisoner",
+    "category": ["Prisoner Locations"],
+    "requires": "|Prisoner - Character Unlock| and |@Prisoner Persona:1|",
+    "sort-key": "row-40-02"
+},{
+    "name": "Win as Prisoner",
+    "category": ["Prisoner Locations"],
+    "requires": "|Prisoner - Character Unlock| and |@Prisoner Persona:2|",
+    "sort-key": "row-40-03"
+},{
+    "name": "Draw as Prisoner using only Borrowed Time",
+    "category": ["Prisoner Locations", "CATEGORY_BT"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Borrowed Time Persona Unlock|",
+    "sort-key": "row-40-04"
+},{
+    "name": "Draw as Prisoner using only Tide Turner",
+    "category": ["Prisoner Locations"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Tide Turner Persona Unlock|",
+    "sort-key": "row-40-05"
+},{
+    "name": "Draw as Prisoner using only Flywheel Effect",
+    "category": ["Prisoner Locations"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-40-06"
+},{
+    "name": "Draw as Prisoner using only Knee Jerk Reflex",
+    "category": ["Prisoner Locations"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-40-07"
+},{
+    "name": "Win as Prisoner using Borrowed Time and Tide Turner",
+    "category": ["Prisoner Locations", "CATEGORY_BT"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Borrowed Time Persona Unlock| and |Prisoner - Tide Turner Persona Unlock|",
+    "sort-key": "row-40-08"
+},{
+    "name": "Win as Prisoner using Borrowed Time and Flywheel Effect",
+    "category": ["Prisoner Locations", "CATEGORY_BT"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Borrowed Time Persona Unlock| and |Prisoner - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-40-09"
+},{
+    "name": "Win as Prisoner using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Prisoner Locations", "CATEGORY_BT"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Borrowed Time Persona Unlock| and |Prisoner - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-40-10"
+},{
+    "name": "Win as Prisoner using Tide Turner and Flywheel Effect",
+    "category": ["Prisoner Locations"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Tide Turner Persona Unlock| and |Prisoner - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-40-11"
+},{
+    "name": "Win as Prisoner using Tide Turner and Knee Jerk Reflex",
+    "category": ["Prisoner Locations"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Tide Turner Persona Unlock| and |Prisoner - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-40-12"
+},{
+    "name": "Win as Prisoner using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Prisoner Locations"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Flywheel Effect Persona Unlock| and |Prisoner - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-40-13"
+},{
+    "name": "Class Challenge - Get 150% decoding as Prisoner",
+    "category": ["Prisoner Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-40-14"
+},{
+    "name": "Prisoner UNIQUECHALLENGE",
+    "category": ["Prisoner Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Prisoner - Character Unlock| and |Prisoner - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-40-15"
+},{
+    "name": "Escape as Professor",
+    "category": ["Professor Locations"],
+    "requires": "|Professor - Character Unlock|",
+    "sort-key": "row-41-01"
+},{
+    "name": "Draw as Professor",
+    "category": ["Professor Locations"],
+    "requires": "|Professor - Character Unlock| and |@Professor Persona:1|",
+    "sort-key": "row-41-02"
+},{
+    "name": "Win as Professor",
+    "category": ["Professor Locations"],
+    "requires": "|Professor - Character Unlock| and |@Professor Persona:2|",
+    "sort-key": "row-41-03"
+},{
+    "name": "Draw as Professor using only Borrowed Time",
+    "category": ["Professor Locations", "CATEGORY_BT"],
+    "requires": "|Professor - Character Unlock| and |Professor - Borrowed Time Persona Unlock|",
+    "sort-key": "row-41-04"
+},{
+    "name": "Draw as Professor using only Tide Turner",
+    "category": ["Professor Locations"],
+    "requires": "|Professor - Character Unlock| and |Professor - Tide Turner Persona Unlock|",
+    "sort-key": "row-41-05"
+},{
+    "name": "Draw as Professor using only Flywheel Effect",
+    "category": ["Professor Locations"],
+    "requires": "|Professor - Character Unlock| and |Professor - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-41-06"
+},{
+    "name": "Draw as Professor using only Knee Jerk Reflex",
+    "category": ["Professor Locations"],
+    "requires": "|Professor - Character Unlock| and |Professor - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-41-07"
+},{
+    "name": "Win as Professor using Borrowed Time and Tide Turner",
+    "category": ["Professor Locations", "CATEGORY_BT"],
+    "requires": "|Professor - Character Unlock| and |Professor - Borrowed Time Persona Unlock| and |Professor - Tide Turner Persona Unlock|",
+    "sort-key": "row-41-08"
+},{
+    "name": "Win as Professor using Borrowed Time and Flywheel Effect",
+    "category": ["Professor Locations", "CATEGORY_BT"],
+    "requires": "|Professor - Character Unlock| and |Professor - Borrowed Time Persona Unlock| and |Professor - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-41-09"
+},{
+    "name": "Win as Professor using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Professor Locations", "CATEGORY_BT"],
+    "requires": "|Professor - Character Unlock| and |Professor - Borrowed Time Persona Unlock| and |Professor - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-41-10"
+},{
+    "name": "Win as Professor using Tide Turner and Flywheel Effect",
+    "category": ["Professor Locations"],
+    "requires": "|Professor - Character Unlock| and |Professor - Tide Turner Persona Unlock| and |Professor - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-41-11"
+},{
+    "name": "Win as Professor using Tide Turner and Knee Jerk Reflex",
+    "category": ["Professor Locations"],
+    "requires": "|Professor - Character Unlock| and |Professor - Tide Turner Persona Unlock| and |Professor - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-41-12"
+},{
+    "name": "Win as Professor using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Professor Locations"],
+    "requires": "|Professor - Character Unlock| and |Professor - Flywheel Effect Persona Unlock| and |Professor - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-41-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Professor",
+    "category": ["Professor Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Professor - Character Unlock| and |Professor - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-41-14"
+},{
+    "name": "Professor UNIQUECHALLENGE",
+    "category": ["Professor Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Professor - Character Unlock| and |Professor - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-41-15"
+},{
+    "name": "Escape as Prospector",
+    "category": ["Prospector Locations"],
+    "requires": "|Prospector - Character Unlock|",
+    "sort-key": "row-42-01"
+},{
+    "name": "Draw as Prospector",
+    "category": ["Prospector Locations"],
+    "requires": "|Prospector - Character Unlock| and |@Prospector Persona:1|",
+    "sort-key": "row-42-02"
+},{
+    "name": "Win as Prospector",
+    "category": ["Prospector Locations"],
+    "requires": "|Prospector - Character Unlock| and |@Prospector Persona:2|",
+    "sort-key": "row-42-03"
+},{
+    "name": "Draw as Prospector using only Borrowed Time",
+    "category": ["Prospector Locations", "CATEGORY_BT"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Borrowed Time Persona Unlock|",
+    "sort-key": "row-42-04"
+},{
+    "name": "Draw as Prospector using only Tide Turner",
+    "category": ["Prospector Locations"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Tide Turner Persona Unlock|",
+    "sort-key": "row-42-05"
+},{
+    "name": "Draw as Prospector using only Flywheel Effect",
+    "category": ["Prospector Locations"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-42-06"
+},{
+    "name": "Draw as Prospector using only Knee Jerk Reflex",
+    "category": ["Prospector Locations"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-42-07"
+},{
+    "name": "Win as Prospector using Borrowed Time and Tide Turner",
+    "category": ["Prospector Locations", "CATEGORY_BT"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Borrowed Time Persona Unlock| and |Prospector - Tide Turner Persona Unlock|",
+    "sort-key": "row-42-08"
+},{
+    "name": "Win as Prospector using Borrowed Time and Flywheel Effect",
+    "category": ["Prospector Locations", "CATEGORY_BT"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Borrowed Time Persona Unlock| and |Prospector - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-42-09"
+},{
+    "name": "Win as Prospector using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Prospector Locations", "CATEGORY_BT"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Borrowed Time Persona Unlock| and |Prospector - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-42-10"
+},{
+    "name": "Win as Prospector using Tide Turner and Flywheel Effect",
+    "category": ["Prospector Locations"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Tide Turner Persona Unlock| and |Prospector - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-42-11"
+},{
+    "name": "Win as Prospector using Tide Turner and Knee Jerk Reflex",
+    "category": ["Prospector Locations"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Tide Turner Persona Unlock| and |Prospector - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-42-12"
+},{
+    "name": "Win as Prospector using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Prospector Locations"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Flywheel Effect Persona Unlock| and |Prospector - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-42-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Prospector",
+    "category": ["Prospector Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-42-14"
+},{
+    "name": "Prospector UNIQUECHALLENGE",
+    "category": ["Prospector Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Prospector - Character Unlock| and |Prospector - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-42-15"
+},{
+    "name": "Escape as Psychologist",
+    "category": ["Psychologist Locations"],
+    "requires": "|Psychologist - Character Unlock|",
+    "sort-key": "row-43-01"
+},{
+    "name": "Draw as Psychologist",
+    "category": ["Psychologist Locations"],
+    "requires": "|Psychologist - Character Unlock| and |@Psychologist Persona:1|",
+    "sort-key": "row-43-02"
+},{
+    "name": "Win as Psychologist",
+    "category": ["Psychologist Locations"],
+    "requires": "|Psychologist - Character Unlock| and |@Psychologist Persona:2|",
+    "sort-key": "row-43-03"
+},{
+    "name": "Draw as Psychologist using only Borrowed Time",
+    "category": ["Psychologist Locations", "CATEGORY_BT"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Borrowed Time Persona Unlock|",
+    "sort-key": "row-43-04"
+},{
+    "name": "Draw as Psychologist using only Tide Turner",
+    "category": ["Psychologist Locations"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Tide Turner Persona Unlock|",
+    "sort-key": "row-43-05"
+},{
+    "name": "Draw as Psychologist using only Flywheel Effect",
+    "category": ["Psychologist Locations"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-43-06"
+},{
+    "name": "Draw as Psychologist using only Knee Jerk Reflex",
+    "category": ["Psychologist Locations"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-43-07"
+},{
+    "name": "Win as Psychologist using Borrowed Time and Tide Turner",
+    "category": ["Psychologist Locations", "CATEGORY_BT"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Borrowed Time Persona Unlock| and |Psychologist - Tide Turner Persona Unlock|",
+    "sort-key": "row-43-08"
+},{
+    "name": "Win as Psychologist using Borrowed Time and Flywheel Effect",
+    "category": ["Psychologist Locations", "CATEGORY_BT"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Borrowed Time Persona Unlock| and |Psychologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-43-09"
+},{
+    "name": "Win as Psychologist using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Psychologist Locations", "CATEGORY_BT"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Borrowed Time Persona Unlock| and |Psychologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-43-10"
+},{
+    "name": "Win as Psychologist using Tide Turner and Flywheel Effect",
+    "category": ["Psychologist Locations"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Tide Turner Persona Unlock| and |Psychologist - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-43-11"
+},{
+    "name": "Win as Psychologist using Tide Turner and Knee Jerk Reflex",
+    "category": ["Psychologist Locations"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Tide Turner Persona Unlock| and |Psychologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-43-12"
+},{
+    "name": "Win as Psychologist using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Psychologist Locations"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Flywheel Effect Persona Unlock| and |Psychologist - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-43-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Psychologist",
+    "category": ["Psychologist Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-43-14"
+},{
+    "name": "Psychologist UNIQUECHALLENGE",
+    "category": ["Psychologist Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Psychologist - Character Unlock| and |Psychologist - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-43-15"
+},{
+    "name": "Escape as Puppeteer",
+    "category": ["Puppeteer Locations"],
+    "requires": "|Puppeteer - Character Unlock|",
+    "sort-key": "row-44-01"
+},{
+    "name": "Draw as Puppeteer",
+    "category": ["Puppeteer Locations"],
+    "requires": "|Puppeteer - Character Unlock| and |@Puppeteer Persona:1|",
+    "sort-key": "row-44-02"
+},{
+    "name": "Win as Puppeteer",
+    "category": ["Puppeteer Locations"],
+    "requires": "|Puppeteer - Character Unlock| and |@Puppeteer Persona:2|",
+    "sort-key": "row-44-03"
+},{
+    "name": "Draw as Puppeteer using only Borrowed Time",
+    "category": ["Puppeteer Locations", "CATEGORY_BT"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Borrowed Time Persona Unlock|",
+    "sort-key": "row-44-04"
+},{
+    "name": "Draw as Puppeteer using only Tide Turner",
+    "category": ["Puppeteer Locations"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Tide Turner Persona Unlock|",
+    "sort-key": "row-44-05"
+},{
+    "name": "Draw as Puppeteer using only Flywheel Effect",
+    "category": ["Puppeteer Locations"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-44-06"
+},{
+    "name": "Draw as Puppeteer using only Knee Jerk Reflex",
+    "category": ["Puppeteer Locations"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-44-07"
+},{
+    "name": "Win as Puppeteer using Borrowed Time and Tide Turner",
+    "category": ["Puppeteer Locations", "CATEGORY_BT"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Borrowed Time Persona Unlock| and |Puppeteer - Tide Turner Persona Unlock|",
+    "sort-key": "row-44-08"
+},{
+    "name": "Win as Puppeteer using Borrowed Time and Flywheel Effect",
+    "category": ["Puppeteer Locations", "CATEGORY_BT"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Borrowed Time Persona Unlock| and |Puppeteer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-44-09"
+},{
+    "name": "Win as Puppeteer using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Puppeteer Locations", "CATEGORY_BT"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Borrowed Time Persona Unlock| and |Puppeteer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-44-10"
+},{
+    "name": "Win as Puppeteer using Tide Turner and Flywheel Effect",
+    "category": ["Puppeteer Locations"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Tide Turner Persona Unlock| and |Puppeteer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-44-11"
+},{
+    "name": "Win as Puppeteer using Tide Turner and Knee Jerk Reflex",
+    "category": ["Puppeteer Locations"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Tide Turner Persona Unlock| and |Puppeteer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-44-12"
+},{
+    "name": "Win as Puppeteer using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Puppeteer Locations"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Flywheel Effect Persona Unlock| and |Puppeteer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-44-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Puppeteer",
+    "category": ["Puppeteer Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-44-14"
+},{
+    "name": "Puppeteer UNIQUECHALLENGE",
+    "category": ["Puppeteer Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Puppeteer - Character Unlock| and |Puppeteer - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-44-15"
+},{
+    "name": "Escape as Seer",
+    "category": ["Seer Locations"],
+    "requires": "|Seer - Character Unlock|",
+    "sort-key": "row-45-01"
+},{
+    "name": "Draw as Seer",
+    "category": ["Seer Locations"],
+    "requires": "|Seer - Character Unlock| and |@Seer Persona:1|",
+    "sort-key": "row-45-02"
+},{
+    "name": "Win as Seer",
+    "category": ["Seer Locations"],
+    "requires": "|Seer - Character Unlock| and |@Seer Persona:2|",
+    "sort-key": "row-45-03"
+},{
+    "name": "Draw as Seer using only Borrowed Time",
+    "category": ["Seer Locations", "CATEGORY_BT"],
+    "requires": "|Seer - Character Unlock| and |Seer - Borrowed Time Persona Unlock|",
+    "sort-key": "row-45-04"
+},{
+    "name": "Draw as Seer using only Tide Turner",
+    "category": ["Seer Locations"],
+    "requires": "|Seer - Character Unlock| and |Seer - Tide Turner Persona Unlock|",
+    "sort-key": "row-45-05"
+},{
+    "name": "Draw as Seer using only Flywheel Effect",
+    "category": ["Seer Locations"],
+    "requires": "|Seer - Character Unlock| and |Seer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-45-06"
+},{
+    "name": "Draw as Seer using only Knee Jerk Reflex",
+    "category": ["Seer Locations"],
+    "requires": "|Seer - Character Unlock| and |Seer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-45-07"
+},{
+    "name": "Win as Seer using Borrowed Time and Tide Turner",
+    "category": ["Seer Locations", "CATEGORY_BT"],
+    "requires": "|Seer - Character Unlock| and |Seer - Borrowed Time Persona Unlock| and |Seer - Tide Turner Persona Unlock|",
+    "sort-key": "row-45-08"
+},{
+    "name": "Win as Seer using Borrowed Time and Flywheel Effect",
+    "category": ["Seer Locations", "CATEGORY_BT"],
+    "requires": "|Seer - Character Unlock| and |Seer - Borrowed Time Persona Unlock| and |Seer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-45-09"
+},{
+    "name": "Win as Seer using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Seer Locations", "CATEGORY_BT"],
+    "requires": "|Seer - Character Unlock| and |Seer - Borrowed Time Persona Unlock| and |Seer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-45-10"
+},{
+    "name": "Win as Seer using Tide Turner and Flywheel Effect",
+    "category": ["Seer Locations"],
+    "requires": "|Seer - Character Unlock| and |Seer - Tide Turner Persona Unlock| and |Seer - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-45-11"
+},{
+    "name": "Win as Seer using Tide Turner and Knee Jerk Reflex",
+    "category": ["Seer Locations"],
+    "requires": "|Seer - Character Unlock| and |Seer - Tide Turner Persona Unlock| and |Seer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-45-12"
+},{
+    "name": "Win as Seer using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Seer Locations"],
+    "requires": "|Seer - Character Unlock| and |Seer - Flywheel Effect Persona Unlock| and |Seer - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-45-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Seer",
+    "category": ["Seer Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Seer - Character Unlock| and |Seer - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-45-14"
+},{
+    "name": "Seer UNIQUECHALLENGE",
+    "category": ["Seer Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Seer - Character Unlock| and |Seer - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-45-15"
+},{
+    "name": "Escape as The Minds Eye",
+    "category": ["The Minds Eye Locations"],
+    "requires": "|The Minds Eye - Character Unlock|",
+    "sort-key": "row-46-01"
+},{
+    "name": "Draw as The Minds Eye",
+    "category": ["The Minds Eye Locations"],
+    "requires": "|The Minds Eye - Character Unlock| and |@The Minds Eye Persona:1|",
+    "sort-key": "row-46-02"
+},{
+    "name": "Win as The Minds Eye",
+    "category": ["The Minds Eye Locations"],
+    "requires": "|The Minds Eye - Character Unlock| and |@The Minds Eye Persona:2|",
+    "sort-key": "row-46-03"
+},{
+    "name": "Draw as The Minds Eye using only Borrowed Time",
+    "category": ["The Minds Eye Locations", "CATEGORY_BT"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Borrowed Time Persona Unlock|",
+    "sort-key": "row-46-04"
+},{
+    "name": "Draw as The Minds Eye using only Tide Turner",
+    "category": ["The Minds Eye Locations"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Tide Turner Persona Unlock|",
+    "sort-key": "row-46-05"
+},{
+    "name": "Draw as The Minds Eye using only Flywheel Effect",
+    "category": ["The Minds Eye Locations"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-46-06"
+},{
+    "name": "Draw as The Minds Eye using only Knee Jerk Reflex",
+    "category": ["The Minds Eye Locations"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-46-07"
+},{
+    "name": "Win as The Minds Eye using Borrowed Time and Tide Turner",
+    "category": ["The Minds Eye Locations", "CATEGORY_BT"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Borrowed Time Persona Unlock| and |The Minds Eye - Tide Turner Persona Unlock|",
+    "sort-key": "row-46-08"
+},{
+    "name": "Win as The Minds Eye using Borrowed Time and Flywheel Effect",
+    "category": ["The Minds Eye Locations", "CATEGORY_BT"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Borrowed Time Persona Unlock| and |The Minds Eye - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-46-09"
+},{
+    "name": "Win as The Minds Eye using Borrowed Time and Knee Jerk Reflex",
+    "category": ["The Minds Eye Locations", "CATEGORY_BT"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Borrowed Time Persona Unlock| and |The Minds Eye - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-46-10"
+},{
+    "name": "Win as The Minds Eye using Tide Turner and Flywheel Effect",
+    "category": ["The Minds Eye Locations"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Tide Turner Persona Unlock| and |The Minds Eye - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-46-11"
+},{
+    "name": "Win as The Minds Eye using Tide Turner and Knee Jerk Reflex",
+    "category": ["The Minds Eye Locations"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Tide Turner Persona Unlock| and |The Minds Eye - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-46-12"
+},{
+    "name": "Win as The Minds Eye using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["The Minds Eye Locations"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Flywheel Effect Persona Unlock| and |The Minds Eye - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-46-13"
+},{
+    "name": "Class Challenge - Get 150% decoding as The Minds Eye",
+    "category": ["The Minds Eye Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-46-14"
+},{
+    "name": "The Minds Eye UNIQUECHALLENGE",
+    "category": ["The Minds Eye Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|The Minds Eye - Character Unlock| and |The Minds Eye - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-46-15"
+},{
+    "name": "Escape as Thief",
+    "category": ["Thief Locations"],
+    "requires": "|Thief - Character Unlock|",
+    "sort-key": "row-47-01"
+},{
+    "name": "Draw as Thief",
+    "category": ["Thief Locations"],
+    "requires": "|Thief - Character Unlock| and |@Thief Persona:1|",
+    "sort-key": "row-47-02"
+},{
+    "name": "Win as Thief",
+    "category": ["Thief Locations"],
+    "requires": "|Thief - Character Unlock| and |@Thief Persona:2|",
+    "sort-key": "row-47-03"
+},{
+    "name": "Draw as Thief using only Borrowed Time",
+    "category": ["Thief Locations", "CATEGORY_BT"],
+    "requires": "|Thief - Character Unlock| and |Thief - Borrowed Time Persona Unlock|",
+    "sort-key": "row-47-04"
+},{
+    "name": "Draw as Thief using only Tide Turner",
+    "category": ["Thief Locations"],
+    "requires": "|Thief - Character Unlock| and |Thief - Tide Turner Persona Unlock|",
+    "sort-key": "row-47-05"
+},{
+    "name": "Draw as Thief using only Flywheel Effect",
+    "category": ["Thief Locations"],
+    "requires": "|Thief - Character Unlock| and |Thief - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-47-06"
+},{
+    "name": "Draw as Thief using only Knee Jerk Reflex",
+    "category": ["Thief Locations"],
+    "requires": "|Thief - Character Unlock| and |Thief - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-47-07"
+},{
+    "name": "Win as Thief using Borrowed Time and Tide Turner",
+    "category": ["Thief Locations", "CATEGORY_BT"],
+    "requires": "|Thief - Character Unlock| and |Thief - Borrowed Time Persona Unlock| and |Thief - Tide Turner Persona Unlock|",
+    "sort-key": "row-47-08"
+},{
+    "name": "Win as Thief using Borrowed Time and Flywheel Effect",
+    "category": ["Thief Locations", "CATEGORY_BT"],
+    "requires": "|Thief - Character Unlock| and |Thief - Borrowed Time Persona Unlock| and |Thief - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-47-09"
+},{
+    "name": "Win as Thief using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Thief Locations", "CATEGORY_BT"],
+    "requires": "|Thief - Character Unlock| and |Thief - Borrowed Time Persona Unlock| and |Thief - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-47-10"
+},{
+    "name": "Win as Thief using Tide Turner and Flywheel Effect",
+    "category": ["Thief Locations"],
+    "requires": "|Thief - Character Unlock| and |Thief - Tide Turner Persona Unlock| and |Thief - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-47-11"
+},{
+    "name": "Win as Thief using Tide Turner and Knee Jerk Reflex",
+    "category": ["Thief Locations"],
+    "requires": "|Thief - Character Unlock| and |Thief - Tide Turner Persona Unlock| and |Thief - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-47-12"
+},{
+    "name": "Win as Thief using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Thief Locations"],
+    "requires": "|Thief - Character Unlock| and |Thief - Flywheel Effect Persona Unlock| and |Thief - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-47-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Thief",
+    "category": ["Thief Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Thief - Character Unlock| and |Thief - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-47-14"
+},{
+    "name": "Thief UNIQUECHALLENGE",
+    "category": ["Thief Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Thief - Character Unlock| and |Thief - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-47-15"
+},{
+    "name": "Escape as Toy Merchant",
+    "category": ["Toy Merchant Locations"],
+    "requires": "|Toy Merchant - Character Unlock|",
+    "sort-key": "row-48-01"
+},{
+    "name": "Draw as Toy Merchant",
+    "category": ["Toy Merchant Locations"],
+    "requires": "|Toy Merchant - Character Unlock| and |@Toy Merchant Persona:1|",
+    "sort-key": "row-48-02"
+},{
+    "name": "Win as Toy Merchant",
+    "category": ["Toy Merchant Locations"],
+    "requires": "|Toy Merchant - Character Unlock| and |@Toy Merchant Persona:2|",
+    "sort-key": "row-48-03"
+},{
+    "name": "Draw as Toy Merchant using only Borrowed Time",
+    "category": ["Toy Merchant Locations", "CATEGORY_BT"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Borrowed Time Persona Unlock|",
+    "sort-key": "row-48-04"
+},{
+    "name": "Draw as Toy Merchant using only Tide Turner",
+    "category": ["Toy Merchant Locations"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Tide Turner Persona Unlock|",
+    "sort-key": "row-48-05"
+},{
+    "name": "Draw as Toy Merchant using only Flywheel Effect",
+    "category": ["Toy Merchant Locations"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-48-06"
+},{
+    "name": "Draw as Toy Merchant using only Knee Jerk Reflex",
+    "category": ["Toy Merchant Locations"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-48-07"
+},{
+    "name": "Win as Toy Merchant using Borrowed Time and Tide Turner",
+    "category": ["Toy Merchant Locations", "CATEGORY_BT"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Borrowed Time Persona Unlock| and |Toy Merchant - Tide Turner Persona Unlock|",
+    "sort-key": "row-48-08"
+},{
+    "name": "Win as Toy Merchant using Borrowed Time and Flywheel Effect",
+    "category": ["Toy Merchant Locations", "CATEGORY_BT"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Borrowed Time Persona Unlock| and |Toy Merchant - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-48-09"
+},{
+    "name": "Win as Toy Merchant using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Toy Merchant Locations", "CATEGORY_BT"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Borrowed Time Persona Unlock| and |Toy Merchant - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-48-10"
+},{
+    "name": "Win as Toy Merchant using Tide Turner and Flywheel Effect",
+    "category": ["Toy Merchant Locations"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Tide Turner Persona Unlock| and |Toy Merchant - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-48-11"
+},{
+    "name": "Win as Toy Merchant using Tide Turner and Knee Jerk Reflex",
+    "category": ["Toy Merchant Locations"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Tide Turner Persona Unlock| and |Toy Merchant - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-48-12"
+},{
+    "name": "Win as Toy Merchant using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Toy Merchant Locations"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Flywheel Effect Persona Unlock| and |Toy Merchant - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-48-13"
+},{
+    "name": "Class Challenge - Contain hunter for 90s as Toy Merchant",
+    "category": ["Toy Merchant Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-48-14"
+},
+{
+    "name": "Toy Merchant UNIQUECHALLENGE",
+    "category": ["Toy Merchant Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Toy Merchant - Character Unlock| and |Toy Merchant - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-48-15"
+},{
+    "name": "Escape as Weeping Clown",
+    "category": ["Weeping Clown Locations"],
+    "requires": "|Weeping Clown - Character Unlock|",
+    "sort-key": "row-49-01"
+},{
+    "name": "Draw as Weeping Clown",
+    "category": ["Weeping Clown Locations"],
+    "requires": "|Weeping Clown - Character Unlock| and |@Weeping Clown Persona:1|",
+    "sort-key": "row-49-02"
+},{
+    "name": "Win as Weeping Clown",
+    "category": ["Weeping Clown Locations"],
+    "requires": "|Weeping Clown - Character Unlock| and |@Weeping Clown Persona:2|",
+    "sort-key": "row-49-03"
+},{
+    "name": "Draw as Weeping Clown using only Borrowed Time",
+    "category": ["Weeping Clown Locations", "CATEGORY_BT"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Borrowed Time Persona Unlock|",
+    "sort-key": "row-49-04"
+},{
+    "name": "Draw as Weeping Clown using only Tide Turner",
+    "category": ["Weeping Clown Locations"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Tide Turner Persona Unlock|",
+    "sort-key": "row-49-05"
+},{
+    "name": "Draw as Weeping Clown using only Flywheel Effect",
+    "category": ["Weeping Clown Locations"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-49-06"
+},{
+    "name": "Draw as Weeping Clown using only Knee Jerk Reflex",
+    "category": ["Weeping Clown Locations"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-49-07"
+},{
+    "name": "Win as Weeping Clown using Borrowed Time and Tide Turner",
+    "category": ["Weeping Clown Locations", "CATEGORY_BT"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Borrowed Time Persona Unlock| and |Weeping Clown - Tide Turner Persona Unlock|",
+    "sort-key": "row-49-08"
+},{
+    "name": "Win as Weeping Clown using Borrowed Time and Flywheel Effect",
+    "category": ["Weeping Clown Locations", "CATEGORY_BT"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Borrowed Time Persona Unlock| and |Weeping Clown - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-49-09"
+},{
+    "name": "Win as Weeping Clown using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Weeping Clown Locations", "CATEGORY_BT"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Borrowed Time Persona Unlock| and |Weeping Clown - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-49-10"
+},{
+    "name": "Win as Weeping Clown using Tide Turner and Flywheel Effect",
+    "category": ["Weeping Clown Locations"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Tide Turner Persona Unlock| and |Weeping Clown - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-49-11"
+},{
+    "name": "Win as Weeping Clown using Tide Turner and Knee Jerk Reflex",
+    "category": ["Weeping Clown Locations"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Tide Turner Persona Unlock| and |Weeping Clown - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-49-12"
+},{
+    "name": "Win as Weeping Clown using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Weeping Clown Locations"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Flywheel Effect Persona Unlock| and |Weeping Clown - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-49-13"
+},{
+    "name": "Class Challenge - Rescue 1 teammate as Weeping Clown",
+    "category": ["Weeping Clown Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-49-14"
+},{
+    "name": "Weeping Clown UNIQUECHALLENGE",
+    "category": ["Weeping Clown Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Weeping Clown - Character Unlock| and |Weeping Clown - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-49-15"
+},{
+    "name": "Escape as Wildling",
+    "category": ["Wildling Locations"],
+    "requires": "|Wildling - Character Unlock|",
+    "sort-key": "row-50-01"
+},{
+    "name": "Draw as Wildling",
+    "category": ["Wildling Locations"],
+    "requires": "|Wildling - Character Unlock| and |@Wildling Persona:1|",
+    "sort-key": "row-50-02"
+},{
+    "name": "Win as Wildling",
+    "category": ["Wildling Locations"],
+    "requires": "|Wildling - Character Unlock| and |@Wildling Persona:2|",
+    "sort-key": "row-50-03"
+},{
+    "name": "Draw as Wildling using only Borrowed Time",
+    "category": ["Wildling Locations", "CATEGORY_BT"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Borrowed Time Persona Unlock|",
+    "sort-key": "row-50-04"
+},{
+    "name": "Draw as Wildling using only Tide Turner",
+    "category": ["Wildling Locations"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Tide Turner Persona Unlock|",
+    "sort-key": "row-50-05"
+},{
+    "name": "Draw as Wildling using only Flywheel Effect",
+    "category": ["Wildling Locations"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-50-06"
+},{
+    "name": "Draw as Wildling using only Knee Jerk Reflex",
+    "category": ["Wildling Locations"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-50-07"
+},{
+    "name": "Win as Wildling using Borrowed Time and Tide Turner",
+    "category": ["Wildling Locations", "CATEGORY_BT"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Borrowed Time Persona Unlock| and |Wildling - Tide Turner Persona Unlock|",
+    "sort-key": "row-50-08"
+},{
+    "name": "Win as Wildling using Borrowed Time and Flywheel Effect",
+    "category": ["Wildling Locations", "CATEGORY_BT"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Borrowed Time Persona Unlock| and |Wildling - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-50-09"
+},{
+    "name": "Win as Wildling using Borrowed Time and Knee Jerk Reflex",
+    "category": ["Wildling Locations", "CATEGORY_BT"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Borrowed Time Persona Unlock| and |Wildling - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-50-10"
+},{
+    "name": "Win as Wildling using Tide Turner and Flywheel Effect",
+    "category": ["Wildling Locations"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Tide Turner Persona Unlock| and |Wildling - Flywheel Effect Persona Unlock|",
+    "sort-key": "row-50-11"
+},{
+    "name": "Win as Wildling using Tide Turner and Knee Jerk Reflex",
+    "category": ["Wildling Locations"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Tide Turner Persona Unlock| and |Wildling - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-50-12"
+},{
+    "name": "Win as Wildling using Flywheel Effect and Knee Jerk Reflex",
+    "category": ["Wildling Locations"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Flywheel Effect Persona Unlock| and |Wildling - Knee Jerk Reflex Persona Unlock|",
+    "sort-key": "row-50-13"
+},{
+    "name": "Class Challenge - Assist 1 teammate as Wildling",
+    "category": ["Wildling Locations", "CATEGORY_CLASSCHALLENGE"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Class Challenge Unlock:{itemEnabledClassChallenge()}|",
+    "sort-key": "row-50-14"
+},{
+    "name": "Wildling UNIQUECHALLENGE",
+    "category": ["Wildling Locations", "CATEGORY_UNIQUECHALLENGE"],
+    "requires": "|Wildling - Character Unlock| and |Wildling - Unique Challenge Unlock:{itemEnabledUniqueChallenge()}|",
+    "sort-key": "row-50-15"
+}
+]
+}
+

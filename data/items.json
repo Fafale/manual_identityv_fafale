@@ -1,0 +1,3416 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+    {
+        "name": "Deduction Point",
+        "category": [
+            "!Mcguffin"
+        ],
+        "progression": true,
+        "count": 500
+    },
+    {
+    "name": "Acrobat - Character Unlock",
+    "category": ["Acrobat Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-01-01"
+},{
+    "name": "Acrobat - Borrowed Time Persona Unlock",
+    "category": ["Acrobat Items", "Persona Unlock", "Acrobat Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-01-02"
+},{
+    "name": "Acrobat - Tide Turner Persona Unlock",
+    "category": ["Acrobat Items", "Persona Unlock", "Acrobat Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-01-03"
+},{
+    "name": "Acrobat - Flywheel Effect Persona Unlock",
+    "category": ["Acrobat Items", "Persona Unlock", "Acrobat Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-01-04"
+},{
+    "name": "Acrobat - Knee Jerk Reflex Persona Unlock",
+    "category": ["Acrobat Items", "Persona Unlock", "Acrobat Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-01-05"
+},{
+    "name": "Acrobat - Class Challenge Unlock",
+    "category": ["Acrobat Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-01-06",
+    "challenge": "class"
+},{
+    "name": "Acrobat - Unique Challenge Unlock",
+    "category": ["Acrobat Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-01-07",
+    "challenge": "unique"
+},{
+    "name": "Aeroplanist - Character Unlock",
+    "category": ["Aeroplanist Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-02-01"
+},{
+    "name": "Aeroplanist - Borrowed Time Persona Unlock",
+    "category": ["Aeroplanist Items", "Persona Unlock", "Aeroplanist Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-02-02"
+},{
+    "name": "Aeroplanist - Tide Turner Persona Unlock",
+    "category": ["Aeroplanist Items", "Persona Unlock", "Aeroplanist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-02-03"
+},{
+    "name": "Aeroplanist - Flywheel Effect Persona Unlock",
+    "category": ["Aeroplanist Items", "Persona Unlock", "Aeroplanist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-02-04"
+},{
+    "name": "Aeroplanist - Knee Jerk Reflex Persona Unlock",
+    "category": ["Aeroplanist Items", "Persona Unlock", "Aeroplanist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-02-05"
+},{
+    "name": "Aeroplanist - Class Challenge Unlock",
+    "category": ["Aeroplanist Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-02-06",
+    "challenge": "class"
+},{
+    "name": "Aeroplanist - Unique Challenge Unlock",
+    "category": ["Aeroplanist Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-02-07",
+    "challenge": "unique"
+},{
+    "name": "Antiquarian - Character Unlock",
+    "category": ["Antiquarian Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-03-01"
+},{
+    "name": "Antiquarian - Borrowed Time Persona Unlock",
+    "category": ["Antiquarian Items", "Persona Unlock", "Antiquarian Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-03-02"
+},{
+    "name": "Antiquarian - Tide Turner Persona Unlock",
+    "category": ["Antiquarian Items", "Persona Unlock", "Antiquarian Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-03-03"
+},{
+    "name": "Antiquarian - Flywheel Effect Persona Unlock",
+    "category": ["Antiquarian Items", "Persona Unlock", "Antiquarian Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-03-04"
+},{
+    "name": "Antiquarian - Knee Jerk Reflex Persona Unlock",
+    "category": ["Antiquarian Items", "Persona Unlock", "Antiquarian Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-03-05"
+},{
+    "name": "Antiquarian - Class Challenge Unlock",
+    "category": ["Antiquarian Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-03-06",
+    "challenge": "class"
+},{
+    "name": "Antiquarian - Unique Challenge Unlock",
+    "category": ["Antiquarian Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-03-07",
+    "challenge": "unique"
+},{
+    "name": "Archer - Character Unlock",
+    "category": ["Archer Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-04-01"
+},{
+    "name": "Archer - Borrowed Time Persona Unlock",
+    "category": ["Archer Items", "Persona Unlock", "Archer Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-04-02"
+},{
+    "name": "Archer - Tide Turner Persona Unlock",
+    "category": ["Archer Items", "Persona Unlock", "Archer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-04-03"
+},{
+    "name": "Archer - Flywheel Effect Persona Unlock",
+    "category": ["Archer Items", "Persona Unlock", "Archer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-04-04"
+},{
+    "name": "Archer - Knee Jerk Reflex Persona Unlock",
+    "category": ["Archer Items", "Persona Unlock", "Archer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-04-05"
+},{
+    "name": "Archer - Class Challenge Unlock",
+    "category": ["Archer Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-04-06",
+    "challenge": "class"
+},{
+    "name": "Archer - Unique Challenge Unlock",
+    "category": ["Archer Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-04-07",
+    "challenge": "unique"
+},{
+    "name": "Barmaid - Character Unlock",
+    "category": ["Barmaid Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-05-01"
+},{
+    "name": "Barmaid - Borrowed Time Persona Unlock",
+    "category": ["Barmaid Items", "Persona Unlock", "Barmaid Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-05-02"
+},{
+    "name": "Barmaid - Tide Turner Persona Unlock",
+    "category": ["Barmaid Items", "Persona Unlock", "Barmaid Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-05-03"
+},{
+    "name": "Barmaid - Flywheel Effect Persona Unlock",
+    "category": ["Barmaid Items", "Persona Unlock", "Barmaid Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-05-04"
+},{
+    "name": "Barmaid - Knee Jerk Reflex Persona Unlock",
+    "category": ["Barmaid Items", "Persona Unlock", "Barmaid Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-05-05"
+},{
+    "name": "Barmaid - Class Challenge Unlock",
+    "category": ["Barmaid Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-05-06",
+    "challenge": "class"
+},{
+    "name": "Barmaid - Unique Challenge Unlock",
+    "category": ["Barmaid Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-05-07",
+    "challenge": "unique"
+},{
+    "name": "Batter - Character Unlock",
+    "category": ["Batter Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-06-01"
+},{
+    "name": "Batter - Borrowed Time Persona Unlock",
+    "category": ["Batter Items", "Persona Unlock", "Batter Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-06-02"
+},{
+    "name": "Batter - Tide Turner Persona Unlock",
+    "category": ["Batter Items", "Persona Unlock", "Batter Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-06-03"
+},{
+    "name": "Batter - Flywheel Effect Persona Unlock",
+    "category": ["Batter Items", "Persona Unlock", "Batter Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-06-04"
+},{
+    "name": "Batter - Knee Jerk Reflex Persona Unlock",
+    "category": ["Batter Items", "Persona Unlock", "Batter Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-06-05"
+},{
+    "name": "Batter - Class Challenge Unlock",
+    "category": ["Batter Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-06-06",
+    "challenge": "class"
+},{
+    "name": "Batter - Unique Challenge Unlock",
+    "category": ["Batter Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-06-07",
+    "challenge": "unique"
+},{
+    "name": "Cheerleader - Character Unlock",
+    "category": ["Cheerleader Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-07-01"
+},{
+    "name": "Cheerleader - Borrowed Time Persona Unlock",
+    "category": ["Cheerleader Items", "Persona Unlock", "Cheerleader Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-07-02"
+},{
+    "name": "Cheerleader - Tide Turner Persona Unlock",
+    "category": ["Cheerleader Items", "Persona Unlock", "Cheerleader Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-07-03"
+},{
+    "name": "Cheerleader - Flywheel Effect Persona Unlock",
+    "category": ["Cheerleader Items", "Persona Unlock", "Cheerleader Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-07-04"
+},{
+    "name": "Cheerleader - Knee Jerk Reflex Persona Unlock",
+    "category": ["Cheerleader Items", "Persona Unlock", "Cheerleader Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-07-05"
+},{
+    "name": "Cheerleader - Class Challenge Unlock",
+    "category": ["Cheerleader Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-07-06",
+    "challenge": "class"
+},{
+    "name": "Cheerleader - Unique Challenge Unlock",
+    "category": ["Cheerleader Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-07-07",
+    "challenge": "unique"
+},{
+    "name": "Composer - Character Unlock",
+    "category": ["Composer Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-08-01"
+},{
+    "name": "Composer - Borrowed Time Persona Unlock",
+    "category": ["Composer Items", "Persona Unlock", "Composer Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-08-02"
+},{
+    "name": "Composer - Tide Turner Persona Unlock",
+    "category": ["Composer Items", "Persona Unlock", "Composer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-08-03"
+},{
+    "name": "Composer - Flywheel Effect Persona Unlock",
+    "category": ["Composer Items", "Persona Unlock", "Composer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-08-04"
+},{
+    "name": "Composer - Knee Jerk Reflex Persona Unlock",
+    "category": ["Composer Items", "Persona Unlock", "Composer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-08-05"
+},{
+    "name": "Composer - Class Challenge Unlock",
+    "category": ["Composer Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-08-06",
+    "challenge": "class"
+},{
+    "name": "Composer - Unique Challenge Unlock",
+    "category": ["Composer Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-08-07",
+    "challenge": "unique"
+},{
+    "name": "Coordinator - Character Unlock",
+    "category": ["Coordinator Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-09-01"
+},{
+    "name": "Coordinator - Borrowed Time Persona Unlock",
+    "category": ["Coordinator Items", "Persona Unlock", "Coordinator Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-09-02"
+},{
+    "name": "Coordinator - Tide Turner Persona Unlock",
+    "category": ["Coordinator Items", "Persona Unlock", "Coordinator Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-09-03"
+},{
+    "name": "Coordinator - Flywheel Effect Persona Unlock",
+    "category": ["Coordinator Items", "Persona Unlock", "Coordinator Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-09-04"
+},{
+    "name": "Coordinator - Knee Jerk Reflex Persona Unlock",
+    "category": ["Coordinator Items", "Persona Unlock", "Coordinator Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-09-05"
+},{
+    "name": "Coordinator - Class Challenge Unlock",
+    "category": ["Coordinator Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-09-06",
+    "challenge": "class"
+},{
+    "name": "Coordinator - Unique Challenge Unlock",
+    "category": ["Coordinator Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-09-07",
+    "challenge": "unique"
+},{
+    "name": "Cowboy - Character Unlock",
+    "category": ["Cowboy Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-10-01"
+},{
+    "name": "Cowboy - Borrowed Time Persona Unlock",
+    "category": ["Cowboy Items", "Persona Unlock", "Cowboy Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-10-02"
+},{
+    "name": "Cowboy - Tide Turner Persona Unlock",
+    "category": ["Cowboy Items", "Persona Unlock", "Cowboy Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-10-03"
+},{
+    "name": "Cowboy - Flywheel Effect Persona Unlock",
+    "category": ["Cowboy Items", "Persona Unlock", "Cowboy Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-10-04"
+},{
+    "name": "Cowboy - Knee Jerk Reflex Persona Unlock",
+    "category": ["Cowboy Items", "Persona Unlock", "Cowboy Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-10-05"
+},{
+    "name": "Cowboy - Class Challenge Unlock",
+    "category": ["Cowboy Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-10-06",
+    "challenge": "class"
+},{
+    "name": "Cowboy - Unique Challenge Unlock",
+    "category": ["Cowboy Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-10-07",
+    "challenge": "unique"
+},{
+    "name": "Doctor - Character Unlock",
+    "category": ["Doctor Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-11-01"
+},{
+    "name": "Doctor - Borrowed Time Persona Unlock",
+    "category": ["Doctor Items", "Persona Unlock", "Doctor Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-11-02"
+},{
+    "name": "Doctor - Tide Turner Persona Unlock",
+    "category": ["Doctor Items", "Persona Unlock", "Doctor Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-11-03"
+},{
+    "name": "Doctor - Flywheel Effect Persona Unlock",
+    "category": ["Doctor Items", "Persona Unlock", "Doctor Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-11-04"
+},{
+    "name": "Doctor - Knee Jerk Reflex Persona Unlock",
+    "category": ["Doctor Items", "Persona Unlock", "Doctor Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-11-05"
+},{
+    "name": "Doctor - Class Challenge Unlock",
+    "category": ["Doctor Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-11-06",
+    "challenge": "class"
+},{
+    "name": "Doctor - Unique Challenge Unlock",
+    "category": ["Doctor Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-11-07",
+    "challenge": "unique"
+},{
+    "name": "Embalmer - Character Unlock",
+    "category": ["Embalmer Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-12-01"
+},{
+    "name": "Embalmer - Borrowed Time Persona Unlock",
+    "category": ["Embalmer Items", "Persona Unlock", "Embalmer Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-12-02"
+},{
+    "name": "Embalmer - Tide Turner Persona Unlock",
+    "category": ["Embalmer Items", "Persona Unlock", "Embalmer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-12-03"
+},{
+    "name": "Embalmer - Flywheel Effect Persona Unlock",
+    "category": ["Embalmer Items", "Persona Unlock", "Embalmer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-12-04"
+},{
+    "name": "Embalmer - Knee Jerk Reflex Persona Unlock",
+    "category": ["Embalmer Items", "Persona Unlock", "Embalmer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-12-05"
+},{
+    "name": "Embalmer - Class Challenge Unlock",
+    "category": ["Embalmer Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-12-06",
+    "challenge": "class"
+},{
+    "name": "Embalmer - Unique Challenge Unlock",
+    "category": ["Embalmer Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-12-07",
+    "challenge": "unique"
+},{
+    "name": "Enchantress - Character Unlock",
+    "category": ["Enchantress Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-13-01"
+},{
+    "name": "Enchantress - Borrowed Time Persona Unlock",
+    "category": ["Enchantress Items", "Persona Unlock", "Enchantress Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-13-02"
+},{
+    "name": "Enchantress - Tide Turner Persona Unlock",
+    "category": ["Enchantress Items", "Persona Unlock", "Enchantress Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-13-03"
+},{
+    "name": "Enchantress - Flywheel Effect Persona Unlock",
+    "category": ["Enchantress Items", "Persona Unlock", "Enchantress Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-13-04"
+},{
+    "name": "Enchantress - Knee Jerk Reflex Persona Unlock",
+    "category": ["Enchantress Items", "Persona Unlock", "Enchantress Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-13-05"
+},{
+    "name": "Enchantress - Class Challenge Unlock",
+    "category": ["Enchantress Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-13-06",
+    "challenge": "class"
+},{
+    "name": "Enchantress - Unique Challenge Unlock",
+    "category": ["Enchantress Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-13-07",
+    "challenge": "unique"
+},{
+    "name": "Entomologist - Character Unlock",
+    "category": ["Entomologist Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-14-01"
+},{
+    "name": "Entomologist - Borrowed Time Persona Unlock",
+    "category": ["Entomologist Items", "Persona Unlock", "Entomologist Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-14-02"
+},{
+    "name": "Entomologist - Tide Turner Persona Unlock",
+    "category": ["Entomologist Items", "Persona Unlock", "Entomologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-14-03"
+},{
+    "name": "Entomologist - Flywheel Effect Persona Unlock",
+    "category": ["Entomologist Items", "Persona Unlock", "Entomologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-14-04"
+},{
+    "name": "Entomologist - Knee Jerk Reflex Persona Unlock",
+    "category": ["Entomologist Items", "Persona Unlock", "Entomologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-14-05"
+},{
+    "name": "Entomologist - Class Challenge Unlock",
+    "category": ["Entomologist Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-14-06",
+    "challenge": "class"
+},{
+    "name": "Entomologist - Unique Challenge Unlock",
+    "category": ["Entomologist Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-14-07",
+    "challenge": "unique"
+},{
+    "name": "Escapologist - Character Unlock",
+    "category": ["Escapologist Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-15-01"
+},{
+    "name": "Escapologist - Borrowed Time Persona Unlock",
+    "category": ["Escapologist Items", "Persona Unlock", "Escapologist Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-15-02"
+},{
+    "name": "Escapologist - Tide Turner Persona Unlock",
+    "category": ["Escapologist Items", "Persona Unlock", "Escapologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-15-03"
+},{
+    "name": "Escapologist - Flywheel Effect Persona Unlock",
+    "category": ["Escapologist Items", "Persona Unlock", "Escapologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-15-04"
+},{
+    "name": "Escapologist - Knee Jerk Reflex Persona Unlock",
+    "category": ["Escapologist Items", "Persona Unlock", "Escapologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-15-05"
+},{
+    "name": "Escapologist - Class Challenge Unlock",
+    "category": ["Escapologist Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-15-06",
+    "challenge": "class"
+},{
+    "name": "Escapologist - Unique Challenge Unlock",
+    "category": ["Escapologist Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-15-07",
+    "challenge": "unique"
+},{
+    "name": "Explorer - Character Unlock",
+    "category": ["Explorer Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-16-01"
+},{
+    "name": "Explorer - Borrowed Time Persona Unlock",
+    "category": ["Explorer Items", "Persona Unlock", "Explorer Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-16-02"
+},{
+    "name": "Explorer - Tide Turner Persona Unlock",
+    "category": ["Explorer Items", "Persona Unlock", "Explorer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-16-03"
+},{
+    "name": "Explorer - Flywheel Effect Persona Unlock",
+    "category": ["Explorer Items", "Persona Unlock", "Explorer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-16-04"
+},{
+    "name": "Explorer - Knee Jerk Reflex Persona Unlock",
+    "category": ["Explorer Items", "Persona Unlock", "Explorer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-16-05"
+},{
+    "name": "Explorer - Class Challenge Unlock",
+    "category": ["Explorer Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-16-06",
+    "challenge": "class"
+},{
+    "name": "Explorer - Unique Challenge Unlock",
+    "category": ["Explorer Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-16-07",
+    "challenge": "unique"
+},{
+    "name": "Faro Lady - Character Unlock",
+    "category": ["Faro Lady Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-17-01"
+},{
+    "name": "Faro Lady - Borrowed Time Persona Unlock",
+    "category": ["Faro Lady Items", "Persona Unlock", "Faro Lady Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-17-02"
+},{
+    "name": "Faro Lady - Tide Turner Persona Unlock",
+    "category": ["Faro Lady Items", "Persona Unlock", "Faro Lady Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-17-03"
+},{
+    "name": "Faro Lady - Flywheel Effect Persona Unlock",
+    "category": ["Faro Lady Items", "Persona Unlock", "Faro Lady Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-17-04"
+},{
+    "name": "Faro Lady - Knee Jerk Reflex Persona Unlock",
+    "category": ["Faro Lady Items", "Persona Unlock", "Faro Lady Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-17-05"
+},{
+    "name": "Faro Lady - Class Challenge Unlock",
+    "category": ["Faro Lady Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-17-06",
+    "challenge": "class"
+},{
+    "name": "Faro Lady - Unique Challenge Unlock",
+    "category": ["Faro Lady Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-17-07",
+    "challenge": "unique"
+},{
+    "name": "Female Dancer - Character Unlock",
+    "category": ["Female Dancer Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-18-01"
+},{
+    "name": "Female Dancer - Borrowed Time Persona Unlock",
+    "category": ["Female Dancer Items", "Persona Unlock", "Female Dancer Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-18-02"
+},{
+    "name": "Female Dancer - Tide Turner Persona Unlock",
+    "category": ["Female Dancer Items", "Persona Unlock", "Female Dancer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-18-03"
+},{
+    "name": "Female Dancer - Flywheel Effect Persona Unlock",
+    "category": ["Female Dancer Items", "Persona Unlock", "Female Dancer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-18-04"
+},{
+    "name": "Female Dancer - Knee Jerk Reflex Persona Unlock",
+    "category": ["Female Dancer Items", "Persona Unlock", "Female Dancer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-18-05"
+},{
+    "name": "Female Dancer - Class Challenge Unlock",
+    "category": ["Female Dancer Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-18-06",
+    "challenge": "class"
+},{
+    "name": "Female Dancer - Unique Challenge Unlock",
+    "category": ["Female Dancer Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-18-07",
+    "challenge": "unique"
+},{
+    "name": "Fire Investigator - Character Unlock",
+    "category": ["Fire Investigator Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-19-01"
+},{
+    "name": "Fire Investigator - Borrowed Time Persona Unlock",
+    "category": ["Fire Investigator Items", "Persona Unlock", "Fire Investigator Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-19-02"
+},{
+    "name": "Fire Investigator - Tide Turner Persona Unlock",
+    "category": ["Fire Investigator Items", "Persona Unlock", "Fire Investigator Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-19-03"
+},{
+    "name": "Fire Investigator - Flywheel Effect Persona Unlock",
+    "category": ["Fire Investigator Items", "Persona Unlock", "Fire Investigator Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-19-04"
+},{
+    "name": "Fire Investigator - Knee Jerk Reflex Persona Unlock",
+    "category": ["Fire Investigator Items", "Persona Unlock", "Fire Investigator Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-19-05"
+},{
+    "name": "Fire Investigator - Class Challenge Unlock",
+    "category": ["Fire Investigator Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-19-06",
+    "challenge": "class"
+},{
+    "name": "Fire Investigator - Unique Challenge Unlock",
+    "category": ["Fire Investigator Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-19-07",
+    "challenge": "unique"
+},{
+    "name": "First Officer - Character Unlock",
+    "category": ["First Officer Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-20-01"
+},{
+    "name": "First Officer - Borrowed Time Persona Unlock",
+    "category": ["First Officer Items", "Persona Unlock", "First Officer Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-20-02"
+},{
+    "name": "First Officer - Tide Turner Persona Unlock",
+    "category": ["First Officer Items", "Persona Unlock", "First Officer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-20-03"
+},{
+    "name": "First Officer - Flywheel Effect Persona Unlock",
+    "category": ["First Officer Items", "Persona Unlock", "First Officer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-20-04"
+},{
+    "name": "First Officer - Knee Jerk Reflex Persona Unlock",
+    "category": ["First Officer Items", "Persona Unlock", "First Officer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-20-05"
+},{
+    "name": "First Officer - Class Challenge Unlock",
+    "category": ["First Officer Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-20-06",
+    "challenge": "class"
+},{
+    "name": "First Officer - Unique Challenge Unlock",
+    "category": ["First Officer Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-20-07",
+    "challenge": "unique"
+},{
+    "name": "Forward - Character Unlock",
+    "category": ["Forward Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-21-01"
+},{
+    "name": "Forward - Borrowed Time Persona Unlock",
+    "category": ["Forward Items", "Persona Unlock", "Forward Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-21-02"
+},{
+    "name": "Forward - Tide Turner Persona Unlock",
+    "category": ["Forward Items", "Persona Unlock", "Forward Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-21-03"
+},{
+    "name": "Forward - Flywheel Effect Persona Unlock",
+    "category": ["Forward Items", "Persona Unlock", "Forward Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-21-04"
+},{
+    "name": "Forward - Knee Jerk Reflex Persona Unlock",
+    "category": ["Forward Items", "Persona Unlock", "Forward Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-21-05"
+},{
+    "name": "Forward - Class Challenge Unlock",
+    "category": ["Forward Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-21-06",
+    "challenge": "class"
+},{
+    "name": "Forward - Unique Challenge Unlock",
+    "category": ["Forward Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-21-07",
+    "challenge": "unique"
+},{
+    "name": "Gardener - Character Unlock",
+    "category": ["Gardener Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-22-01"
+},{
+    "name": "Gardener - Borrowed Time Persona Unlock",
+    "category": ["Gardener Items", "Persona Unlock", "Gardener Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-22-02"
+},
+{
+    "name": "Gardener - Tide Turner Persona Unlock",
+    "category": ["Gardener Items", "Persona Unlock", "Gardener Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-22-03"
+},{
+    "name": "Gardener - Flywheel Effect Persona Unlock",
+    "category": ["Gardener Items", "Persona Unlock", "Gardener Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-22-04"
+},{
+    "name": "Gardener - Knee Jerk Reflex Persona Unlock",
+    "category": ["Gardener Items", "Persona Unlock", "Gardener Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-22-05"
+},{
+    "name": "Gardener - Class Challenge Unlock",
+    "category": ["Gardener Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-22-06",
+    "challenge": "class"
+},{
+    "name": "Gardener - Unique Challenge Unlock",
+    "category": ["Gardener Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-22-07",
+    "challenge": "unique"
+},{
+    "name": "Grave Keeper - Character Unlock",
+    "category": ["Grave Keeper Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-23-01"
+},{
+    "name": "Grave Keeper - Borrowed Time Persona Unlock",
+    "category": ["Grave Keeper Items", "Persona Unlock", "Grave Keeper Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-23-02"
+},{
+    "name": "Grave Keeper - Tide Turner Persona Unlock",
+    "category": ["Grave Keeper Items", "Persona Unlock", "Grave Keeper Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-23-03"
+},{
+    "name": "Grave Keeper - Flywheel Effect Persona Unlock",
+    "category": ["Grave Keeper Items", "Persona Unlock", "Grave Keeper Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-23-04"
+},{
+    "name": "Grave Keeper - Knee Jerk Reflex Persona Unlock",
+    "category": ["Grave Keeper Items", "Persona Unlock", "Grave Keeper Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-23-05"
+},{
+    "name": "Grave Keeper - Class Challenge Unlock",
+    "category": ["Grave Keeper Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-23-06",
+    "challenge": "class"
+},{
+    "name": "Grave Keeper - Unique Challenge Unlock",
+    "category": ["Grave Keeper Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-23-07",
+    "challenge": "unique"
+},{
+    "name": "Journalist - Character Unlock",
+    "category": ["Journalist Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-24-01"
+},{
+    "name": "Journalist - Borrowed Time Persona Unlock",
+    "category": ["Journalist Items", "Persona Unlock", "Journalist Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-24-02"
+},{
+    "name": "Journalist - Tide Turner Persona Unlock",
+    "category": ["Journalist Items", "Persona Unlock", "Journalist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-24-03"
+},{
+    "name": "Journalist - Flywheel Effect Persona Unlock",
+    "category": ["Journalist Items", "Persona Unlock", "Journalist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-24-04"
+},{
+    "name": "Journalist - Knee Jerk Reflex Persona Unlock",
+    "category": ["Journalist Items", "Persona Unlock", "Journalist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-24-05"
+},{
+    "name": "Journalist - Class Challenge Unlock",
+    "category": ["Journalist Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-24-06",
+    "challenge": "class"
+},{
+    "name": "Journalist - Unique Challenge Unlock",
+    "category": ["Journalist Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-24-07",
+    "challenge": "unique"
+},{
+    "name": "Knight - Character Unlock",
+    "category": ["Knight Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-25-01"
+},{
+    "name": "Knight - Borrowed Time Persona Unlock",
+    "category": ["Knight Items", "Persona Unlock", "Knight Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-25-02"
+},{
+    "name": "Knight - Tide Turner Persona Unlock",
+    "category": ["Knight Items", "Persona Unlock", "Knight Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-25-03"
+},{
+    "name": "Knight - Flywheel Effect Persona Unlock",
+    "category": ["Knight Items", "Persona Unlock", "Knight Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-25-04"
+},{
+    "name": "Knight - Knee Jerk Reflex Persona Unlock",
+    "category": ["Knight Items", "Persona Unlock", "Knight Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-25-05"
+},{
+    "name": "Knight - Class Challenge Unlock",
+    "category": ["Knight Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-25-06",
+    "challenge": "class"
+},{
+    "name": "Knight - Unique Challenge Unlock",
+    "category": ["Knight Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-25-07",
+    "challenge": "unique"
+},{
+    "name": "Lanternist - Character Unlock",
+    "category": ["Lanternist Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-26-01"
+},{
+    "name": "Lanternist - Borrowed Time Persona Unlock",
+    "category": ["Lanternist Items", "Persona Unlock", "Lanternist Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-26-02"
+},{
+    "name": "Lanternist - Tide Turner Persona Unlock",
+    "category": ["Lanternist Items", "Persona Unlock", "Lanternist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-26-03"
+},{
+    "name": "Lanternist - Flywheel Effect Persona Unlock",
+    "category": ["Lanternist Items", "Persona Unlock", "Lanternist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-26-04"
+},{
+    "name": "Lanternist - Knee Jerk Reflex Persona Unlock",
+    "category": ["Lanternist Items", "Persona Unlock", "Lanternist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-26-05"
+},{
+    "name": "Lanternist - Class Challenge Unlock",
+    "category": ["Lanternist Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-26-06",
+    "challenge": "class"
+},{
+    "name": "Lanternist - Unique Challenge Unlock",
+    "category": ["Lanternist Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-26-07",
+    "challenge": "unique"
+},{
+    "name": "Lawyer - Character Unlock",
+    "category": ["Lawyer Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-27-01"
+},{
+    "name": "Lawyer - Borrowed Time Persona Unlock",
+    "category": ["Lawyer Items", "Persona Unlock", "Lawyer Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-27-02"
+},{
+    "name": "Lawyer - Tide Turner Persona Unlock",
+    "category": ["Lawyer Items", "Persona Unlock", "Lawyer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-27-03"
+},{
+    "name": "Lawyer - Flywheel Effect Persona Unlock",
+    "category": ["Lawyer Items", "Persona Unlock", "Lawyer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-27-04"
+},{
+    "name": "Lawyer - Knee Jerk Reflex Persona Unlock",
+    "category": ["Lawyer Items", "Persona Unlock", "Lawyer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-27-05"
+},{
+    "name": "Lawyer - Class Challenge Unlock",
+    "category": ["Lawyer Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-27-06",
+    "challenge": "class"
+},{
+    "name": "Lawyer - Unique Challenge Unlock",
+    "category": ["Lawyer Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-27-07",
+    "challenge": "unique"
+},{
+    "name": "Little Girl - Character Unlock",
+    "category": ["Little Girl Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-28-01"
+},{
+    "name": "Little Girl - Borrowed Time Persona Unlock",
+    "category": ["Little Girl Items", "Persona Unlock", "Little Girl Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-28-02"
+},{
+    "name": "Little Girl - Tide Turner Persona Unlock",
+    "category": ["Little Girl Items", "Persona Unlock", "Little Girl Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-28-03"
+},{
+    "name": "Little Girl - Flywheel Effect Persona Unlock",
+    "category": ["Little Girl Items", "Persona Unlock", "Little Girl Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-28-04"
+},{
+    "name": "Little Girl - Knee Jerk Reflex Persona Unlock",
+    "category": ["Little Girl Items", "Persona Unlock", "Little Girl Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-28-05"
+},{
+    "name": "Little Girl - Class Challenge Unlock",
+    "category": ["Little Girl Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-28-06",
+    "challenge": "class"
+},{
+    "name": "Little Girl - Unique Challenge Unlock",
+    "category": ["Little Girl Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-28-07",
+    "challenge": "unique"
+},{
+    "name": "Lucky Guy - Character Unlock",
+    "category": ["Lucky Guy Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-29-01"
+},{
+    "name": "Lucky Guy - Borrowed Time Persona Unlock",
+    "category": ["Lucky Guy Items", "Persona Unlock", "Lucky Guy Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-29-02"
+},{
+    "name": "Lucky Guy - Tide Turner Persona Unlock",
+    "category": ["Lucky Guy Items", "Persona Unlock", "Lucky Guy Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-29-03"
+},{
+    "name": "Lucky Guy - Flywheel Effect Persona Unlock",
+    "category": ["Lucky Guy Items", "Persona Unlock", "Lucky Guy Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-29-04"
+},{
+    "name": "Lucky Guy - Knee Jerk Reflex Persona Unlock",
+    "category": ["Lucky Guy Items", "Persona Unlock", "Lucky Guy Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-29-05"
+},{
+    "name": "Lucky Guy - Class Challenge Unlock",
+    "category": ["Lucky Guy Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-29-06",
+    "challenge": "class"
+},{
+    "name": "Lucky Guy - Unique Challenge Unlock",
+    "category": ["Lucky Guy Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-29-07",
+    "challenge": "unique"
+},{
+    "name": "Magician - Character Unlock",
+    "category": ["Magician Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-30-01"
+},{
+    "name": "Magician - Borrowed Time Persona Unlock",
+    "category": ["Magician Items", "Persona Unlock", "Magician Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-30-02"
+},{
+    "name": "Magician - Tide Turner Persona Unlock",
+    "category": ["Magician Items", "Persona Unlock", "Magician Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-30-03"
+},{
+    "name": "Magician - Flywheel Effect Persona Unlock",
+    "category": ["Magician Items", "Persona Unlock", "Magician Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-30-04"
+},{
+    "name": "Magician - Knee Jerk Reflex Persona Unlock",
+    "category": ["Magician Items", "Persona Unlock", "Magician Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-30-05"
+},{
+    "name": "Magician - Class Challenge Unlock",
+    "category": ["Magician Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-30-06",
+    "challenge": "class"
+},{
+    "name": "Magician - Unique Challenge Unlock",
+    "category": ["Magician Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-30-07",
+    "challenge": "unique"
+},{
+    "name": "Mechanic - Character Unlock",
+    "category": ["Mechanic Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-31-01"
+},{
+    "name": "Mechanic - Borrowed Time Persona Unlock",
+    "category": ["Mechanic Items", "Persona Unlock", "Mechanic Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-31-02"
+},{
+    "name": "Mechanic - Tide Turner Persona Unlock",
+    "category": ["Mechanic Items", "Persona Unlock", "Mechanic Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-31-03"
+},{
+    "name": "Mechanic - Flywheel Effect Persona Unlock",
+    "category": ["Mechanic Items", "Persona Unlock", "Mechanic Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-31-04"
+},{
+    "name": "Mechanic - Knee Jerk Reflex Persona Unlock",
+    "category": ["Mechanic Items", "Persona Unlock", "Mechanic Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-31-05"
+},{
+    "name": "Mechanic - Class Challenge Unlock",
+    "category": ["Mechanic Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-31-06",
+    "challenge": "class"
+},{
+    "name": "Mechanic - Unique Challenge Unlock",
+    "category": ["Mechanic Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-31-07",
+    "challenge": "unique"
+},{
+    "name": "Mercenary - Character Unlock",
+    "category": ["Mercenary Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-32-01"
+},{
+    "name": "Mercenary - Borrowed Time Persona Unlock",
+    "category": ["Mercenary Items", "Persona Unlock", "Mercenary Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-32-02"
+},{
+    "name": "Mercenary - Tide Turner Persona Unlock",
+    "category": ["Mercenary Items", "Persona Unlock", "Mercenary Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-32-03"
+},{
+    "name": "Mercenary - Flywheel Effect Persona Unlock",
+    "category": ["Mercenary Items", "Persona Unlock", "Mercenary Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-32-04"
+},{
+    "name": "Mercenary - Knee Jerk Reflex Persona Unlock",
+    "category": ["Mercenary Items", "Persona Unlock", "Mercenary Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-32-05"
+},{
+    "name": "Mercenary - Class Challenge Unlock",
+    "category": ["Mercenary Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-32-06",
+    "challenge": "class"
+},{
+    "name": "Mercenary - Unique Challenge Unlock",
+    "category": ["Mercenary Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-32-07",
+    "challenge": "unique"
+},{
+    "name": "Meteorologist - Character Unlock",
+    "category": ["Meteorologist Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-33-01"
+},{
+    "name": "Meteorologist - Borrowed Time Persona Unlock",
+    "category": ["Meteorologist Items", "Persona Unlock", "Meteorologist Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-33-02"
+},{
+    "name": "Meteorologist - Tide Turner Persona Unlock",
+    "category": ["Meteorologist Items", "Persona Unlock", "Meteorologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-33-03"
+},{
+    "name": "Meteorologist - Flywheel Effect Persona Unlock",
+    "category": ["Meteorologist Items", "Persona Unlock", "Meteorologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-33-04"
+},{
+    "name": "Meteorologist - Knee Jerk Reflex Persona Unlock",
+    "category": ["Meteorologist Items", "Persona Unlock", "Meteorologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-33-05"
+},{
+    "name": "Meteorologist - Class Challenge Unlock",
+    "category": ["Meteorologist Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-33-06",
+    "challenge": "class"
+},{
+    "name": "Meteorologist - Unique Challenge Unlock",
+    "category": ["Meteorologist Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-33-07",
+    "challenge": "unique"
+},{
+    "name": "Novelist - Character Unlock",
+    "category": ["Novelist Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-34-01"
+},{
+    "name": "Novelist - Borrowed Time Persona Unlock",
+    "category": ["Novelist Items", "Persona Unlock", "Novelist Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-34-02"
+},{
+    "name": "Novelist - Tide Turner Persona Unlock",
+    "category": ["Novelist Items", "Persona Unlock", "Novelist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-34-03"
+},{
+    "name": "Novelist - Flywheel Effect Persona Unlock",
+    "category": ["Novelist Items", "Persona Unlock", "Novelist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-34-04"
+},{
+    "name": "Novelist - Knee Jerk Reflex Persona Unlock",
+    "category": ["Novelist Items", "Persona Unlock", "Novelist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-34-05"
+},{
+    "name": "Novelist - Class Challenge Unlock",
+    "category": ["Novelist Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-34-06",
+    "challenge": "class"
+},{
+    "name": "Novelist - Unique Challenge Unlock",
+    "category": ["Novelist Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-34-07",
+    "challenge": "unique"
+},{
+    "name": "Painter - Character Unlock",
+    "category": ["Painter Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-35-01"
+},{
+    "name": "Painter - Borrowed Time Persona Unlock",
+    "category": ["Painter Items", "Persona Unlock", "Painter Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-35-02"
+},{
+    "name": "Painter - Tide Turner Persona Unlock",
+    "category": ["Painter Items", "Persona Unlock", "Painter Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-35-03"
+},{
+    "name": "Painter - Flywheel Effect Persona Unlock",
+    "category": ["Painter Items", "Persona Unlock", "Painter Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-35-04"
+},{
+    "name": "Painter - Knee Jerk Reflex Persona Unlock",
+    "category": ["Painter Items", "Persona Unlock", "Painter Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-35-05"
+},{
+    "name": "Painter - Class Challenge Unlock",
+    "category": ["Painter Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-35-06",
+    "challenge": "class"
+},{
+    "name": "Painter - Unique Challenge Unlock",
+    "category": ["Painter Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-35-07",
+    "challenge": "unique"
+},{
+    "name": "Patient - Character Unlock",
+    "category": ["Patient Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-36-01"
+},{
+    "name": "Patient - Borrowed Time Persona Unlock",
+    "category": ["Patient Items", "Persona Unlock", "Patient Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-36-02"
+},{
+    "name": "Patient - Tide Turner Persona Unlock",
+    "category": ["Patient Items", "Persona Unlock", "Patient Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-36-03"
+},{
+    "name": "Patient - Flywheel Effect Persona Unlock",
+    "category": ["Patient Items", "Persona Unlock", "Patient Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-36-04"
+},{
+    "name": "Patient - Knee Jerk Reflex Persona Unlock",
+    "category": ["Patient Items", "Persona Unlock", "Patient Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-36-05"
+},{
+    "name": "Patient - Class Challenge Unlock",
+    "category": ["Patient Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-36-06",
+    "challenge": "class"
+},{
+    "name": "Patient - Unique Challenge Unlock",
+    "category": ["Patient Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-36-07",
+    "challenge": "unique"
+},{
+    "name": "Perfumer - Character Unlock",
+    "category": ["Perfumer Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-37-01"
+},{
+    "name": "Perfumer - Borrowed Time Persona Unlock",
+    "category": ["Perfumer Items", "Persona Unlock", "Perfumer Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-37-02"
+},{
+    "name": "Perfumer - Tide Turner Persona Unlock",
+    "category": ["Perfumer Items", "Persona Unlock", "Perfumer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-37-03"
+},{
+    "name": "Perfumer - Flywheel Effect Persona Unlock",
+    "category": ["Perfumer Items", "Persona Unlock", "Perfumer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-37-04"
+},{
+    "name": "Perfumer - Knee Jerk Reflex Persona Unlock",
+    "category": ["Perfumer Items", "Persona Unlock", "Perfumer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-37-05"
+},{
+    "name": "Perfumer - Class Challenge Unlock",
+    "category": ["Perfumer Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-37-06",
+    "challenge": "class"
+},{
+    "name": "Perfumer - Unique Challenge Unlock",
+    "category": ["Perfumer Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-37-07",
+    "challenge": "unique"
+},{
+    "name": "Postman - Character Unlock",
+    "category": ["Postman Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-38-01"
+},{
+    "name": "Postman - Borrowed Time Persona Unlock",
+    "category": ["Postman Items", "Persona Unlock", "Postman Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-38-02"
+},{
+    "name": "Postman - Tide Turner Persona Unlock",
+    "category": ["Postman Items", "Persona Unlock", "Postman Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-38-03"
+},{
+    "name": "Postman - Flywheel Effect Persona Unlock",
+    "category": ["Postman Items", "Persona Unlock", "Postman Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-38-04"
+},{
+    "name": "Postman - Knee Jerk Reflex Persona Unlock",
+    "category": ["Postman Items", "Persona Unlock", "Postman Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-38-05"
+},{
+    "name": "Postman - Class Challenge Unlock",
+    "category": ["Postman Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-38-06",
+    "challenge": "class"
+},{
+    "name": "Postman - Unique Challenge Unlock",
+    "category": ["Postman Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-38-07",
+    "challenge": "unique"
+},{
+    "name": "Priestess - Character Unlock",
+    "category": ["Priestess Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-39-01"
+},{
+    "name": "Priestess - Borrowed Time Persona Unlock",
+    "category": ["Priestess Items", "Persona Unlock", "Priestess Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-39-02"
+},{
+    "name": "Priestess - Tide Turner Persona Unlock",
+    "category": ["Priestess Items", "Persona Unlock", "Priestess Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-39-03"
+},{
+    "name": "Priestess - Flywheel Effect Persona Unlock",
+    "category": ["Priestess Items", "Persona Unlock", "Priestess Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-39-04"
+},{
+    "name": "Priestess - Knee Jerk Reflex Persona Unlock",
+    "category": ["Priestess Items", "Persona Unlock", "Priestess Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-39-05"
+},{
+    "name": "Priestess - Class Challenge Unlock",
+    "category": ["Priestess Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-39-06",
+    "challenge": "class"
+},{
+    "name": "Priestess - Unique Challenge Unlock",
+    "category": ["Priestess Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-39-07",
+    "challenge": "unique"
+},{
+    "name": "Prisoner - Character Unlock",
+    "category": ["Prisoner Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-40-01"
+},{
+    "name": "Prisoner - Borrowed Time Persona Unlock",
+    "category": ["Prisoner Items", "Persona Unlock", "Prisoner Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-40-02"
+},{
+    "name": "Prisoner - Tide Turner Persona Unlock",
+    "category": ["Prisoner Items", "Persona Unlock", "Prisoner Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-40-03"
+},{
+    "name": "Prisoner - Flywheel Effect Persona Unlock",
+    "category": ["Prisoner Items", "Persona Unlock", "Prisoner Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-40-04"
+},{
+    "name": "Prisoner - Knee Jerk Reflex Persona Unlock",
+    "category": ["Prisoner Items", "Persona Unlock", "Prisoner Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-40-05"
+},{
+    "name": "Prisoner - Class Challenge Unlock",
+    "category": ["Prisoner Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-40-06",
+    "challenge": "class"
+},{
+    "name": "Prisoner - Unique Challenge Unlock",
+    "category": ["Prisoner Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-40-07",
+    "challenge": "unique"
+},{
+    "name": "Professor - Character Unlock",
+    "category": ["Professor Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-41-01"
+},{
+    "name": "Professor - Borrowed Time Persona Unlock",
+    "category": ["Professor Items", "Persona Unlock", "Professor Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-41-02"
+},{
+    "name": "Professor - Tide Turner Persona Unlock",
+    "category": ["Professor Items", "Persona Unlock", "Professor Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-41-03"
+},{
+    "name": "Professor - Flywheel Effect Persona Unlock",
+    "category": ["Professor Items", "Persona Unlock", "Professor Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-41-04"
+},{
+    "name": "Professor - Knee Jerk Reflex Persona Unlock",
+    "category": ["Professor Items", "Persona Unlock", "Professor Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-41-05"
+},{
+    "name": "Professor - Class Challenge Unlock",
+    "category": ["Professor Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-41-06",
+    "challenge": "class"
+},{
+    "name": "Professor - Unique Challenge Unlock",
+    "category": ["Professor Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-41-07",
+    "challenge": "unique"
+},{
+    "name": "Prospector - Character Unlock",
+    "category": ["Prospector Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-42-01"
+},{
+    "name": "Prospector - Borrowed Time Persona Unlock",
+    "category": ["Prospector Items", "Persona Unlock", "Prospector Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-42-02"
+},{
+    "name": "Prospector - Tide Turner Persona Unlock",
+    "category": ["Prospector Items", "Persona Unlock", "Prospector Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-42-03"
+},{
+    "name": "Prospector - Flywheel Effect Persona Unlock",
+    "category": ["Prospector Items", "Persona Unlock", "Prospector Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-42-04"
+},{
+    "name": "Prospector - Knee Jerk Reflex Persona Unlock",
+    "category": ["Prospector Items", "Persona Unlock", "Prospector Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-42-05"
+},{
+    "name": "Prospector - Class Challenge Unlock",
+    "category": ["Prospector Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-42-06",
+    "challenge": "class"
+},{
+    "name": "Prospector - Unique Challenge Unlock",
+    "category": ["Prospector Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-42-07",
+    "challenge": "unique"
+},{
+    "name": "Psychologist - Character Unlock",
+    "category": ["Psychologist Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-43-01"
+},{
+    "name": "Psychologist - Borrowed Time Persona Unlock",
+    "category": ["Psychologist Items", "Persona Unlock", "Psychologist Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-43-02"
+},{
+    "name": "Psychologist - Tide Turner Persona Unlock",
+    "category": ["Psychologist Items", "Persona Unlock", "Psychologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-43-03"
+},{
+    "name": "Psychologist - Flywheel Effect Persona Unlock",
+    "category": ["Psychologist Items", "Persona Unlock", "Psychologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-43-04"
+},{
+    "name": "Psychologist - Knee Jerk Reflex Persona Unlock",
+    "category": ["Psychologist Items", "Persona Unlock", "Psychologist Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-43-05"
+},{
+    "name": "Psychologist - Class Challenge Unlock",
+    "category": ["Psychologist Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-43-06",
+    "challenge": "class"
+},{
+    "name": "Psychologist - Unique Challenge Unlock",
+    "category": ["Psychologist Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-43-07",
+    "challenge": "unique"
+},{
+    "name": "Puppeteer - Character Unlock",
+    "category": ["Puppeteer Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-44-01"
+},{
+    "name": "Puppeteer - Borrowed Time Persona Unlock",
+    "category": ["Puppeteer Items", "Persona Unlock", "Puppeteer Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-44-02"
+},{
+    "name": "Puppeteer - Tide Turner Persona Unlock",
+    "category": ["Puppeteer Items", "Persona Unlock", "Puppeteer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-44-03"
+},{
+    "name": "Puppeteer - Flywheel Effect Persona Unlock",
+    "category": ["Puppeteer Items", "Persona Unlock", "Puppeteer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-44-04"
+},{
+    "name": "Puppeteer - Knee Jerk Reflex Persona Unlock",
+    "category": ["Puppeteer Items", "Persona Unlock", "Puppeteer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-44-05"
+},{
+    "name": "Puppeteer - Class Challenge Unlock",
+    "category": ["Puppeteer Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-44-06",
+    "challenge": "class"
+},{
+    "name": "Puppeteer - Unique Challenge Unlock",
+    "category": ["Puppeteer Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-44-07",
+    "challenge": "unique"
+},{
+    "name": "Seer - Character Unlock",
+    "category": ["Seer Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-45-01"
+},{
+    "name": "Seer - Borrowed Time Persona Unlock",
+    "category": ["Seer Items", "Persona Unlock", "Seer Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-45-02"
+},{
+    "name": "Seer - Tide Turner Persona Unlock",
+    "category": ["Seer Items", "Persona Unlock", "Seer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-45-03"
+},{
+    "name": "Seer - Flywheel Effect Persona Unlock",
+    "category": ["Seer Items", "Persona Unlock", "Seer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-45-04"
+},{
+    "name": "Seer - Knee Jerk Reflex Persona Unlock",
+    "category": ["Seer Items", "Persona Unlock", "Seer Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-45-05"
+},{
+    "name": "Seer - Class Challenge Unlock",
+    "category": ["Seer Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-45-06",
+    "challenge": "class"
+},{
+    "name": "Seer - Unique Challenge Unlock",
+    "category": ["Seer Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-45-07",
+    "challenge": "unique"
+},{
+    "name": "The Minds Eye - Character Unlock",
+    "category": ["The Minds Eye Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-46-01"
+},{
+    "name": "The Minds Eye - Borrowed Time Persona Unlock",
+    "category": ["The Minds Eye Items", "Persona Unlock", "The Minds Eye Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-46-02"
+},{
+    "name": "The Minds Eye - Tide Turner Persona Unlock",
+    "category": ["The Minds Eye Items", "Persona Unlock", "The Minds Eye Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-46-03"
+},{
+    "name": "The Minds Eye - Flywheel Effect Persona Unlock",
+    "category": ["The Minds Eye Items", "Persona Unlock", "The Minds Eye Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-46-04"
+},{
+    "name": "The Minds Eye - Knee Jerk Reflex Persona Unlock",
+    "category": ["The Minds Eye Items", "Persona Unlock", "The Minds Eye Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-46-05"
+},{
+    "name": "The Minds Eye - Class Challenge Unlock",
+    "category": ["The Minds Eye Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-46-06",
+    "challenge": "class"
+},{
+    "name": "The Minds Eye - Unique Challenge Unlock",
+    "category": ["The Minds Eye Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-46-07",
+    "challenge": "unique"
+},{
+    "name": "Thief - Character Unlock",
+    "category": ["Thief Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-47-01"
+},{
+    "name": "Thief - Borrowed Time Persona Unlock",
+    "category": ["Thief Items", "Persona Unlock", "Thief Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-47-02"
+},{
+    "name": "Thief - Tide Turner Persona Unlock",
+    "category": ["Thief Items", "Persona Unlock", "Thief Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-47-03"
+},{
+    "name": "Thief - Flywheel Effect Persona Unlock",
+    "category": ["Thief Items", "Persona Unlock", "Thief Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-47-04"
+},{
+    "name": "Thief - Knee Jerk Reflex Persona Unlock",
+    "category": ["Thief Items", "Persona Unlock", "Thief Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-47-05"
+},{
+    "name": "Thief - Class Challenge Unlock",
+    "category": ["Thief Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-47-06",
+    "challenge": "class"
+},{
+    "name": "Thief - Unique Challenge Unlock",
+    "category": ["Thief Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-47-07",
+    "challenge": "unique"
+},{
+    "name": "Toy Merchant - Character Unlock",
+    "category": ["Toy Merchant Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-48-01"
+},{
+    "name": "Toy Merchant - Borrowed Time Persona Unlock",
+    "category": ["Toy Merchant Items", "Persona Unlock", "Toy Merchant Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-48-02"
+},{
+    "name": "Toy Merchant - Tide Turner Persona Unlock",
+    "category": ["Toy Merchant Items", "Persona Unlock", "Toy Merchant Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-48-03"
+},{
+    "name": "Toy Merchant - Flywheel Effect Persona Unlock",
+    "category": ["Toy Merchant Items", "Persona Unlock", "Toy Merchant Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-48-04"
+},{
+    "name": "Toy Merchant - Knee Jerk Reflex Persona Unlock",
+    "category": ["Toy Merchant Items", "Persona Unlock", "Toy Merchant Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-48-05"
+},{
+    "name": "Toy Merchant - Class Challenge Unlock",
+    "category": ["Toy Merchant Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-48-06",
+    "challenge": "class"
+},{
+    "name": "Toy Merchant - Unique Challenge Unlock",
+    "category": ["Toy Merchant Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-48-07",
+    "challenge": "unique"
+},{
+    "name": "Weeping Clown - Character Unlock",
+    "category": ["Weeping Clown Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-49-01"
+},{
+    "name": "Weeping Clown - Borrowed Time Persona Unlock",
+    "category": ["Weeping Clown Items", "Persona Unlock", "Weeping Clown Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-49-02"
+},{
+    "name": "Weeping Clown - Tide Turner Persona Unlock",
+    "category": ["Weeping Clown Items", "Persona Unlock", "Weeping Clown Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-49-03"
+},{
+    "name": "Weeping Clown - Flywheel Effect Persona Unlock",
+    "category": ["Weeping Clown Items", "Persona Unlock", "Weeping Clown Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-49-04"
+},{
+    "name": "Weeping Clown - Knee Jerk Reflex Persona Unlock",
+    "category": ["Weeping Clown Items", "Persona Unlock", "Weeping Clown Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-49-05"
+},{
+    "name": "Weeping Clown - Class Challenge Unlock",
+    "category": ["Weeping Clown Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-49-06",
+    "challenge": "class"
+},{
+    "name": "Weeping Clown - Unique Challenge Unlock",
+    "category": ["Weeping Clown Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-49-07",
+    "challenge": "unique"
+},{
+    "name": "Wildling - Character Unlock",
+    "category": ["Wildling Items", "!Survivor Unlock"],
+    "classification_count": {"progression": 2}, 
+    "progression": true,
+    "sort-key": "row-50-01"
+},{
+    "name": "Wildling - Borrowed Time Persona Unlock",
+    "category": ["Wildling Items", "Persona Unlock", "Wildling Persona", "CATEGORY_BT"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-50-02"
+},{
+    "name": "Wildling - Tide Turner Persona Unlock",
+    "category": ["Wildling Items", "Persona Unlock", "Wildling Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-50-03"
+},{
+    "name": "Wildling - Flywheel Effect Persona Unlock",
+    "category": ["Wildling Items", "Persona Unlock", "Wildling Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-50-04"
+},{
+    "name": "Wildling - Knee Jerk Reflex Persona Unlock",
+    "category": ["Wildling Items", "Persona Unlock", "Wildling Persona"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-50-05"
+},{
+    "name": "Wildling - Class Challenge Unlock",
+    "category": ["Wildling Items", "Class Challenge Unlock", "CATEGORY_CLASSCHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-50-06",
+    "challenge": "class"
+},{
+    "name": "Wildling - Unique Challenge Unlock",
+    "category": ["Wildling Items", "Unique Challenge Unlock", "CATEGORY_UNIQUECHALLENGE"],
+    "classification_count": {"progression": 1}, 
+    "progression": true,
+    "sort-key": "row-50-07",
+    "challenge": "unique"
+},
+{
+    "name": "Acrobat - HELPER for Borrowed Time",
+    "category": ["Acrobat Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-01-08"
+},{
+    "name": "Acrobat - HELPER for Flywheel Effect",
+    "category": ["Acrobat Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-01-09"
+},{
+    "name": "Acrobat - HELPER for Knee Jerk Reflex",
+    "category": ["Acrobat Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-01-10"
+},{
+    "name": "Acrobat - HELPER for Tide Turner",
+    "category": ["Acrobat Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-01-11"
+},{
+    "name": "Aeroplanist - HELPER for Borrowed Time",
+    "category": ["Aeroplanist Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-02-08"
+},{
+    "name": "Aeroplanist - HELPER for Flywheel Effect",
+    "category": ["Aeroplanist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-02-09"
+},{
+    "name": "Aeroplanist - HELPER for Knee Jerk Reflex",
+    "category": ["Aeroplanist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-02-10"
+},{
+    "name": "Aeroplanist - HELPER for Tide Turner",
+    "category": ["Aeroplanist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-02-11"
+},{
+    "name": "Antiquarian - HELPER for Borrowed Time",
+    "category": ["Antiquarian Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-03-08"
+},{
+    "name": "Antiquarian - HELPER for Flywheel Effect",
+    "category": ["Antiquarian Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-03-09"
+},{
+    "name": "Antiquarian - HELPER for Knee Jerk Reflex",
+    "category": ["Antiquarian Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-03-10"
+},{
+    "name": "Antiquarian - HELPER for Tide Turner",
+    "category": ["Antiquarian Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-03-11"
+},{
+    "name": "Archer - HELPER for Borrowed Time",
+    "category": ["Archer Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-04-08"
+},{
+    "name": "Archer - HELPER for Flywheel Effect",
+    "category": ["Archer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-04-09"
+},{
+    "name": "Archer - HELPER for Knee Jerk Reflex",
+    "category": ["Archer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-04-10"
+},{
+    "name": "Archer - HELPER for Tide Turner",
+    "category": ["Archer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-04-11"
+},{
+    "name": "Barmaid - HELPER for Borrowed Time",
+    "category": ["Barmaid Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-05-08"
+},{
+    "name": "Barmaid - HELPER for Flywheel Effect",
+    "category": ["Barmaid Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-05-09"
+},{
+    "name": "Barmaid - HELPER for Knee Jerk Reflex",
+    "category": ["Barmaid Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-05-10"
+},{
+    "name": "Barmaid - HELPER for Tide Turner",
+    "category": ["Barmaid Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-05-11"
+},{
+    "name": "Batter - HELPER for Borrowed Time",
+    "category": ["Batter Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-06-08"
+},{
+    "name": "Batter - HELPER for Flywheel Effect",
+    "category": ["Batter Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-06-09"
+},{
+    "name": "Batter - HELPER for Knee Jerk Reflex",
+    "category": ["Batter Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-06-10"
+},{
+    "name": "Batter - HELPER for Tide Turner",
+    "category": ["Batter Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-06-11"
+},{
+    "name": "Cheerleader - HELPER for Borrowed Time",
+    "category": ["Cheerleader Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-07-08"
+},{
+    "name": "Cheerleader - HELPER for Flywheel Effect",
+    "category": ["Cheerleader Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-07-09"
+},{
+    "name": "Cheerleader - HELPER for Knee Jerk Reflex",
+    "category": ["Cheerleader Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-07-10"
+},{
+    "name": "Cheerleader - HELPER for Tide Turner",
+    "category": ["Cheerleader Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-07-11"
+},{
+    "name": "Composer - HELPER for Borrowed Time",
+    "category": ["Composer Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-08-08"
+},{
+    "name": "Composer - HELPER for Flywheel Effect",
+    "category": ["Composer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-08-09"
+},{
+    "name": "Composer - HELPER for Knee Jerk Reflex",
+    "category": ["Composer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-08-10"
+},{
+    "name": "Composer - HELPER for Tide Turner",
+    "category": ["Composer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-08-11"
+},{
+    "name": "Coordinator - HELPER for Borrowed Time",
+    "category": ["Coordinator Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-09-08"
+},{
+    "name": "Coordinator - HELPER for Flywheel Effect",
+    "category": ["Coordinator Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-09-09"
+},{
+    "name": "Coordinator - HELPER for Knee Jerk Reflex",
+    "category": ["Coordinator Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-09-10"
+},{
+    "name": "Coordinator - HELPER for Tide Turner",
+    "category": ["Coordinator Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-09-11"
+},{
+    "name": "Cowboy - HELPER for Borrowed Time",
+    "category": ["Cowboy Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-10-08"
+},{
+    "name": "Cowboy - HELPER for Flywheel Effect",
+    "category": ["Cowboy Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-10-09"
+},{
+    "name": "Cowboy - HELPER for Knee Jerk Reflex",
+    "category": ["Cowboy Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-10-10"
+},{
+    "name": "Cowboy - HELPER for Tide Turner",
+    "category": ["Cowboy Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-10-11"
+},{
+    "name": "Doctor - HELPER for Borrowed Time",
+    "category": ["Doctor Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-11-08"
+},{
+    "name": "Doctor - HELPER for Flywheel Effect",
+    "category": ["Doctor Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-11-09"
+},{
+    "name": "Doctor - HELPER for Knee Jerk Reflex",
+    "category": ["Doctor Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-11-10"
+},{
+    "name": "Doctor - HELPER for Tide Turner",
+    "category": ["Doctor Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-11-11"
+},{
+    "name": "Embalmer - HELPER for Borrowed Time",
+    "category": ["Embalmer Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-12-08"
+},{
+    "name": "Embalmer - HELPER for Flywheel Effect",
+    "category": ["Embalmer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-12-09"
+},{
+    "name": "Embalmer - HELPER for Knee Jerk Reflex",
+    "category": ["Embalmer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-12-10"
+},{
+    "name": "Embalmer - HELPER for Tide Turner",
+    "category": ["Embalmer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-12-11"
+},{
+    "name": "Enchantress - HELPER for Borrowed Time",
+    "category": ["Enchantress Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-13-08"
+},{
+    "name": "Enchantress - HELPER for Flywheel Effect",
+    "category": ["Enchantress Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-13-09"
+},{
+    "name": "Enchantress - HELPER for Knee Jerk Reflex",
+    "category": ["Enchantress Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-13-10"
+},{
+    "name": "Enchantress - HELPER for Tide Turner",
+    "category": ["Enchantress Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-13-11"
+},{
+    "name": "Entomologist - HELPER for Borrowed Time",
+    "category": ["Entomologist Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-14-08"
+},{
+    "name": "Entomologist - HELPER for Flywheel Effect",
+    "category": ["Entomologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-14-09"
+},{
+    "name": "Entomologist - HELPER for Knee Jerk Reflex",
+    "category": ["Entomologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-14-10"
+},{
+    "name": "Entomologist - HELPER for Tide Turner",
+    "category": ["Entomologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-14-11"
+},{
+    "name": "Escapologist - HELPER for Borrowed Time",
+    "category": ["Escapologist Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-15-08"
+},{
+    "name": "Escapologist - HELPER for Flywheel Effect",
+    "category": ["Escapologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-15-09"
+},{
+    "name": "Escapologist - HELPER for Knee Jerk Reflex",
+    "category": ["Escapologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-15-10"
+},{
+    "name": "Escapologist - HELPER for Tide Turner",
+    "category": ["Escapologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-15-11"
+},{
+    "name": "Explorer - HELPER for Borrowed Time",
+    "category": ["Explorer Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-16-08"
+},{
+    "name": "Explorer - HELPER for Flywheel Effect",
+    "category": ["Explorer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-16-09"
+},{
+    "name": "Explorer - HELPER for Knee Jerk Reflex",
+    "category": ["Explorer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-16-10"
+},{
+    "name": "Explorer - HELPER for Tide Turner",
+    "category": ["Explorer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-16-11"
+},{
+    "name": "Faro Lady - HELPER for Borrowed Time",
+    "category": ["Faro Lady Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-17-08"
+},{
+    "name": "Faro Lady - HELPER for Flywheel Effect",
+    "category": ["Faro Lady Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-17-09"
+},{
+    "name": "Faro Lady - HELPER for Knee Jerk Reflex",
+    "category": ["Faro Lady Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-17-10"
+},{
+    "name": "Faro Lady - HELPER for Tide Turner",
+    "category": ["Faro Lady Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-17-11"
+},{
+    "name": "Female Dancer - HELPER for Borrowed Time",
+    "category": ["Female Dancer Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-18-08"
+},{
+    "name": "Female Dancer - HELPER for Flywheel Effect",
+    "category": ["Female Dancer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-18-09"
+},{
+    "name": "Female Dancer - HELPER for Knee Jerk Reflex",
+    "category": ["Female Dancer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-18-10"
+},{
+    "name": "Female Dancer - HELPER for Tide Turner",
+    "category": ["Female Dancer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-18-11"
+},{
+    "name": "Fire Investigator - HELPER for Borrowed Time",
+    "category": ["Fire Investigator Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-19-08"
+},{
+    "name": "Fire Investigator - HELPER for Flywheel Effect",
+    "category": ["Fire Investigator Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-19-09"
+},{
+    "name": "Fire Investigator - HELPER for Knee Jerk Reflex",
+    "category": ["Fire Investigator Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-19-10"
+},{
+    "name": "Fire Investigator - HELPER for Tide Turner",
+    "category": ["Fire Investigator Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-19-11"
+},{
+    "name": "First Officer - HELPER for Borrowed Time",
+    "category": ["First Officer Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-20-08"
+},{
+    "name": "First Officer - HELPER for Flywheel Effect",
+    "category": ["First Officer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-20-09"
+},{
+    "name": "First Officer - HELPER for Knee Jerk Reflex",
+    "category": ["First Officer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-20-10"
+},{
+    "name": "First Officer - HELPER for Tide Turner",
+    "category": ["First Officer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-20-11"
+},{
+    "name": "Forward - HELPER for Borrowed Time",
+    "category": ["Forward Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-21-08"
+},{
+    "name": "Forward - HELPER for Flywheel Effect",
+    "category": ["Forward Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-21-09"
+},{
+    "name": "Forward - HELPER for Knee Jerk Reflex",
+    "category": ["Forward Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-21-10"
+},{
+    "name": "Forward - HELPER for Tide Turner",
+    "category": ["Forward Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-21-11"
+},{
+    "name": "Gardener - HELPER for Borrowed Time",
+    "category": ["Gardener Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-22-08"
+},{
+    "name": "Gardener - HELPER for Flywheel Effect",
+    "category": ["Gardener Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-22-09"
+},{
+    "name": "Gardener - HELPER for Knee Jerk Reflex",
+    "category": ["Gardener Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-22-10"
+},{
+    "name": "Gardener - HELPER for Tide Turner",
+    "category": ["Gardener Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-22-11"
+},{
+    "name": "Grave Keeper - HELPER for Borrowed Time",
+    "category": ["Grave Keeper Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-23-08"
+},{
+    "name": "Grave Keeper - HELPER for Flywheel Effect",
+    "category": ["Grave Keeper Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-23-09"
+},{
+    "name": "Grave Keeper - HELPER for Knee Jerk Reflex",
+    "category": ["Grave Keeper Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-23-10"
+},{
+    "name": "Grave Keeper - HELPER for Tide Turner",
+    "category": ["Grave Keeper Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-23-11"
+},{
+    "name": "Journalist - HELPER for Borrowed Time",
+    "category": ["Journalist Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-24-08"
+},{
+    "name": "Journalist - HELPER for Flywheel Effect",
+    "category": ["Journalist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-24-09"
+},{
+    "name": "Journalist - HELPER for Knee Jerk Reflex",
+    "category": ["Journalist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-24-10"
+},{
+    "name": "Journalist - HELPER for Tide Turner",
+    "category": ["Journalist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-24-11"
+},{
+    "name": "Knight - HELPER for Borrowed Time",
+    "category": ["Knight Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-25-08"
+},{
+    "name": "Knight - HELPER for Flywheel Effect",
+    "category": ["Knight Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-25-09"
+},{
+    "name": "Knight - HELPER for Knee Jerk Reflex",
+    "category": ["Knight Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-25-10"
+},{
+    "name": "Knight - HELPER for Tide Turner",
+    "category": ["Knight Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-25-11"
+},{
+    "name": "Lanternist - HELPER for Borrowed Time",
+    "category": ["Lanternist Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-26-08"
+},{
+    "name": "Lanternist - HELPER for Flywheel Effect",
+    "category": ["Lanternist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-26-09"
+},{
+    "name": "Lanternist - HELPER for Knee Jerk Reflex",
+    "category": ["Lanternist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-26-10"
+},{
+    "name": "Lanternist - HELPER for Tide Turner",
+    "category": ["Lanternist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-26-11"
+},{
+    "name": "Lawyer - HELPER for Borrowed Time",
+    "category": ["Lawyer Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-27-08"
+},{
+    "name": "Lawyer - HELPER for Flywheel Effect",
+    "category": ["Lawyer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-27-09"
+},{
+    "name": "Lawyer - HELPER for Knee Jerk Reflex",
+    "category": ["Lawyer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-27-10"
+},{
+    "name": "Lawyer - HELPER for Tide Turner",
+    "category": ["Lawyer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-27-11"
+},{
+    "name": "Little Girl - HELPER for Borrowed Time",
+    "category": ["Little Girl Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-28-08"
+},{
+    "name": "Little Girl - HELPER for Flywheel Effect",
+    "category": ["Little Girl Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-28-09"
+},{
+    "name": "Little Girl - HELPER for Knee Jerk Reflex",
+    "category": ["Little Girl Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-28-10"
+},{
+    "name": "Little Girl - HELPER for Tide Turner",
+    "category": ["Little Girl Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-28-11"
+},{
+    "name": "Lucky Guy - HELPER for Borrowed Time",
+    "category": ["Lucky Guy Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-29-08"
+},{
+    "name": "Lucky Guy - HELPER for Flywheel Effect",
+    "category": ["Lucky Guy Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-29-09"
+},{
+    "name": "Lucky Guy - HELPER for Knee Jerk Reflex",
+    "category": ["Lucky Guy Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-29-10"
+},{
+    "name": "Lucky Guy - HELPER for Tide Turner",
+    "category": ["Lucky Guy Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-29-11"
+},{
+    "name": "Magician - HELPER for Borrowed Time",
+    "category": ["Magician Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-30-08"
+},{
+    "name": "Magician - HELPER for Flywheel Effect",
+    "category": ["Magician Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-30-09"
+},{
+    "name": "Magician - HELPER for Knee Jerk Reflex",
+    "category": ["Magician Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-30-10"
+},{
+    "name": "Magician - HELPER for Tide Turner",
+    "category": ["Magician Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-30-11"
+},{
+    "name": "Mechanic - HELPER for Borrowed Time",
+    "category": ["Mechanic Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-31-08"
+},{
+    "name": "Mechanic - HELPER for Flywheel Effect",
+    "category": ["Mechanic Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-31-09"
+},{
+    "name": "Mechanic - HELPER for Knee Jerk Reflex",
+    "category": ["Mechanic Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-31-10"
+},{
+    "name": "Mechanic - HELPER for Tide Turner",
+    "category": ["Mechanic Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-31-11"
+},{
+    "name": "Mercenary - HELPER for Borrowed Time",
+    "category": ["Mercenary Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-32-08"
+},{
+    "name": "Mercenary - HELPER for Flywheel Effect",
+    "category": ["Mercenary Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-32-09"
+},{
+    "name": "Mercenary - HELPER for Knee Jerk Reflex",
+    "category": ["Mercenary Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-32-10"
+},{
+    "name": "Mercenary - HELPER for Tide Turner",
+    "category": ["Mercenary Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-32-11"
+},{
+    "name": "Meteorologist - HELPER for Borrowed Time",
+    "category": ["Meteorologist Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-33-08"
+},{
+    "name": "Meteorologist - HELPER for Flywheel Effect",
+    "category": ["Meteorologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-33-09"
+},{
+    "name": "Meteorologist - HELPER for Knee Jerk Reflex",
+    "category": ["Meteorologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-33-10"
+},{
+    "name": "Meteorologist - HELPER for Tide Turner",
+    "category": ["Meteorologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-33-11"
+},{
+    "name": "Novelist - HELPER for Borrowed Time",
+    "category": ["Novelist Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-34-08"
+},{
+    "name": "Novelist - HELPER for Flywheel Effect",
+    "category": ["Novelist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-34-09"
+},{
+    "name": "Novelist - HELPER for Knee Jerk Reflex",
+    "category": ["Novelist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-34-10"
+},{
+    "name": "Novelist - HELPER for Tide Turner",
+    "category": ["Novelist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-34-11"
+},{
+    "name": "Painter - HELPER for Borrowed Time",
+    "category": ["Painter Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-35-08"
+},{
+    "name": "Painter - HELPER for Flywheel Effect",
+    "category": ["Painter Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-35-09"
+},{
+    "name": "Painter - HELPER for Knee Jerk Reflex",
+    "category": ["Painter Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-35-10"
+},{
+    "name": "Painter - HELPER for Tide Turner",
+    "category": ["Painter Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-35-11"
+},{
+    "name": "Patient - HELPER for Borrowed Time",
+    "category": ["Patient Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-36-08"
+},{
+    "name": "Patient - HELPER for Flywheel Effect",
+    "category": ["Patient Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-36-09"
+},{
+    "name": "Patient - HELPER for Knee Jerk Reflex",
+    "category": ["Patient Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-36-10"
+},{
+    "name": "Patient - HELPER for Tide Turner",
+    "category": ["Patient Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-36-11"
+},{
+    "name": "Perfumer - HELPER for Borrowed Time",
+    "category": ["Perfumer Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-37-08"
+},{
+    "name": "Perfumer - HELPER for Flywheel Effect",
+    "category": ["Perfumer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-37-09"
+},{
+    "name": "Perfumer - HELPER for Knee Jerk Reflex",
+    "category": ["Perfumer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-37-10"
+},{
+    "name": "Perfumer - HELPER for Tide Turner",
+    "category": ["Perfumer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-37-11"
+},{
+    "name": "Postman - HELPER for Borrowed Time",
+    "category": ["Postman Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-38-08"
+},{
+    "name": "Postman - HELPER for Flywheel Effect",
+    "category": ["Postman Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-38-09"
+},{
+    "name": "Postman - HELPER for Knee Jerk Reflex",
+    "category": ["Postman Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-38-10"
+},{
+    "name": "Postman - HELPER for Tide Turner",
+    "category": ["Postman Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-38-11"
+},{
+    "name": "Priestess - HELPER for Borrowed Time",
+    "category": ["Priestess Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-39-08"
+},{
+    "name": "Priestess - HELPER for Flywheel Effect",
+    "category": ["Priestess Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-39-09"
+},{
+    "name": "Priestess - HELPER for Knee Jerk Reflex",
+    "category": ["Priestess Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-39-10"
+},{
+    "name": "Priestess - HELPER for Tide Turner",
+    "category": ["Priestess Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-39-11"
+},{
+    "name": "Prisoner - HELPER for Borrowed Time",
+    "category": ["Prisoner Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-40-08"
+},{
+    "name": "Prisoner - HELPER for Flywheel Effect",
+    "category": ["Prisoner Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-40-09"
+},{
+    "name": "Prisoner - HELPER for Knee Jerk Reflex",
+    "category": ["Prisoner Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-40-10"
+},{
+    "name": "Prisoner - HELPER for Tide Turner",
+    "category": ["Prisoner Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-40-11"
+},{
+    "name": "Professor - HELPER for Borrowed Time",
+    "category": ["Professor Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-41-08"
+},{
+    "name": "Professor - HELPER for Flywheel Effect",
+    "category": ["Professor Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-41-09"
+},{
+    "name": "Professor - HELPER for Knee Jerk Reflex",
+    "category": ["Professor Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-41-10"
+},{
+    "name": "Professor - HELPER for Tide Turner",
+    "category": ["Professor Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-41-11"
+},{
+    "name": "Prospector - HELPER for Borrowed Time",
+    "category": ["Prospector Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-42-08"
+},{
+    "name": "Prospector - HELPER for Flywheel Effect",
+    "category": ["Prospector Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-42-09"
+},{
+    "name": "Prospector - HELPER for Knee Jerk Reflex",
+    "category": ["Prospector Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-42-10"
+},{
+    "name": "Prospector - HELPER for Tide Turner",
+    "category": ["Prospector Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-42-11"
+},{
+    "name": "Psychologist - HELPER for Borrowed Time",
+    "category": ["Psychologist Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-43-08"
+},{
+    "name": "Psychologist - HELPER for Flywheel Effect",
+    "category": ["Psychologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-43-09"
+},{
+    "name": "Psychologist - HELPER for Knee Jerk Reflex",
+    "category": ["Psychologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-43-10"
+},{
+    "name": "Psychologist - HELPER for Tide Turner",
+    "category": ["Psychologist Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-43-11"
+},{
+    "name": "Puppeteer - HELPER for Borrowed Time",
+    "category": ["Puppeteer Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-44-08"
+},{
+    "name": "Puppeteer - HELPER for Flywheel Effect",
+    "category": ["Puppeteer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-44-09"
+},{
+    "name": "Puppeteer - HELPER for Knee Jerk Reflex",
+    "category": ["Puppeteer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-44-10"
+},{
+    "name": "Puppeteer - HELPER for Tide Turner",
+    "category": ["Puppeteer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-44-11"
+},{
+    "name": "Seer - HELPER for Borrowed Time",
+    "category": ["Seer Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-45-08"
+},{
+    "name": "Seer - HELPER for Flywheel Effect",
+    "category": ["Seer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-45-09"
+},{
+    "name": "Seer - HELPER for Knee Jerk Reflex",
+    "category": ["Seer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-45-10"
+},{
+    "name": "Seer - HELPER for Tide Turner",
+    "category": ["Seer Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-45-11"
+},{
+    "name": "The Minds Eye - HELPER for Borrowed Time",
+    "category": ["The Minds Eye Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-46-08"
+},{
+    "name": "The Minds Eye - HELPER for Flywheel Effect",
+    "category": ["The Minds Eye Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-46-09"
+},{
+    "name": "The Minds Eye - HELPER for Knee Jerk Reflex",
+    "category": ["The Minds Eye Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-46-10"
+},{
+    "name": "The Minds Eye - HELPER for Tide Turner",
+    "category": ["The Minds Eye Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-46-11"
+},{
+    "name": "Thief - HELPER for Borrowed Time",
+    "category": ["Thief Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-47-08"
+},{
+    "name": "Thief - HELPER for Flywheel Effect",
+    "category": ["Thief Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-47-09"
+},{
+    "name": "Thief - HELPER for Knee Jerk Reflex",
+    "category": ["Thief Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-47-10"
+},{
+    "name": "Thief - HELPER for Tide Turner",
+    "category": ["Thief Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-47-11"
+},{
+    "name": "Toy Merchant - HELPER for Borrowed Time",
+    "category": ["Toy Merchant Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-48-08"
+},{
+    "name": "Toy Merchant - HELPER for Flywheel Effect",
+    "category": ["Toy Merchant Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-48-09"
+},{
+    "name": "Toy Merchant - HELPER for Knee Jerk Reflex",
+    "category": ["Toy Merchant Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-48-10"
+},{
+    "name": "Toy Merchant - HELPER for Tide Turner",
+    "category": ["Toy Merchant Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-48-11"
+},{
+    "name": "Weeping Clown - HELPER for Borrowed Time",
+    "category": ["Weeping Clown Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-49-08"
+},{
+    "name": "Weeping Clown - HELPER for Flywheel Effect",
+    "category": ["Weeping Clown Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-49-09"
+},{
+    "name": "Weeping Clown - HELPER for Knee Jerk Reflex",
+    "category": ["Weeping Clown Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-49-10"
+},{
+    "name": "Weeping Clown - HELPER for Tide Turner",
+    "category": ["Weeping Clown Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-49-11"
+},{
+    "name": "Wildling - HELPER for Borrowed Time",
+    "category": ["Wildling Items", "Filler", "CATEGORY_BT"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-50-08"
+},{
+    "name": "Wildling - HELPER for Flywheel Effect",
+    "category": ["Wildling Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-50-09"
+},{
+    "name": "Wildling - HELPER for Knee Jerk Reflex",
+    "category": ["Wildling Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-50-10"
+},{
+    "name": "Wildling - HELPER for Tide Turner",
+    "category": ["Wildling Items", "Filler"],
+    "classification_count": {"filler": 1}, 
+    "filler": true,
+    "sort-key": "row-50-11"
+}
+    ]
+}
